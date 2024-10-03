@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import csv
 
+from main_functions import list_files_in_current_folder
+
 # Set display options to avoid truncation
 pd.set_option("display.max_colwidth", None)  # Display full column content
 pd.set_option("display.max_rows", None)  # Display all rows
@@ -10,14 +12,6 @@ pd.set_option("display.max_rows", None)  # Display all rows
 script_dir = os.path.dirname(os.path.realpath(__file__))
 df_dict = ''
 
-def list_files_in_current_folder():
-    try:
-        current_directory = os.getcwd()
-        files = [f for f in os.listdir(current_directory) if os.path.isfile(f)]
-        return files
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        return []
 
 def read_all_sheets_from_file(filename) -> dict:
     try:
