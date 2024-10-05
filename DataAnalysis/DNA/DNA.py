@@ -1,6 +1,5 @@
 import os
 from main_functions import navFolder
-
 input_file = 'ManuSporny-genome.txt'
 
 if not os.path.exists(input_file):
@@ -15,6 +14,7 @@ with open(input_file, 'r', encoding='utf-8') as file:
 lines = content.strip().split('\n')
 chromosomes = [[] for i in range(25)]
 
+
 for line in lines:
     parts = line.split()
     if len(parts) == 4:
@@ -28,24 +28,21 @@ for line in lines:
             chromosomes[0].append(chrmSection)
         elif int(chrm) <=22:
             chromosomes[int(chrm)].append(chrmSection)
-        print(parts)
+        print(".", end='')
             
             
 
 print(len(chromosomes))
-
 for i, item in enumerate(chromosomes):
     with open("Output"+str(i)+".txt", "w") as text_file:
-        full = ""
         for z, ch in enumerate(item):
-            rsid2 = str(item[0])
-            position = str(item[2])
-            genotype = str(item[3])
-            full = full + rsid2 + " " + position + " " + genotype + "\n"
-        text_file.write(full)
-        
-    
-    print(len(chromosomes[i]))
+            output = str(ch)
+            output = output.replace('[','')
+            output = output.replace(']','')
+            output = output.replace('\'','')
+            output = output.replace('\'','')
+            text_file.write(output+"\n")
+        print(len(chromosomes[i]))
 
     
 
