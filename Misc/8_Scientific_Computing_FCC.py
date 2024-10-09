@@ -95,4 +95,7 @@ def square_root_bisection(square_target, tolerance=1e-7, max_iterations=100):
     
     return root
 
+#6 Arithmetic Formatter 
+
+input("Which program would you like to run?")
 print(convert_to_snake_case('aLongAndComplexString'))
