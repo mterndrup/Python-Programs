@@ -2,9 +2,13 @@
 
 def player(prev_play, opponent_history=[]):
     opponent_history.append(prev_play)
-
     guess = "R"
-    if len(opponent_history) > 2:
-        guess = opponent_history[-2]
+    guesses = "RPS"
+
+    most_frequent = max(set(opponent_history), key=opponent_history.count)
+
+    if most_frequent == "R": guess = "P"
+    if most_frequent == "P": guess = "S"
+    if most_frequent == "S": guess = "R"
 
     return guess
