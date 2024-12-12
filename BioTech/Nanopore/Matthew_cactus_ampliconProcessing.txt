@@ -1,0 +1,18 @@
+#batch searched .fastq files for primer sequences to isolate targeted gene regions. Used Cutadapt in Python
+
+for file in *.fastq; do
+bn=`basename $file .fastq`
+cutadapt -a ATGCGATACTTGGTGTGAAT...ATTGTAGTCTGGAGAAGCGTC -o ${bn}_PITS2_trimmed.fastq $file --revcomp --discard-untrimmed
+done
+
+for file in *.fastq; do
+bn=`basename $file .fastq`
+cutadapt -a GTACACACCGCCCGTC...GTAGGTGAACCTGCAGAAGGATCA -o ${bn}_18S_trimmed.fastq $file --revcomp --discard-untrimmed
+done
+
+#generated consensus sequences with NGSpeciesID centered on average read length. This was a little tricky as ribosomal regions are length variable.
+
+for file in *.fastq; do
+bn=`basename $file .fastq`
+NGSpeciesID --ont --consensus --sample_size 300 --m 450 --s 50 --medaka --fastq $file --outfolder ${bn}
+done
