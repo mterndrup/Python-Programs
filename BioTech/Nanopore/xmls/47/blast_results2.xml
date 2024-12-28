@@ -1,0 +1,1461 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>core_nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_2199543</BlastOutput_query-ID>
+  <BlastOutput_query-def>con2</BlastOutput_query-def>
+  <BlastOutput_query-len>790</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_2199543</Iteration_query-ID>
+  <Iteration_query-def>con2</Iteration_query-def>
+  <Iteration_query-len>790</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1733060322|gb|CP043329.1|</Hit_id>
+  <Hit_def>Pedobacter aquae strain CJ43 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP043329</Hit_accession>
+  <Hit_len>3854044</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.8649</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>4.22621e-15</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>381842</Hsp_hit-from>
+      <Hsp_hit-to>381562</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>AAGCTCAGATCAAGGCCAAACTTCTTCTCTTCAGATAAGCTGAAAAATCTAAGTATTAAATAGTAATTCATGATAAATTTCTCCATGAATTGGAGTCCGTGAGCTTTTGAAAGCACTTTTCC-AGAACTACAAATCTAAAGTCTCCTACTATTTTAT-ATTGATTAAGCGAATTGT-ACGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTTAGGAA--AAGGAACTATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTAT</Hsp_qseq>
+      <Hsp_hseq>AAACTCAAATCTAATCCAAAACCTTTCTCTTCAGATAAGCTAACCTTTTTAAGGTTAAAGTAGTAGCCCATGATGAGCTTATCCCAAAAAGATAAATTATTAGCTCTTGAAAGCGTTTTTTCTAAAACTACGAATCTAAAATCGCCTACTATTTTATGCTTGTTTAA-TGATTTATAATGGCTAGTAATATCAACCTCATCGTTTTTAACCAGGTCTTCTACTACCTTTCTAAACAAAGCGCTAATTTT--TTGCTCTATTCTAAAACCAAGTTTAAAATCTAT</Hsp_hseq>
+      <Hsp_midline>|| |||| ||| |  |||||    ||||||||||||||||| |    | ||||  | || |||||   |||||| |  || |||   ||    |     | |||| ||||||||  |||| | | |||||| |||||||| || |||||||||||||  ||| ||||  || || | | ||||| ||||||| || || | ||| | ||| |  ||||| || || ||   ||  || |  ||| ||||  || | || ||  |||||| || |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1008898244|gb|CP014773.1|</Hit_id>
+  <Hit_def>Mucilaginibacter sp. PAMC 26640 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP014773</Hit_accession>
+  <Hit_len>5611374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4379</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>9.30886e-11</Hsp_evalue>
+      <Hsp_query-from>195</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>5504729</Hsp_hit-from>
+      <Hsp_hit-to>5504889</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>ACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTACG-GCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCA-CTTTAGGAAAAGGAACT--ATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGGAT</Hsp_qseq>
+      <Hsp_hseq>ACCACAAATCTAAAGTCACCTACGATTTTGTGTTTATTGAGCGATTTGTAGGTACTTGTAATATCTATTTCGCCGTTCTTCACCAAATCTTCCACCACCTTGCGGAAAAGCAAGTTAATCTGCTGTTCTAC---ACGGAAGCCCAGTTTAAAATCTACCCGGAT</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||| ||||| ||||| | || ||| ||||| ||||| |  ||  ||||||| | |||   |||||  || || |||||||||| |||  ||||||| || |  || |  ||||| ||       || || || ||||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1639029986|emb|LR590470.1|</Hit_id>
+  <Hit_def>Sphingobacterium daejeonense strain NCTC13534 genome assembly, chromosome: 1</Hit_def>
+  <Hit_accession>LR590470</Hit_accession>
+  <Hit_len>4732363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.1261</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>1.38156e-08</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>361</Hsp_query-to>
+      <Hsp_hit-from>3810438</Hsp_hit-from>
+      <Hsp_hit-to>3810261</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>CTTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGT-ACGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTTA-GGAAAAGGA-ACT-ATTTTTTGTTCCACTTTTGC-AAAACCTAGCTTAAAATCTATACGGATTAACTTT</Hsp_qseq>
+      <Hsp_hseq>CTTTTCAAGAACTACAAAGTTAAAGTCTCCAGGGATATTGTGTTTTTTCAGGGTTTCGTAATTGCTCGTAATATCAATTTCACCTTTTTTAACCATATCTTCTACCACCTTACGGAAAAGAAGACTGATCTTTTGTTC----TTCGCGAAATCCTAAGTGAAAATCAATACGTATTAACTTT</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||  ||||||||||    || || | ||  || || |  | || |  |||  ||||||| | |||    || | ||| |  ||||| ||||| ||| ||||||| | ||| || ||||||||    || || ||| ||||  | |||||| ||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1958250452|gb|CP068084.1|</Hit_id>
+  <Hit_def>Sphingobacterium spiritivorum strain FDAARGOS_1144 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP068084</Hit_accession>
+  <Hit_len>5136872</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>1.38156e-08</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>1031319</Hsp_hit-from>
+      <Hsp_hit-to>1031142</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>TTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTACGG-CTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTTA-GGAAAAGGAA-CT-ATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGGATTAACTTTGC</Hsp_qseq>
+      <Hsp_hseq>TTTTCCAGGATAACAAATCTGAAATCTCCGGGGATTTTATATTTTTTCAACGAATCATACTGACTTACAATATCAATCTCCTTGCGTTGTACCATGTCTTCCACTACTTTTCGGAACAGCAAACTGATGCGTTGTTCTTCTCTG---AATCCAAGCTTAAAGTCTATACGGATCAA-TTTGC</Hsp_hseq>
+      <Hsp_midline>|||||||| |  |||||||| || |||||    ||||||||||  || | |||||  ||| | || | |||||| |  || |||   || || |  |||||||| |||||  |||| || || || ||   ||||||  || |    || || |||||||| ||||||||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|2636475595|gb|CP139978.1|</Hit_id>
+  <Hit_def>Sphingobacterium spiritivorum strain HAMBI_1896 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP139978</Hit_accession>
+  <Hit_len>5136875</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.2244</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>1.38156e-08</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>4225319</Hsp_hit-from>
+      <Hsp_hit-to>4225142</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>TTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTACGG-CTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTTA-GGAAAAGGAA-CT-ATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGGATTAACTTTGC</Hsp_qseq>
+      <Hsp_hseq>TTTTCCAGGATAACAAATCTGAAATCTCCGGGGATTTTATATTTTTTCAACGAATCATACTGACTTACAATATCAATCTCCTTGCGTTGTACCATGTCTTCCACTACTTTTCGGAACAGCAAACTGATGCGTTGTTCTTCTCTG---AATCCAAGCTTAAAGTCTATACGGATCAA-TTTGC</Hsp_hseq>
+      <Hsp_midline>|||||||| |  |||||||| || |||||    ||||||||||  || | |||||  ||| | || | |||||| |  || |||   || || |  |||||||| |||||  |||| || || || ||   ||||||  || |    || || |||||||| ||||||||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1768674615|emb|LR735258.1|</Hit_id>
+  <Hit_def>Dyadobacter sp. 32 isolate Dyadobacter sp. 32 sample 2 genome assembly, chromosome: 1 &gt;gi|1894903476|emb|LR732074.1| Complete annotated genome sequence of the bacterium Dyadobacter sp. 32</Hit_def>
+  <Hit_accession>LR735258</Hit_accession>
+  <Hit_len>7101228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>4.82211e-08</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>3121849</Hsp_hit-from>
+      <Hsp_hit-to>3121731</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>GAAAGCACT-TTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT</Hsp_qseq>
+      <Hsp_hseq>GAAAGAAATCTTTCCAAAACTACGAATCTGAAATCTCCGGTGATATTCTGGCGATTAAGCGACTCATATCGGCTGGTAATATCCACTTCCTTATTCATAACCATATCTTCCACCACCTT</Hsp_hseq>
+      <Hsp_midline>||||| | | |||||| |||||| ||||| || |||||    || || |   |||||||||| |  || |||||  ||||||||||||| || |||  ||| |  ||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1948801041|gb|CP066166.1|</Hit_id>
+  <Hit_def>Sphingobacterium sp. UDSM-2020 chromosome</Hit_def>
+  <Hit_accession>CP066166</Hit_accession>
+  <Hit_len>6101723</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.4211</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>4.82211e-08</Hsp_evalue>
+      <Hsp_query-from>173</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>2544014</Hsp_hit-from>
+      <Hsp_hit-to>2544231</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>CTTTTGAAAGCACTTTTCCAGA-ACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTAC-GGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTTA-GGAAAAGGAA-CT-ATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGGATTAACTTTGCAAATAGTTGTTCAACGAGTGTATAC</Hsp_qseq>
+      <Hsp_hseq>CTTTTGAGAGTACTTTTTCTAATACAACAAATTTAAAATCTCCTGGGATTTTGTGTTTCTTTAAAGTATCGTACTGGCTGGTAATATCAATTTCACCTTTTTGCACCATATCTTCCACTACTTTGCGGAATAGCAAACTGATACGTTGCTCCTCCCT---AAAGCCTAGTTTGAAATCTATACGAATTAGTTTTCCAGGAATTAATTGATCGATTGTATAC</Hsp_hseq>
+      <Hsp_midline>||||||| || |||||| |  | || |||||| |||| ||||||   ||||| | ||  || |  | || |||| ||||  ||||||| | |||    || || || |  |||||||| |||||  |||| || || || ||   ||| ||| |  |   ||| ||||| || ||||||||||| ||||  ||| ||   | |  || | ||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2747233764|gb|CP155081.2|</Hit_id>
+  <Hit_def>Mucilaginibacter sp. PAMB04274 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP155081</Hit_accession>
+  <Hit_len>5552303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.6177</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.68308e-07</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>1620957</Hsp_hit-from>
+      <Hsp_hit-to>1620777</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>GAAAGCACTTTTCCAGA-ACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT-AGGAAAAGGAACTATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGGATTA</Hsp_qseq>
+      <Hsp_hseq>GAAAGCACTTTTTCAATTACCACAAATCTAAAGTCGCCCACAATTTTACGCTTGCTCAGAGATTCATACCTGCTGGTGATATCCACCTCGCCGTTCTTAACCAAGTCTTCTACTACTTTGCGGAATAAGAGGT-TTATTTGCTGCCCTACCCTAAAGCCCAGTTTAAAGTCGATACGGATTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||   || |||||||||||||| || || ||||||   |   | || || |  || | |||  | |||||||| ||   ||||| ||| || ||||| || |||||  |||| | ||  | || |||| | | ||     ||| || || ||||| || ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1958230772|gb|CP068083.1|</Hit_id>
+  <Hit_def>Sphingobacterium spiritivorum strain FDAARGOS_1145 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP068083</Hit_accession>
+  <Hit_len>5135302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.0109</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.05041e-06</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>831660</Hsp_hit-from>
+      <Hsp_hit-to>831470</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>TTTTGAAAGCACTTTT-CCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTAC-GGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTTAGGAAA-AGGA-ACT-ATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGGATTAACTTTGC</Hsp_qseq>
+      <Hsp_hseq>TTTGGATAACACTTTTTCCAGAATAACAAATCTGAAATCTCCGGGTATTTTATATTTTTTCAACGAATCATACTGACTTACAATATCGATCTCATTTCGCTGTACCATCTCTTCCACTACTTTTCTAAAGAGCAGACTGATGCGTTGTT---CTTCCCTGAATCCCAGTTTAAAGTCTATGCGGATCAA-TTTGC</Hsp_hseq>
+      <Hsp_midline>||| || | ||||||| ||||||  |||||||| || |||||   |||||||||||  || | |||||  ||| | || | |||||| |  || ||   ||| || |  |||||||| |||||   ||| || | ||| ||   |||||   |||     || || || ||||| ||||| ||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1958211526|gb|CP068082.1|</Hit_id>
+  <Hit_def>Sphingobacterium spiritivorum strain FDAARGOS_1146 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP068082</Hit_accession>
+  <Hit_len>5275260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.0109</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.05041e-06</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>3132205</Hsp_hit-from>
+      <Hsp_hit-to>3132382</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>TTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTAC-GGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT-AGGAAAAGGAACTATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGGATTAACTTTGC</Hsp_qseq>
+      <Hsp_hseq>TTTTCCAGGATAACAAATCTGAAATCTCCGGGTATTTTATATTTTTTCAACGAATCATACTGACTTACAATATCGATCTCCTTGCGTTGTACCATATCTTCCACTACTTTCCGGAACAGTAA-ACTGATGCGTTGCTCTTCCCTGAATCCCAGTTTAAAGTCTATGCGGATTAA-TTTGC</Hsp_hseq>
+      <Hsp_midline>|||||||| |  |||||||| || |||||   |||||||||||  || | |||||  ||| | || | |||||| |  || |||   || || |  |||||||| |||||  |||| || ||   |  |  ||| | |||     || || || ||||| ||||| |||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|2678854710|gb|CP144143.1|</Hit_id>
+  <Hit_def>Chitinophagaceae bacterium C216 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP144143</Hit_accession>
+  <Hit_len>3342126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.1093</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>7.15664e-06</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>343201</Hsp_hit-from>
+      <Hsp_hit-to>343418</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>TCAAGGCCAAACTTCTTCTCTTCAGATAAGCTGAAAAATCTAAGTATTAAAT--AGTAATTCATGATAAATTTCTCCATGAATTGGAGTCCGTGAGCTTTTGAAAGCAC----TTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT</Hsp_qseq>
+      <Hsp_hseq>TCTAGCCCAAAGCTTTTCTCTTCTGATAAGCTGATATGTTTAATGATAAAGTGCAGT--TTCATTATCAATCGCTCCATGAATGGCAATTCATTGTCT---GAACTCAGATGTTTTTCCATTACCACAAATTGAAAATCCCCTACCATATTGTTTCCGGCAAGACTATCGTATCGGCTCATGATGTTCACTTCTTTGTTGTGCGCCAGGTCTTCAACCACTTT</Hsp_hseq>
+      <Hsp_midline>|| || |||||  | |||||||| |||||||||| |  | |||  || || |  |||  ||||| || |||  |||||||||| | | | | |   ||   |||  ||     |||||||  || ||||||  ||| || ||||| || || | |     |||   || ||| ||||| || || | |||||||||||| ||  | |  ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1272249552|gb|CP024091.1|</Hit_id>
+  <Hit_def>Pedobacter ginsengisoli strain T01R-27 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP024091</Hit_accession>
+  <Hit_len>5373360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.1093</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>7.15664e-06</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>5272893</Hsp_hit-from>
+      <Hsp_hit-to>5272714</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>TTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTAC-GGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTT---TAGGAAAAGGAACTATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGGATTAACTTTGCA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTAATAGTACAAATCTAAAATCGCCTGCAATCTTATGTTTATTTAAAGAAGTGTACTGACTGGTAATATCAACTTCACCATTTTTAACAAGCTCTTCAATCACTTTCCTATATAAAAGATTAACCCTCTGTTCTACCCT---AAAACCAAGTTTAAAATCAATACGGATCAGCTTTCCA</Hsp_hseq>
+      <Hsp_midline>||||| |  | |||||||||||| || ||| | || |||| || ||| |  ||| ||||| | ||  ||||||| |||||    || | ||| |  ||||| | |||||   ||   ||| ||   |   | ||||| ||  |   |||||| || |||||||| |||||||| | |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|2747254653|gb|CP155079.2|</Hit_id>
+  <Hit_def>Mucilaginibacter sp. PAMB04168 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP155079</Hit_accession>
+  <Hit_len>5377078</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.1093</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>7.15664e-06</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>3716629</Hsp_hit-from>
+      <Hsp_hit-to>3716809</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>GAAAGCACTTTTCCAGA-ACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT-AGGAAAAGGAACTATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGGATTA</Hsp_qseq>
+      <Hsp_hseq>GAAAGCACTTTTTCAATTACCACAAATCTAAAGTCGCCCACAATTTTACGCTTGCTGAGAGATTCATACCTGCTGGTGATATCCACCTCGCCGTTCTTAACCAGGTCTTCTACTACTTTGCGGAATAAGAGGT-TTATTTGCTGCCCTACCCTAAAGCCCAGTTTAAAGTCGATACGGATTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||   || |||||||||||||| || || ||||||   |   | || || |  || | |||  | |||||||| ||   ||||| ||| |  ||||| || |||||  |||| | ||  | || |||| | | ||     ||| || || ||||| || ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|2079168018|gb|CP067379.1|</Hit_id>
+  <Hit_def>Flavobacterium covae strain AL-02-36 chromosome</Hit_def>
+  <Hit_accession>CP067379</Hit_accession>
+  <Hit_len>3401257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2076</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>7.15664e-06</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>475</Hsp_query-to>
+      <Hsp_hit-from>2709449</Hsp_hit-from>
+      <Hsp_hit-to>2709147</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>TTTGAAAGCACTTTTCCAGAAC-TACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTCT--TTGTTCTGAACTAATTCTTCCA---CCACTTTAGGAAAAGGAACTATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGGATTAA-----CTTTGCAAATAGTTGTTCAACGAGTGTATACCAAGTATAAGGCTTCGTCTTTCACGTCAACATGTATTAACCGATCTGCATTCCACCT-TTTTGGGTTGCTTTTGTAAAATAGAATACA</Hsp_qseq>
+      <Hsp_hseq>TTAGAAAGATATTTTTCAGAAAGTACAAATTTAAAGTCTCCTATAATCTTATTTTTGTTTAAAGATTCATAACGACTTGTAATATCTACTTCTCCTTTTTCT--ACCATATCTTTAATTACCTCTTTAA-ACATTAAATTAATTTTAGTTGG--TTCTCTAAATCCTAAATTAAAATCAATGCGGTATAAATCATCTTTGATAATTTCAGTTACACGA---TATTCTTTTTATAAGG-TTCGTTTGTAACATTAACGTGTATAAACCAGTAAATAT--CAGCTCTTTTTGGTCGTTTTTGTAAAATAGAATACA</Hsp_hseq>
+      <Hsp_midline>|| |||||   |||| |||||  ||||||| ||||||||||||  || |||| ||  || |  || |  || || ||  ||||||| ||||||  || ||||  || |  ||||  |   || |||||  | |   || || |||| |||    || |  ||| ||||  |||||||| || |||  |||     |||||  |||    |||  ||||   ||| |    ||||||| ||||| | | || | ||| ||||| ||||  |    ||  || || |||| ||| | |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1804505538|gb|CP048115.1|</Hit_id>
+  <Hit_def>Mucilaginibacter sp. 14171R-50 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP048115</Hit_accession>
+  <Hit_len>4535041</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.3059</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.49791e-05</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>1602</Hsp_hit-from>
+      <Hsp_hit-to>1786</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>GAAAGCAC-TTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTAC-GGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCA-CTTTAGGAAAAGGAACTATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGGATTAACTT</Hsp_qseq>
+      <Hsp_hseq>GACAGCACCTTTTCTATCACCACAAACCTAAAATCGCCGACAATTTTATGCTTATGCAACGATTCGTACCGGCTGGTAATATCTACCTCGCCATTCTTTACCAAATCTTCCACCACCTTGCGGAACAGCAGGT-TTATTTGCTGCTCTACCCGGAACCCGAGTTTAAAATCGATGCGGATGAGCTT</Hsp_hseq>
+      <Hsp_midline>|| ||||| ||||| |  || ||||| ||||| || || || |||||||  | ||  | ||| | |||| ||||  ||||||| || ||    ||||  || || |||||||||| |||  |||| || |  | || |||| | | ||      || || || |||||||| || ||||| | |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1243933926|emb|LT907983.1|</Hit_id>
+  <Hit_def>Cytophagales bacterium TFI 002 genome assembly, chromosome: I</Hit_def>
+  <Hit_accession>LT907983</Hit_accession>
+  <Hit_len>5461565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.3059</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.49791e-05</Hsp_evalue>
+      <Hsp_query-from>184</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>3264262</Hsp_hit-from>
+      <Hsp_hit-to>3264127</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>ACTTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTTA-GGAA--AAGGAACTATTTTTTG</Hsp_qseq>
+      <Hsp_hseq>ACTTCTCAAGCACTACAAATCTAAAGTCACCAATTACATTGTGTTTATTGAGCGATTCATATCGGCTACGAATATCTACTTCCCCATTTTTCACCATCTCTTCCAACACATGACGGAAGTAAAGATTTATTTTTTG</Hsp_hseq>
+      <Hsp_midline>|||| || || ||||||||||||||||| || | ||  || | || ||| ||||| |  || ||||||  |||||| |||||    || |  || |  ||||||| ||| | | ||||  || ||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1897593526|gb|CP060497.1|</Hit_id>
+  <Hit_def>Olivibacter sp. SDN3 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP060497</Hit_accession>
+  <Hit_len>6118654</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.4042</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.49791e-05</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>5298038</Hsp_hit-from>
+      <Hsp_hit-to>5298151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>CACTTT-TCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGT-ACGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT</Hsp_qseq>
+      <Hsp_hseq>CACTTTCTCCAACACTACAAATCTAAAGTCTCCCACCATATTATATTTTTGTAAAGTTTTGTAACGACTAGTTATCTCTACCTCATTGTTTTTCACCAACTCCTCCACTACCTT</Hsp_hseq>
+      <Hsp_midline>|||||| ||||  |||||||||||||||||||| || || |||||||  |  |  |  |||| ||| ||| | || || || || ||||| |  || || || ||||| || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|2328429369|gb|CP110643.1|</Hit_id>
+  <Hit_def>Sphingobacterium sp. KU25419 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP110643</Hit_accession>
+  <Hit_len>3654667</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.6008</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>8.71857e-05</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>361</Hsp_query-to>
+      <Hsp_hit-from>1641727</Hsp_hit-from>
+      <Hsp_hit-to>1641914</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>TTTGAAAGCACTTTTCCAGA-ACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTAC-GGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTTAG-GAAAAGGAA-CT-ATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGGATTAACTTT</Hsp_qseq>
+      <Hsp_hseq>TTTGAAAGTACTTTTTCTAATACAACAAATTTAAAATCTCCAGGGATTTGTGTTTTTTTAAG-GTATCGTATTGGCTTGTAATATCGATTTCACCTTTTTGAACCATATCTTCTACCACTTTTCTGAATAGTAAACTGATGCGTTGTTCTTCTCT---AAATCCAAGTTTGAAATCTATACGAATTAGCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||| |  | || |||||| |||| |||||    ||||    ||  ||||| | || |||  ||||  ||||||| | |||    || ||||| |  ||||| ||||||||   ||| || || || ||   ||||||  || |   ||| || || || ||||||||||| |||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|2739540447|gb|CP157485.1|</Hit_id>
+  <Hit_def>Pedobacter sp. KACC 23697 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP157485</Hit_accession>
+  <Hit_len>5394853</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.6008</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>8.71857e-05</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>473</Hsp_query-to>
+      <Hsp_hit-from>3145771</Hsp_hit-from>
+      <Hsp_hit-to>3146169</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>268</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>407</Hsp_align-len>
+      <Hsp_qseq>ATCAAGGCCAAA-CTTCTTCTCTTCAGATAAGCTGAAAAATCTAAGTATTAAATAGTAATTCATGATAAATTTCTCCATGAAT-TGGAGTCCGTGAGCTTTTGAAAGCACTTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATA-TTGATTAAGCGAATTGTAC-GGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTTA-GGAAAAGGAACTATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGGATTAACTT---TGCAAATAGTTGTTCAACGAGTGTATA--CCAA-GTATAAGGCTTCGTCTTTCACGTCAACATGTATTAACCGATCTGCATTCCACCTTTTTGGGTTGCTTTTGTAAAATAGAATA</Hsp_qseq>
+      <Hsp_hseq>ATCCAGGCCAAAACTTCG-CTCCTCAGATAAACTTAATTTCTTCAGGATAAAATAGTAATCCATAATCTGTCTCTCATAGAAACTCAATTTGGTAAACTTCGATAAATGTTTTTCCAAAAGTACAAACCTGAAATCGCCAGCAATTTTATGCTTGTTTAA-CGATGTATATTGGCTGGTAATATCAATTTCTCCATTTTTCACTAACTCTTCAACCACTTTGCGGTAAAGTAAAT-TTACACGCTGCTCAATCCTAAAACCCAACCTGAAGTCGATCCGGATTAACTTGCCTGGAATCAAAAACTCAAC---TTTATAATCTAAGGTATAAGGC-TCATCCATTACATCAACATGCACTAACCAGTATACA-TCAGCGCGTTTCGGCTCCTTTTGAATAATGGAATA</Hsp_hseq>
+      <Hsp_midline>||| |||||||| ||||  ||| |||||||| || ||     | || || |||||||||| ||| ||   | ||||   |||  |  | |  || | |||    ||    ||||||| || |||||| || || || ||  | |||||||  ||| |||| |||  | ||  ||||  ||||||| | ||||   || |  ||||| ||||| ||||||||  || |||| || | ||    | | | |  |   |||||| | | | || || || |||||||||||   || ||  |     |||||   | ||||  | || ||||||||| || ||  | || |||||||| | |||||  | | || ||  |   ||| || | |||||| | ||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|2769640764|gb|CP160205.1|</Hit_id>
+  <Hit_def>Mucilaginibacter yixingensis strain YX-36 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP160205</Hit_accession>
+  <Hit_len>5357928</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6992</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>0.000304308</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>439499</Hsp_hit-from>
+      <Hsp_hit-to>439324</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>TTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTAC-GGCTAATAATATCCACTTC---TTTGTTCTGAACTAATTCTTCCACCACTTTA-GGAAAAGGAACT--ATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGGATTAACTT</Hsp_qseq>
+      <Hsp_hseq>TTTTCGATCACTACGAAACGGAAATCGCCGACAATTTTATGTTTATTGAGCGATTTGTATTGGCTCATAATCTCTACTTCGCCTTTTTTC---ACCAGATCCTCCACCACTTTACGGAACAACAGGTTAATACGCTGCTCAACCCT---GAAACCCAGCTTAAAGTCAATACGGATCACCTT</Hsp_hseq>
+      <Hsp_midline>||||| |  ||||| || |  || || || || ||||||| || ||| ||||| |||||  |||| ||||| || |||||   ||| |||   || |  || |||||||||||| |||| |  |  |  ||    || || ||  |    ||||| |||||||| || |||||||| | |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|2425279180|gb|CP115483.1|</Hit_id>
+  <Hit_def>Sphingobacterium sp. SYP-B4668 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP115483</Hit_accession>
+  <Hit_len>5417112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6992</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>0.000304308</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>4475646</Hsp_hit-from>
+      <Hsp_hit-to>4475388</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>TTTGAAAGCAC-TTTTCCAGAACTACAAATCTAAAGTCTCCT---ACTATTTTATATTGATTAAGCGAATTGTACGG-CTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTTA-GGAAAAGGAA-CT-ATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGGATTAACTT---TGCAAATAGTTGTTCAACGAGTGTATAC---CAAGTATAAGGCTTCGTCTTTCACGTCAACATGTATTAACC</Hsp_qseq>
+      <Hsp_hseq>TTGGAAAGTACCTTTTCTAGGATGACGAATCTAAAGTCCCCAGGCAC-ATTGTGTTTTT-TTAAG-GAGTCGTACTTACTAACGATGTCTATTTCTTTTCGTTGAACCATTTCCTCTACAACTTTACGGAAGAGCAAGCTGATGCGTTGTTCTTCCCT---AAAGCCTAGCTTAAAGTCTACACGGATTAATTTACCTGGTACCAATTGTTCGACG---GTATACTCGCGTGTATGAGGATT-GTCCATGACATCTACATGTACCAACC</Hsp_hseq>
+      <Hsp_midline>|| ||||| || ||||| || |  || ||||||||||| ||    || ||| | | ||  ||||| || | ||||   ||||  || || | ||||||    ||||| | ||| || || |||||| |||| || || || ||   ||||||  |  |   ||| ||||||||||| |||| ||||||||| ||   ||  |  | |||||| |||   ||||||   |  |||| ||| || |||  | || || |||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|379652114|gb|CP003349.1|</Hit_id>
+  <Hit_def>Solitalea canadensis DSM 3403, complete genome</Hit_def>
+  <Hit_accession>CP003349</Hit_accession>
+  <Hit_len>5202069</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.7975</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>0.000304308</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>659304</Hsp_hit-from>
+      <Hsp_hit-to>659137</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>CAGC-ACCTAAGCTCAGATCAAGGCCAAACTTCTTCTCTTCAGATAAGCTGAAAAATCTAAGTATTAAATAGTAATTCATGATAAATTTCTCCATGAATTGGAGTCCGTGAGCTTTTGAAAGCACTTT-TCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATT</Hsp_qseq>
+      <Hsp_hseq>CAGCTACCGAA-CTCAGATCGAGGCCAAACCCTTTTTCTTCAGATAAGCTAAGCTTTTTAAGAACGAAGTAATAGTACATGGTCATACGCTCAATGAATGATAGTGCACGTGGATCAGACAAAATTTTCTCAAGAACTACAAATCGGAAGTCGCCTACCAGATTATGTT</Hsp_hseq>
+      <Hsp_midline>|||| ||| || |||||||| |||||||||   || |||||||||||||| |    | |||| |  || || || | |||| | |    ||| ||||||   ||| |  | |  |  || |  | ||| || |||||||||||||  ||||| ||||| |  |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|2811406943|gb|CP097867.1|</Hit_id>
+  <Hit_def>Flavobacterium covae strain AH-01 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP097867</Hit_accession>
+  <Hit_len>2702770</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.8958</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>0.00106214</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>475</Hsp_query-to>
+      <Hsp_hit-from>383102</Hsp_hit-from>
+      <Hsp_hit-to>382799</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>TTTGAAAGCACTTTTCCAGAAC-TACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGT-ACGGCTAATAATATCCACTTCT--TTGTTCTGAACTAATTCTT---CCACCACTTTAGGAAAAGGAACTATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGG-----ATTAACTTTGCAAATAGTTGTTCAACGAGTGTATAC-CAAGTATAAGGCTTCGTCTTTCACGTCAACATGTATTAACCGATCTGCATTCCACCT-TTTTGGGTTGCTTTTGTAAAATAGAATACA</Hsp_qseq>
+      <Hsp_hseq>TTAGAAAGATATTTTTCAGAAAGTACAAATTTAAAGTCTCCTATAATCTTATTTTTGTTTAAAGATTCATAACGACTTGTAATATCTACTTCTCCTTTTTCT--ACCATATCTTTAATTACCTCTTTA-AACATTAAATTAATTTTAGTT--GGTTCTCTAAATCCTAAATTAAAATCAATGCGGTATAAATCATCTTTGATAATTTCAGTTACACGA---TATTCTTTTTTATAAGG-TTCGTTTGTAACATTAACGTGTATAAACC--AGTAAATATCAGCTCTTTTTGGTCGTTTTTGTAAAATAGAATACA</Hsp_hseq>
+      <Hsp_midline>|| |||||   |||| |||||  ||||||| ||||||||||||  || |||| ||  || |  || |  | ||| ||  ||||||| ||||||  || ||||  || |  ||||     ||| |||||  | |   || || |||| |||    || |  ||| ||||  |||||||| || |||     || | |||||  |||    |||  ||||   ||| |     ||||||| ||||| | | || | ||| ||||| ||||    |  ||  || || |||| ||| | |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|2752922223|gb|CP159289.1|</Hit_id>
+  <Hit_def>Dyadobacter sp. 676 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP159289</Hit_accession>
+  <Hit_len>7284078</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9941</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>0.00106214</Hsp_evalue>
+      <Hsp_query-from>187</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>2029347</Hsp_hit-from>
+      <Hsp_hit-to>2029239</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>TTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT</Hsp_qseq>
+      <Hsp_hseq>TTTCGAGCACCACGAACCGGAAATCTCCTGTAATGTTCTGTTTGCTAAGCGATTCGTAGCGGCTGGTGATATCCACTTCCTTGTTCAAAACCATATCCTCCACCACTTT</Hsp_hseq>
+      <Hsp_midline>|||| || || || || |  || ||||||   || || | ||   ||||||| | ||| |||||  | ||||||||||| ||||||  ||| |  || |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|2446117353|gb|CP117877.1|</Hit_id>
+  <Hit_def>Mucilaginibacter sp. KACC 22063 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP117877</Hit_accession>
+  <Hit_len>4809148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.0924</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.00370723</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>1616664</Hsp_hit-from>
+      <Hsp_hit-to>1616495</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>TTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTACGG-CTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTTA-GGAAAAGGAACT--ATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGGAT</Hsp_qseq>
+      <Hsp_hseq>TTTTCAATTACCACAAAACGGAAGTCGCCAACTATTTTATGCTTGTTCAACGAGTCATATTTACTGGTGATATCCACTTCTCCCCTTTTCACCAAGTCCTCAACCACTTTACGGAAAAGCAGGTTGATTTGCTGCTCCACCCT---GAAACCTAATTTAAAATCAATACGGAT</Hsp_hseq>
+      <Hsp_midline>||||| |  || ||||| |  ||||| || ||||||||||  |  || | ||| |  ||    ||  | ||||||||||||    | |  || || || || ||||||||| ||||||| |  |  ||||  || |||||  |    |||||||  |||||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|2482055248|gb|CP121197.1|</Hit_id>
+  <Hit_def>Aurantibacillus circumpalustris strain Swamp196 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP121197</Hit_accession>
+  <Hit_len>4604442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.2891</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>0.0129395</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>3802561</Hsp_hit-from>
+      <Hsp_hit-to>3802670</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>TTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT</Hsp_qseq>
+      <Hsp_hseq>TTTTCTAATACCACAAATTTAAAATCACCGATCACGTTATTTTTATTCAGCGACTCATAACGGCTGGTAATGTCTACTTCTTTATTTTTCACAAGATCCTCCACCACTTT</Hsp_hseq>
+      <Hsp_midline>||||| |  || |||||| |||| || || |  |  |||| || ||| ||||| |  || |||||  |||| || |||||||| || |  || |  || |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1993663771|gb|CP068294.1|</Hit_id>
+  <Hit_def>Flavobacterium sp. CLA17 chromosome</Hit_def>
+  <Hit_accession>CP068294</Hit_accession>
+  <Hit_len>5526236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.2891</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>0.0129395</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>1589047</Hsp_hit-from>
+      <Hsp_hit-to>1589220</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>TCTTCTCTTCAGATAAGCTGAAAAATCTAAGTATTAAATAGTAATTCATGATAAATTTCTCCATGA-AT-TGGAGTCCGTGAGCTTTTGAAAGCACTTTTCCAGA-ACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTC</Hsp_qseq>
+      <Hsp_hseq>TCTT-TCTTCAGACAAACTTAATTTTTTGATAAAGAAATACGAGTTCATGATAATATTTTC-ATGCCATCTTAAGTC-GTTATCATTAGAAAGGAACTTTTCAGATAATACAAATTTAAAGTCTCCGATAATATTATTTTTGTTTAATGACTCATAGCGGCTGGTAATATCCACTTC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||| || || ||   | | |  |  |||||  | ||||||||||  || || |||  || |  |||| || | | || ||||| |  ||| |||| | ||||||| |||||||||| |  || |||| ||  || |  || |  || |||||  |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1726013671|gb|CP042432.1|</Hit_id>
+  <Hit_def>Anseongella ginsenosidimutans strain Gsoil 524 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP042432</Hit_accession>
+  <Hit_len>4322684</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.3874</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>0.0129395</Hsp_evalue>
+      <Hsp_query-from>179</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>136656</Hsp_hit-from>
+      <Hsp_hit-to>136772</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>AAAGCACTTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT</Hsp_qseq>
+      <Hsp_hseq>AAAGGTCTTTTCAAGAATTACGAACCGGAAGTCGCCCGTTACCTTATGTTTGCGCAACGACTCGTAGCGGCTTACGATATTCACTTCATTGTTTTTTACCATTTCTTCCACCACTTT</Hsp_hseq>
+      <Hsp_midline>||||  |||||| |||| ||| || |  ||||| ||   ||  |||| ||     | ||| | ||| ||||| |  |||| |||||| ||||| |  || | |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|2216381207|gb|CP094527.1|</Hit_id>
+  <Hit_def>Mucilaginibacter sp. SMC90 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP094527</Hit_accession>
+  <Hit_len>8130403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.3874</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>0.0129395</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>6603824</Hsp_hit-from>
+      <Hsp_hit-to>6603538</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>AAGCTCAGATCAAGGCC-AAACTTCTTCTCTTCAGATAAGCTGAAAAATCTAAGTATTAAATAGTAATTCATGATAAATTTCTCCATGAATTGGAGTCCGTGAGCTTTTG-AAAGCACTTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTACG-GCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT----AGGAAAAGGAACTATTTTTTGTTCCACTTTTGC-AAAACCTAGCTTAAAATCTATACGGAT</Hsp_qseq>
+      <Hsp_hseq>AAGCTCAGATCGAGGCCGAAACCAC-GCTCTTCGGATAAGCTCACTTTTTTAAGCTGCTTGTAGTAATCCATAATAAACCTTTCGATAAAAGATAGGTTGTGCGAACGTGAAAAGATCTTTTCGATCACCACGAAACGGAAATCGCCGACAATTTTGTGCCTGTTCAGTGATTTGTAAGTGCTGGTAATATCAACTTCACCTTTTTTAACCAGGTCTTCCACTACTTTCCTGAACAACAGG-TTTATTTGCTGTTCAAC----GCGGAAACCAAGCTTAAAGTCAATACGGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||| ||||  |  |||||| |||||||| |    | ||||       ||||||| ||| |||||  | || || ||    ||   ||| |    || ||||  |||||| |  || || || |  || || || || ||||| |     || || || ||||| | |||  ||||||| |||||    || | ||| |  |||||||| |||||    |  || |||   |||||  ||||| ||    ||  ||||| |||||||| || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|937827812|gb|CP012643.1|</Hit_id>
+  <Hit_def>Rufibacter tibetensis strain 1351, complete genome</Hit_def>
+  <Hit_accession>CP012643</Hit_accession>
+  <Hit_len>5165513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.3874</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>0.0129395</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>4185941</Hsp_hit-from>
+      <Hsp_hit-to>4186050</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>TTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATA-TTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT</Hsp_qseq>
+      <Hsp_hseq>TTCTCCAGCACCACAAACCGGAAATCCCCAATTAGATTTTGCTTGTTCAAG-GAACTGTAGCGGCTGGTGATGTCTACCTCTTTGTTCTTCACCAAATCTTCCACCACTTT</Hsp_hseq>
+      <Hsp_midline>|| ||||| || ||||| |  || || || | ||  || |  ||| | ||| ||| |||| |||||  | || || || ||||||||||  || || ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1886902300|gb|CP059732.1|</Hit_id>
+  <Hit_def>Spirosoma foliorum strain KCTC 72228 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP059732</Hit_accession>
+  <Hit_len>8853064</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.4857</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>0.0451633</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>3066248</Hsp_hit-from>
+      <Hsp_hit-to>3066363</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>TTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCA-CTTTAGGAA</Hsp_qseq>
+      <Hsp_hseq>TTCTCCAGAACTACAAAGCGAAAATCGCCAATCACATTCTGTCTACTGAGTGATTCATAGCGACTCGTAATATCCACTTCTTTATTCCGAACCATATCTTCAATCACCTTTCGGAA</Hsp_hseq>
+      <Hsp_midline>|| |||||||||||||| | ||| || || |  |  || | |  | | || || |  || || ||  |||||||||||||||| ||| |||| |  ||||| | || |||| ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.550202</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>4583908</Hsp_hit-from>
+      <Hsp_hit-to>4583793</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>TTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTTA-GGAA</Hsp_qseq>
+      <Hsp_hseq>TTTTCCAAAACCACAAACCGGAAATCGCCGATAACATTCTGACGACTAAGGGATTCGTAGCGGCTCGTGATATCCACTTCTTTGTTTTTTACCATATCTTCAATCACCTTACGGAA</Hsp_hseq>
+      <Hsp_midline>||||||| ||| ||||| |  || || || |  |  || |   || |||| || | ||| |||||  | ||||||||||||||||| |  || |  ||||| | ||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|380500974|emb|HE774682.1|</Hit_id>
+  <Hit_def>Flavobacterium indicum GPTSA100-9 complete genome</Hit_def>
+  <Hit_accession>HE774682</Hit_accession>
+  <Hit_len>2993089</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.4857</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>0.0451633</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>1170659</Hsp_hit-from>
+      <Hsp_hit-to>1170502</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>ACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTT---CCACCACTTTAGGAAAAGGAACTATTTTTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGGAT</Hsp_qseq>
+      <Hsp_hseq>ACAAATCTAAAATCTCCAATTATGTTATTTTTATGTAATGAAGTATACCTACTAATAACATCTACTTCACCTTTATCAACCATATCTTTAACTACCATTTTAAACATAGCACTTATTTTTGGTGCCACCCT---AAATCCCAGTCTAAAGTCTATACGAAT</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||| | ||| |||| || ||  |  ||| | || |  ||||||| ||| |||||    || | ||| |  ||||   | |||| ||||   | || |  ||||||| || ||||  |   ||| || ||  |||| |||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1492364759|gb|CP032869.1|</Hit_id>
+  <Hit_def>Mucilaginibacter celer strain HYN0043 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP032869</Hit_accession>
+  <Hit_len>7149106</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.4857</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>0.0451633</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>4422912</Hsp_hit-from>
+      <Hsp_hit-to>4422626</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>AAGCTCAGATCAAGGCC-AAACTTCTTCTCTTCAGATAAGCTGAAAAATCTAAGTATTAAATAGTAATTCATGATAAATTTCTCCATGAA--TTGGAGTCCGTGAGCTTTTGAAAGCA-CTTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTACG-GCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT-AGGAAAAG--GAACTATTTTTTGTTCCACTTTTGC-AAAACCTAGCTTAAAATCTATACGGAT</Hsp_qseq>
+      <Hsp_hseq>AAGCTCAGATCGAGGCCGAAACCGC-GCTCTTCGGATAAGCTCACTTTTTTAAGCTGCTTGTAATAATCCATAATAAACCTTTCAATAAACGACAGATTATGTGAGC--GTGAAAATACCTTTTCGATCACCACGAAGCGGAAATCGCCTACAATTTTATGTTTGTTTAATGATTTGTAGGTGCTGGTAATATCAACCTCGCCTTTTTTAACCAGGTCTTCAACTACTTTCCTGAAAAGCAGGTTTATTTGCTGCTCAAC----GCGGAAACCCAGTTTAAAGTCGATACGGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||| ||||  |  |||||| |||||||| |    | ||||       || |||| ||| |||||  | || || ||     || |  ||||||   |||||  | |||||| |  || || || |  || || ||||| ||||||| ||  || |  || ||||| | |||  ||||||| || ||    || | ||| |  ||||| || |||||   ||||||  |   |||||  || || ||    ||  ||||| || ||||| || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1735100761|gb|CP043450.1|</Hit_id>
+  <Hit_def>Mucilaginibacter rubeus strain P1 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP043450</Hit_accession>
+  <Hit_len>7632803</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.584</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>0.0451633</Hsp_evalue>
+      <Hsp_query-from>195</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>4727418</Hsp_hit-from>
+      <Hsp_hit-to>4727318</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>ACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTACG-GCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT</Hsp_qseq>
+      <Hsp_hseq>ACCACAAAACGGAAGTCGCCTACTATTTTGTGCTTATTTAGCGATTTGTAAGTACTGGTAATATCAACCTCGCCTTTTTTAACCAGGTCTTCCACTACTTT</Hsp_hseq>
+      <Hsp_midline>|| ||||| |  ||||| ||||||||||| |  | ||| ||||| ||||| |  ||  ||||||| || ||    || | ||| |  |||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|2070850032|gb|CP079214.1|</Hit_id>
+  <Hit_def>Niabella sp. I6 chromosome</Hit_def>
+  <Hit_accession>CP079214</Hit_accession>
+  <Hit_len>5801862</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.6823</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>0.157636</Hsp_evalue>
+      <Hsp_query-from>244</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>997518</Hsp_hit-from>
+      <Hsp_hit-to>997468</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>ACGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT</Hsp_qseq>
+      <Hsp_hseq>ACGGCTCATGATATTTACTTCCTTGTTCTGTACCAGGTCTTCCACCACTTT</Hsp_hseq>
+      <Hsp_midline>|||||| || ||||  ||||| |||||||| || |  ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1682022672|gb|CP040896.1|</Hit_id>
+  <Hit_def>Hymenobacter jejuensis strain 17J68-5 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP040896</Hit_accession>
+  <Hit_len>5086993</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.6823</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>0.157636</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>4679973</Hsp_hit-from>
+      <Hsp_hit-to>4679854</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>TGAAAGCACTTT-TCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTACGGCTAA-TAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT</Hsp_qseq>
+      <Hsp_hseq>TGACAGGAATTTCTCCAGTACTACAAAACGGAAGTCGCCCGTAACGTGCTGTTTGCTAAGCGATTCGTAGCGCGAGGTAATGTCCACTTCTTTGTTGCGCACCAAATCTTCGACCACTTT</Hsp_hseq>
+      <Hsp_midline>||| || | ||| ||||| |||||||| |  ||||| ||    |  |  | ||   ||||||| | |||  || |  |||| ||||||||||||||  | || || ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|2070850030|gb|CP079215.1|</Hit_id>
+  <Hit_def>Niabella defluvii strain I65 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP079215</Hit_accession>
+  <Hit_len>6134315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.6823</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>0.157636</Hsp_evalue>
+      <Hsp_query-from>244</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>2581003</Hsp_hit-from>
+      <Hsp_hit-to>2580953</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>ACGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT</Hsp_qseq>
+      <Hsp_hseq>ACGGCTCATGATATTTACTTCCTTGTTCTGTACCAGGTCTTCCACCACTTT</Hsp_hseq>
+      <Hsp_midline>|||||| || ||||  ||||| |||||||| || |  ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|2070871811|gb|CP079218.1|</Hit_id>
+  <Hit_def>Pedobacter sp. D749 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP079218</Hit_accession>
+  <Hit_len>5843246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.6823</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>0.157636</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>3588603</Hsp_hit-from>
+      <Hsp_hit-to>3588713</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>TTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATA-TTGATTAAGCGAATTGTAC-GGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCCAACAGTACAAACCTGAAATCGCCTGCAATTTTATGCTTGTTTAAT-GAGGTGTACTGGCTGGTAATATCGATCTCACCATTTTTCACTAATTCTTCTACCACCTTA</Hsp_hseq>
+      <Hsp_midline>|||||||  | |||||| || || || ||| | |||||||  ||| ||||  ||  ||||| ||||  ||||||| |  ||    || |  ||||||||||| ||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|2285221741|dbj|AP026683.1|</Hit_id>
+  <Hit_def>Sediminibacterium sp. TEGAF015 DNA, complete genome</Hit_def>
+  <Hit_accession>AP026683</Hit_accession>
+  <Hit_len>3055665</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.6823</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>0.157636</Hsp_evalue>
+      <Hsp_query-from>244</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1559538</Hsp_hit-from>
+      <Hsp_hit-to>1559488</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>ACGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT</Hsp_qseq>
+      <Hsp_hseq>ACGGCTGGTAATATTCACTTCTTTGTTTTTCACCAGTTCTTCCACTACTTT</Hsp_hseq>
+      <Hsp_midline>||||||  |||||| |||||||||||| |  || | ||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|586953861|gb|CP007145.1|</Hit_id>
+  <Hit_def>Hymenobacter swuensis DY53, complete genome</Hit_def>
+  <Hit_accession>CP007145</Hit_accession>
+  <Hit_len>4904241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.7806</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.157636</Hsp_evalue>
+      <Hsp_query-from>252</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>2313839</Hsp_hit-from>
+      <Hsp_hit-to>2313881</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>TAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT</Hsp_qseq>
+      <Hsp_hseq>TAATGTCCACTTCCTTGTTCCGCACCAAGTCTTCCACCACTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||||||| |||||| | || || ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|2418151436|ref|XM_026895566.3|</Hit_id>
+  <Hit_def>PREDICTED: Galleria mellonella zinc finger protein 160-like (LOC113511844), mRNA</Hit_def>
+  <Hit_accession>XM_026895566</Hit_accession>
+  <Hit_len>2847</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.7806</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.157636</Hsp_evalue>
+      <Hsp_query-from>663</Hsp_query-from>
+      <Hsp_query-to>702</Hsp_query-to>
+      <Hsp_hit-from>2208</Hsp_hit-from>
+      <Hsp_hit-to>2249</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>AGAAATTTATAATAAA--TTACCTTTAATACTTAATTTTTTT</Hsp_qseq>
+      <Hsp_hseq>AGAAATTTATAATAAAATTTACTTTTAAAATTTAATTTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||  |||| ||||| | |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|2032009615|gb|CP073766.1|</Hit_id>
+  <Hit_def>Chitinophaga sp. HK235 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP073766</Hit_accession>
+  <Hit_len>8341603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8789</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>0.550202</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>6253827</Hsp_hit-from>
+      <Hsp_hit-to>6253721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>TTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCAC</Hsp_qseq>
+      <Hsp_hseq>TTTTCCATCACGATAAACTGGAAGTCTCCTACTACATTGTTTTTGCTGAGTGATTCGTAACGGCTGGTGATATTCACTTCCTTGTTACGTACCATATCTTCCACCAC</Hsp_hseq>
+      <Hsp_midline>|||||||  || | |||    |||||||||||||  || | ||   | || || | ||| |||||  | |||| |||||| |||||  | || |  |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|2257600705|gb|CP098805.1|</Hit_id>
+  <Hit_def>Dyadobacter chenhuakuii strain CY22 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP098805</Hit_accession>
+  <Hit_len>5989234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8789</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>0.550202</Hsp_evalue>
+      <Hsp_query-from>184</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>3354788</Hsp_hit-from>
+      <Hsp_hit-to>3354677</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>ACTTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT</Hsp_qseq>
+      <Hsp_hseq>ACCTTTCCAGCACAACAAAACGGAAATCACCCGTAATGTTCTGTCTGCTAAGGGATTCGTATCGGCTGGTAATGTCCACTTCCTTGTTCATTACCATATCTTCCACCACTTT</Hsp_hseq>
+      <Hsp_midline>|| ||||||| || ||||| |  || || ||    || || | |    |||| || | ||| |||||  |||| |||||||| ||||||   || |  ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|2221365986|gb|CP094997.1|</Hit_id>
+  <Hit_def>Dyadobacter chenwenxiniae strain LJ419 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP094997</Hit_accession>
+  <Hit_len>7171767</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8789</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>0.550202</Hsp_evalue>
+      <Hsp_query-from>184</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>4348138</Hsp_hit-from>
+      <Hsp_hit-to>4348027</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>ACTTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT</Hsp_qseq>
+      <Hsp_hseq>ACCTTTCCAGCACAACAAAGCGGAAATCTCCCGTAATGTTCTGTCTGCTGAGCGATTCGTAACGGCTGGTAATGTCCACTTCTTTGTTCATCACCATATCCTCAACCACTTT</Hsp_hseq>
+      <Hsp_midline>|| ||||||| || ||||| |  || |||||    || || | |    | ||||| | ||| |||||  |||| |||||||||||||||   || |  || || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|2720698973|gb|CP151803.1|</Hit_id>
+  <Hit_def>Pedobacter sp. FW305-3-2-15-E-R2A2 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP151803</Hit_accession>
+  <Hit_len>7588365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8789</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>0.550202</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>1621395</Hsp_hit-from>
+      <Hsp_hit-to>1621207</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>GAAAGCAC-TTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTACGG-CTAATAATATCCACTTCTTTGTTCTGAACTAATTCTT---CCACCA-CTTTAGGAAAAGGAACTATTT-TTTGTTCCACTTTTGCAAAACCTAGCTTAAAATCTATACGGATTAACTTTGCA</Hsp_qseq>
+      <Hsp_hseq>GAAAGTACCTTTTGAAGTACCACAAATCTAAAATCTCCAATGATATGATGTTTTCTTAAAGATTGATATTGACTAATAATGTCTACTTCTTTACTTTTAACCAATTCCTGTACCACCAACCTGAACAAATG--ACTAATCCTTTGCTCTA-TCCTG--AAACCTAATTTAAAATCTATTCTGATCAGCTTTCCA</Hsp_hseq>
+      <Hsp_midline>||||| || ||||  || || ||||||||||| ||||| |  || | || ||   | |  || |  ||  | |||||||| || ||||||||  | | ||| ||||| |   |||||| | | |  ||| |  |||| |  |||| || | |  ||  |||||||  ||||||||||| | ||| | |||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|2632589732|gb|CP139559.1|</Hit_id>
+  <Hit_def>Mucilaginibacter sp. cycad4 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP139559</Hit_accession>
+  <Hit_len>7111297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.550202</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>148270</Hsp_hit-from>
+      <Hsp_hit-to>148496</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>AAGCTCAGATCAAGGCC-AAACTTCTTCTCTTCAGATAAGCTGAAAAATCTAAGTATTAAATAGTAATTCATGATAAATTTCTCCATGAATTGGAG--TCCGTGAGCTTTTGAAAGCACTTTTCCAGAACTACAAATCTAAAGTCTCCTACTATTTTATATTGATTAAGCGAATTGTACG-GCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT</Hsp_qseq>
+      <Hsp_hseq>AAGCTCAGGTCGAGGCCGAAACCGCG-CTCTTCGGACAAGCTCACTTTTTTAAGCTGCTTGTAGTAATCCATAATAAACCTTTCGATGAATGACAGGTTATGCGAGCGTGAGAA-GATCTTTTCGATCACCACAAAACGGAAATCGCCGACAATTTTGTGCCTGTTCAGTGATTTGTAGGTGCTGGTAATATCAACCTCACCTTTTTTAACGAGGTCTTCCACCACTTT</Hsp_hseq>
+      <Hsp_midline>|||||||| || ||||| ||||  |  |||||| || ||||| |    | ||||       ||||||| ||| |||||  | || ||||||   ||  |  | |||| |  ||| |  |||||| |  || ||||| |  || || || || ||||| |     || || || ||||| | |||  ||||||| || ||    || | ||| |  ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1936784326|emb|LR919048.1|</Hit_id>
+  <Hit_def>Darwinula stevensoni</Hit_def>
+  <Hit_accession>LR919048</Hit_accession>
+  <Hit_len>1248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.550202</Hsp_evalue>
+      <Hsp_query-from>222</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>486</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>TTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT</Hsp_qseq>
+      <Hsp_hseq>TTATTTTTTTGAAGCGAAGTGTATCGACTCGTTATATTTACTTCTTTGTTTTTAACCATATCTTCAACCACTTT</Hsp_hseq>
+      <Hsp_midline>|||| ||  | ||||||| |||| || ||  | ||||  ||||||||||| | ||| |  ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1481170622|gb|CP023642.1|</Hit_id>
+  <Hit_def>Flavobacterium anhuiense strain M168 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP023642</Hit_accession>
+  <Hit_len>5377387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.550202</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>4013680</Hsp_hit-from>
+      <Hsp_hit-to>4013589</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>TTTGAAAGCACTTTTCCAGA-ACTACAAATCTAAAGTCTCC--TACTATTTTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTC</Hsp_qseq>
+      <Hsp_hseq>TTTGATAAGAATTTCTCAGACAATACAAATTTAAAGTCTCCAATAATATTGT-TCTTGTTTAAA-GATTCGTAACGGCTCGTAATATCCACTTC</Hsp_hseq>
+      <Hsp_midline>||||| |  | |||  |||| | ||||||| ||||||||||  || |||| | | ||| ||||  || | ||| |||||  |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|2246765839|gb|CP086234.1|</Hit_id>
+  <Hit_def>Flavobacterium anhuiense strain T4 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP086234</Hit_accession>
+  <Hit_len>5070734</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.550202</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>4698940</Hsp_hit-from>
+      <Hsp_hit-to>4698849</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>TTTGAAAGCACTTTTCCAGA-ACTACAAATCTAAAGTCTCC--TACTATTTTATATTGATTAAGCGAATTGTA-CGGCTAATAATATCCACTTC</Hsp_qseq>
+      <Hsp_hseq>TTTGATAAGAATTTCTCAGACAATACAAATTTAAAGTCTCCAATAATATTGT-TCTTGTTTAAA-GATTCGTAACGGCTCGTAATATCCACTTC</Hsp_hseq>
+      <Hsp_midline>||||| |  | |||  |||| | ||||||| ||||||||||  || |||| | | ||| ||||  || | ||| |||||  |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|2257605683|gb|CP098806.1|</Hit_id>
+  <Hit_def>Dyadobacter fanqingshengii strain CY399 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP098806</Hit_accession>
+  <Hit_len>6251631</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.550202</Hsp_evalue>
+      <Hsp_query-from>232</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>3614078</Hsp_hit-from>
+      <Hsp_hit-to>3614015</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>TAAGCGAATTGTA-CGGCTAATAATATCCACTTCTTTGTTCTGAACTAATTCTTCCACCACTTT</Hsp_qseq>
+      <Hsp_hseq>TAAGCGATTCGTAGCGGCTGGTAATATCCACTTCCTTGTTCATTACCATATCCTCCACCACCTT</Hsp_hseq>
+      <Hsp_midline>||||||| | ||| |||||  ||||||||||||| ||||||   || |  || |||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>111347470</Statistics_db-num>
+      <Statistics_db-len>1457433627</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
