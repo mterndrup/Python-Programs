@@ -50,7 +50,7 @@ kingdom_counter = []
 
 def run():
     try:
-        xml_files = glob.glob(folder_47 + "/*.xml")
+        xml_files = glob.glob(folder_48 + "/*.xml")
         for xml_file in xml_files:
             file_name = os.path.basename(xml_file)
             number_match = re.search(r'\d+', file_name)
