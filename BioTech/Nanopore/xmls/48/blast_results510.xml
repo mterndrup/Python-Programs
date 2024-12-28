@@ -1,0 +1,2222 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>core_nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_833271</BlastOutput_query-ID>
+  <BlastOutput_query-def>con510</BlastOutput_query-def>
+  <BlastOutput_query-len>848</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_833271</Iteration_query-ID>
+  <Iteration_query-def>con510</Iteration_query-def>
+  <Iteration_query-len>848</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2248495830|ref|NC_063456.1|</Hit_id>
+  <Hit_def>Nitzschia dissipata isolate Qingdao in China mitochondrion, complete genome &gt;gi|2073953158|gb|MW849267.1| Nitzschia dissipata isolate Qingdao in China mitochondrion, complete genome</Hit_def>
+  <Hit_accession>NC_063456</Hit_accession>
+  <Hit_len>38452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.887</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>6.74539e-51</Hsp_evalue>
+      <Hsp_query-from>326</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>395</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>GATTGAACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCA-TAGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATT-GAAAAAATTTAGGT-AGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>GATTCAATTAAAAGTAAAAGAGATGGTGGAAGTAACCAAAAACTAATATTATTCATTCTTGGAAAAGCCATATC-AGGTGCTCCAATCATTAATGGAACA-AACCAGTTACCGAATCCTCCAATAAGAACAGGCATCACCATAAAAAAAATCATAACG-AAAGCATGACCTGTTACTATAACATTATATAAATGGTGGTTATATTCTAAAAAACTTCCTTCAGGGTAAGATAAAGTTATTCTAATATATAAAGATAAAGCGGTACCA</Hsp_hseq>
+      <Hsp_midline>|||| || ||| | ||  |  ||||||||||| ||| |||| ||||||||||||||||| || || |||||||| ||| |||||||||| ||  ||  || |||||||| || || || ||||| | ||||||||||||||||||||| ||||||||| ||||||| ||||| ||| || ||||||||||| || || || ||||  |||||| ||   | ||| | ||| | |||||||||||||||||| || ||||| ||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>132.932</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>6.32324e-26</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>547</Hsp_hit-from>
+      <Hsp_hit-to>755</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCCTTTC-ACAAGTTACCCT-ATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGTCTT--ACAGATAGAAATTTCCGTGCT------TTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TGTACTATTTTTAACATGCGTACAGATAGTTTACCTTTCCATAAATTACCTTTATTCGTTTGGGCTGTTCTTATTACCGCAGTATTACTACTT-TTATCTTTACCTGTTTTAGCTGGAGCAATTA-CAATGCTTTTAACAGATAGAAATTTTAATACAACCTTCTTTGACCCCGCTGGTGGAGGAGACCCTGTTCTTTACCAACATTTATT</Hsp_hseq>
+      <Hsp_midline>||||| ||| | || ||  | ||||||||||| |||||| | || ||||| | ||| |||||| ||||| | ||||| || |||||| |  || |||||||  ||||| ||||| || ||||||  |||||  ||  ||||||||||||||   | |       |||||||| || || || || |||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|310690184|gb|HQ317078.1|</Hit_id>
+  <Hit_def>Nitzschia cf. promare culture-collection CCMP:1116 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>HQ317078</Hit_accession>
+  <Hit_len>665</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.084</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>2.35437e-50</Hsp_evalue>
+      <Hsp_query-from>326</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>GATTGAACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTTCC-AAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATTGAAAAAATTTA--GGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACC</Hsp_qseq>
+      <Hsp_hseq>GATTCGATTAACAATAAAAGAGATGGTGGCAGTAACCAAAAACTAATATTATTCATTCTAGGAAAAGCCATATCG-GGAGCACCTATCATTAAAGGAACA-AACCAGTTCCCAAAACCACCGATTAAAACAGGCATCACCATAAAAAAAATCATAAC-AAAAGCATGACCTGTTACAATTACATTATATAAATGATGATTGTATTCTAAAAAACTACCATTTGGTTGAGATAATGTTATTCTTATGTATAAAGATAAAGCGGTACC</Hsp_hseq>
+      <Hsp_midline>||||  | ||| ||||  |  |||||||| || ||| |||| ||||||||||||||||| || || ||||||||  || || || ||||| | |||  || |||||||||| ||| ||||| |||||||||||||||||||||||||| |||||||| |||||||| ||||| ||| |||||||||||||| |||||||||||||  |||||  ||    | || | ||| |  |||||||| || ||||| || ||||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>145.556</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>1.00199e-29</Hsp_evalue>
+      <Hsp_query-from>579</Hsp_query-from>
+      <Hsp_query-to>779</Hsp_query-to>
+      <Hsp_hit-from>451</Hsp_hit-from>
+      <Hsp_hit-to>661</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>CTGTACCATTGTAAATATCAGAACAGATAGTTTGCC-TTTCACAAGTTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATTT</Hsp_qseq>
+      <Hsp_hseq>CTGTACAATTGTAAATATGAGAACTGAGAGTTTGCCATTCCACAAATTACCTTTATTTGTATGGTCAGTGTTTTTAACAGCAAT-TCTTTTATTATTATCTTTACCTGTATTAGCAGGTGCCA-TCACAATGTTATTGACTGATCGGAATTTTAATACAACTTTTTTTGACCCAGCAGGTGGTGGTGATCCCGTTCTTTACCAGCATTTATTT</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||||| ||||| || |||||||| || ||||| |||||  ||||||| ||||| || ||  | |||||  | |  ||||||||||||||  ||||||||||||||||| | |  ||||||   | || ||| | |||||   | |      ||||||||| ||||| |||||||| || || |||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1713062356|gb|MK642458.1|</Hit_id>
+  <Hit_def>Chaetoceros curvisetus strain El4A2 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MK642458</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.969</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>1.21959e-47</Hsp_evalue>
+      <Hsp_query-from>334</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>6</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>TAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCA-TAGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATTGAAAAAATTTA--GGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>TAATAATAATAATGAAGGAGGTAATAACCAGAAACTTATATTATTCATTCTAGGGAAAGCCATATC-AGGTGCTCCAATCATTAACGGAACA-AACCAATTACCAAATCCTCCAATTAAAGTAGGCATAACCATAAAGAAAATCATGAC-AAAAGCATGACCTGTTACTATCACATTATACATTTGATGATTATATTCTAAAAAATTACCATTTGGTTCAGACAGGGTTATTCTAATATACAAAGACAAAGCTGTACCA</Hsp_hseq>
+      <Hsp_midline>||||||||  ||||| || || |  ||| | || || |||||||||||||| ||||| |||||||| ||| |||||||||| ||  ||  || ||||| || ||||| || |||||||||  |||||| |||||||| || ||||| || |||||||| ||||| ||| || |||||||| | ||||||||| ||||  ||||| |||    | || | |||||| |||||||||||||| || |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|354806198|gb|JN418696.1|</Hit_id>
+  <Hit_def>Pinnularia neglectiformis strain Pin 706 F cytochrome c oxidase subunit 1 (cox1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>JN418696</Hit_accession>
+  <Hit_len>615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.559</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>5.18585e-46</Hsp_evalue>
+      <Hsp_query-from>332</Hsp_query-from>
+      <Hsp_query-to>579</Hsp_query-to>
+      <Hsp_hit-from>251</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>ACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATT-GAAAAAATT-TAGGTAGGCTA--GACAGAGTTATTCTAATATATAAGGACAAAGC</Hsp_qseq>
+      <Hsp_hseq>ACTAATAAAAGTAATGATGGTGGTAGTAACCAAAAACTTATGTTATTCATTCTAGGAAAAGCCATATCT-GGCGCTCCAATCATTAGAGGAACA-AACCAATTACCAAAACCACCTATTAATGCAGGCATTACCATAAAAAAAATCATAA-TAAAAGCATGACCTGTTACAATTACATTATATAAATGATAATTATGTTCCATAAAATTCGAGTTAGG-TACCGCAAGAGTTAGTCTTATATATAAAGATAACGC</Hsp_hseq>
+      <Hsp_midline>|||||||| || ||||||||||| || ||| |||| || || ||||||||||| || || ||||||||| || ||||||||||| |||||  || ||||| || ||||| ||||| |||||  ||||||| ||||||||||| |||||||  |||||||| ||||| ||| |||||||||||||| |||| ||| | ||  | ||||||  || |||| ||  |  ||||||| ||| |||||||| || || ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>80.6345</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>3.50037e-10</Hsp_evalue>
+      <Hsp_query-from>592</Hsp_query-from>
+      <Hsp_query-to>776</Hsp_query-to>
+      <Hsp_hit-from>421</Hsp_hit-from>
+      <Hsp_hit-to>615</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>AATATCAGAACAGATAGTTTGCCTTT-CACAAGTTACCCT-ATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATC--TTCCTGTATTAGCAGGTGCAATTTTCAATGTCTT--ACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTA</Hsp_qseq>
+      <Hsp_hseq>AATATGAGATCTAAAAGTTTACCTTTTCACAGATTACCTTTATTTGCGTGGTCAATATTTATAACTGCATTTTTGCTT-TTATTGTCACTACCTGTTTTAGCTGGCGCCATAA-CAATGTTATTAACAGATAGAAATTTTAATACCACTTTTTTTGACCCAGCTGGAGGTGGTGACCCAGTTTTATATCAACATTTA</Hsp_hseq>
+      <Hsp_midline>||||| ||| |  | ||||| ||||| ||||  ||||| | |||||  |||||  | || || || ||  | ||  || ||||| ||  | ||||| ||||| || || ||   ||||||  |  ||||||||||||||   | |      ||||||||| || |||||||||||||| ||  | || |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|2088237800|ref|NC_056903.1|</Hit_id>
+  <Hit_def>Lithodesmium undulatum mitochondrion, complete genome &gt;gi|1951773814|gb|MW023083.1| Lithodesmium undulatum mitochondrion, complete genome</Hit_def>
+  <Hit_accession>NC_056903</Hit_accession>
+  <Hit_len>37057</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.854</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>1.81004e-45</Hsp_evalue>
+      <Hsp_query-from>331</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>381</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>AACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCA-TAGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTGT-ACGATTACATTATATAATTGATGATTGTATTGAAAAAATTTA--GGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>AAATAATAATAATAAAGAAGGAGGTAACAACCAAAAACTAATATTATTCATTCTTGGAAATGCCATATC-AGGCGCTCCAATCATTAAAGGCACA-AACCAATTACCAAAACCACCAATTAAAGTAGGCATTACCATAAAAAAAATCATTAC-AAACGCATGTCCAGTAACAATTACATTATATAAATGATGGTTATTTTCTAAAAAACCACTATTAGGCTGATATAAAGTTAATCTAATATATAAAGATAAAGCAGTACCA</Hsp_hseq>
+      <Hsp_midline>|| ||||||||  || || || || | |||| |||| ||||||||||||||||| || || |||||||| ||| |||||||||| || |||| || ||||| || ||||| ||||||||||||  |||||| ||||||||||| ||||| || ||| ||||  || || || |||||||||||||| ||||| || | ||  |||||   |    |||||| | | | ||||| |||||||||||| || ||||| ||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>125.719</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>9.38452e-24</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>779</Hsp_query-to>
+      <Hsp_hit-from>538</Hsp_hit-from>
+      <Hsp_hit-to>747</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCCTTT-CACAAGTTACCCT-ATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATTT</Hsp_qseq>
+      <Hsp_hseq>TGTACTATTTTTAATATGAGGGTAAAAAGTTTATCTTTTCATAATTTACCTTTATTTGTTTGGTCTGTTTTAATTACAGC-GTTTTTGTTATTGTTATCTTTACCTGTATTAGCAGGAGCTA-TAACAATGTTATTAACTGATAGAAATTTTAACACAACATTTTTTGATCCTGCTGGTGGTGGAGATCCTGTTTTATATCAACATTTATTT</Hsp_hseq>
+      <Hsp_midline>||||| ||| | ||||| ||   | | |||||  |||| || || ||||| | ||||||||||||||||||||||||||| || ||  ||||| |||||||  |||||||||||||| || | |  ||||||   | || |||||||||||     |      |||||| ||||| || ||||| || |||||  | || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1713062350|gb|MK642455.1|</Hit_id>
+  <Hit_def>Chaetoceros curvisetus strain Na10C1 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MK642455</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.854</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>1.81004e-45</Hsp_evalue>
+      <Hsp_query-from>334</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>6</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>TAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCATAGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTAT--TGAAAAAATTTAGGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>TAATAATAATAATGAAGGTGGTAATAACCAAAAACTGATATTATTCATTCTAGGAAAAGCCATATC-AGGTGCTCCAATCATTAATGGAACGAACCAATTACCAAAACCACCAATTAATGTAGGCATAACCATAAAGAAAATCATAAC-AAAAGCATGACCTGTTACAATTACATTATACATTTGATGATTATATTCTAAAAAACTTCCATTAGGTTCTGATAAAGTAATTCTGATATACAAAGATAAAGCTGTACCA</Hsp_hseq>
+      <Hsp_midline>||||||||  ||||| ||||| |  ||| |||| || |||||||||||||| || || |||||||| ||| |||||||||||  | |    |||||| || ||||| |||||||||||   |||||| |||||||| || |||||||| |||||||| ||||| ||| ||||||||||| | ||||||||| |||  | ||||| ||    |||| |  || | ||| ||||| ||||| || || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1713062348|gb|MK642454.1|</Hit_id>
+  <Hit_def>Chaetoceros costatus strain Ro1B1 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MK642454</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.952</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>6.31766e-45</Hsp_evalue>
+      <Hsp_query-from>334</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>6</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>TAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCA-TAGAGGCCCAGAACCAG-TTCCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATTGAAAAAATTTA--GGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>TAATAATAATAATGATGGTGGCAATAGCCAAAAACTTATATTATTCATTCTAGGGAAAGCCATATCT-GGTGCACCAATCATTAACGGTACA-AACCAGTTTCCAAATCCCCCAATTAAAGTAGGCATAACCATAAAAAAAATCATAAC-AAAAGCATGACCTGTTACAATAACATTATACATTTGATGATTATACTCTAAAAAATTACCATTTGGTTCAGATAAAGTAATTCTGATATACAAAGATAATGCTGTACCA</Hsp_hseq>
+      <Hsp_midline>||||||||  ||||||||||| |  | | |||| || |||||||||||||| ||||| ||||||||| || || ||||||| ||  ||  || |||||| ||||||| || |||||||||  |||||| ||||||||||| |||||||| |||||||| ||||| ||| || |||||||| | ||||||||| || |  ||||| |||    | || | ||| | ||| ||||| ||||| || || || |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|354806180|gb|JN418687.1|</Hit_id>
+  <Hit_def>Pinnularia neomajor strain Corsea 2 cytochrome c oxidase subunit 1 (cox1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>JN418687</Hit_accession>
+  <Hit_len>615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.952</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>6.31766e-45</Hsp_evalue>
+      <Hsp_query-from>332</Hsp_query-from>
+      <Hsp_query-to>579</Hsp_query-to>
+      <Hsp_hit-from>251</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>ACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATTGAAAAAATTTAG--GTAGG-CTAGACAGAGTTATTCTAATATATAAGGACAAAGC</Hsp_qseq>
+      <Hsp_hseq>ACTAATAAAAGTAATGATGGTGGTAATAACCAAAAACTTATGTTGTTCATTCTAGGAAAAGCCATATCT-GGAGCTCCAATCATAAGTGGAACA-AACCAGTTACCAAAACCACCTATTAATGCAGGCATTACCATAAAAAAAATCATAA-TAAATGCATGACCTGTTACAATTACATTATATAAATGATAGTTGTGTTCCATAAAATTAGAATTAGGAACAGCAAGAGTTAATCTAATATATAAAGACAATGC</Hsp_hseq>
+      <Hsp_midline>|||||||| || ||||||||||| |  ||| |||| || || || |||||||| || || ||||||||| || ||||||||||| || ||  || |||||||| ||||| ||||| |||||  ||||||| ||||||||||| |||||||  ||| |||| ||||| ||| |||||||||||||| ||||  |||| ||  | ||| ||||   ||||   ||  ||||||| |||||||||||| ||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>4.55304e-15</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>776</Hsp_query-to>
+      <Hsp_hit-from>409</Hsp_hit-from>
+      <Hsp_hit-to>615</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCC-TTTCACAAGTTACCCT-ATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTC------CGTGCTTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTA</Hsp_qseq>
+      <Hsp_hseq>TGTACTATTACTAATATGAGATCTAAAAGTTTACCGTTTCATAGATTACCTTTATTCGCTTGGTCAATCTTTATAACTGCATTTTTACTT-TTATTGTCATTACCTGTATTAGCTGGTGCAA-TTACAATGTTACTAACTGATAGAAATTTCAACACTACTTTTTTTGATCCAGCTGGAGGAGGTGACCCCGTATTATATCAACATTTA</Hsp_hseq>
+      <Hsp_midline>||||| |||   ||||| ||| |  | ||||| || ||||| |  ||||| | ||| | ||||||  | || || || ||  | ||| || ||||| || |  ||||||||||| ||||||| || ||||||  || || ||||||||||||        |  |||||| || || ||||| |||||||| ||| | || |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|2248495916|ref|NC_063458.1|</Hit_id>
+  <Hit_def>Hemiaulus sinensis isolate Qingdao in China mitochondrion, complete genome &gt;gi|2073953296|gb|MW849270.1| Hemiaulus sinensis isolate Qingdao in China mitochondrion, complete genome</Hit_def>
+  <Hit_accession>NC_063458</Hit_accession>
+  <Hit_len>36766</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.148</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>2.20508e-44</Hsp_evalue>
+      <Hsp_query-from>331</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>378</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>AACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATTGAAAAAA------TTTAGGTAGGCTAGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>AATTAATAATAATAACGAAGGAGGTAATAACCAAAAACTAATATTATTCATTCTAGGAAATGCCATATC-AGGAGCACCTATCATTAAAGGAACA-AACCAATTACCAAAACCACCAATTAAAGTAGGCATAACCATAAAAAAAATCATAAC-AAATGCGTGTCCTGTTACAATTACATTATATAAATGATGATTGTATTCTAAGAAACTGCCATTAGGTTGG---TAAAGAGTTAATCTAATATATAATGATAAAGCTGTTCCA</Hsp_hseq>
+      <Hsp_midline>|| ||||||||  || || || || |  ||| |||| ||||||||||||||||| || || |||||||| ||| || || ||||| | |||  || ||||| || ||||| ||||||||||||  |||||| ||||||||||| |||||||| ||| || |  |||| ||| |||||||||||||| |||||||||||||  || ||       |||||| ||    | ||||||| |||||||||||| || |||||||| |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>103.177</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>1.07077e-16</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>779</Hsp_query-to>
+      <Hsp_hit-from>535</Hsp_hit-from>
+      <Hsp_hit-to>744</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCCTTTC-ACAAGTTACCCT-ATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATG-TCTT-ACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATTT</Hsp_qseq>
+      <Hsp_hseq>TGTACTATTTTTAATATGAGAGTTAAAAGTTTATCATTCCATAAATTACCTTTATTTGTTTGGTCAGTTTTAATTACAGCATTTCTACTT-TTACTTTCTTTACCAGTTTTAGCAGGTGCAA-TTACTATGCTATTAACTGATAGAAATTTTAATACAACATTTTTTGATCCAGCTGGTGGAGGTGATCCTGTATTATATCAGCATTTATTT</Hsp_hseq>
+      <Hsp_midline>||||| ||| | ||||| |||    | |||||  | ||| | || ||||| | |||||||||||| ||||||||||||||  |  || || ||| | ||||  || || ||||||||||||| || | ||| | || || |||||||||||   | |      |||||| || || || || ||||| |||||| | || || |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|354806202|gb|JN418698.1|</Hit_id>
+  <Hit_def>Pinnularia subanglica strain Pin 650 K cytochrome c oxidase subunit 1 (cox1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>JN418698</Hit_accession>
+  <Hit_len>615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.738</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>9.37623e-43</Hsp_evalue>
+      <Hsp_query-from>331</Hsp_query-from>
+      <Hsp_query-to>579</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>AACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCA-TAGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATTGAAAAAATTTAG--GTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGC</Hsp_qseq>
+      <Hsp_hseq>AATTAATAAAAGTAATGATGGTGGAAGTAACCAAAAACTAATATTATTCATTCGAGGAAAAGCCATATC-AGGAGCTCCAATCATTAAAGGAACA-AACCAGTTACCAAAACCTCCAATTAAAGCAGGCATTACCATGAAAAAAATCATAA-TAAAAGCGTGCCCTGTTACTATCACATTATACAGATGAAAATTGTAATCTAAAAAATTAGAATCAGGATAAGCAAGAGTTGCTCTTATATATAATGATAAAGC</Hsp_hseq>
+      <Hsp_midline>|| |||||| || |||||||||||||| ||| |||| ||||||||||||||||  || || |||||||| ||| |||||||||| || |||  || |||||||| ||||| || ||||||||| ||||||| ||||| ||||| |||||||  |||||| |  |||| ||| || |||||||| |  |||  |||||| |  ||||| ||||    ||| | ||  ||||||  ||| |||||||| || |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>115.8</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.69676e-20</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>776</Hsp_query-to>
+      <Hsp_hit-from>409</Hsp_hit-from>
+      <Hsp_hit-to>615</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCC-TTTCACA-AGTTACCCTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGTCTT--ACAGATAGAAATTTCCGTGCT------TTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTA</Hsp_qseq>
+      <Hsp_hseq>TGTACTATTACAAATATGAGAGCAAAAAGTTTACCATTTCATAGACTTCCATTATTTGCTTGGGCTATTTTTATAACAGCTTTTTTACTT-TTACTATCTTTACCAGTTTTAGCTGGTGCAATTA-CTATGTTATTAACAGATAGAAATTTTAATACTACTTTTTTCGATCCAGCTGGAGGTGGTGACCCTGTATTATATCAACATTTA</Hsp_hseq>
+      <Hsp_midline>||||| |||  |||||| ||| || | ||||| || ||||| | | || |  |||||| |||| || |||| || |||||| | ||| || ||| ||||||  || || ||||| |||||||||  | ||||  |  ||||||||||||||   | ||      || || || || |||||||||||||||||| | || |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1713062354|gb|MK642457.1|</Hit_id>
+  <Hit_def>Chaetoceros curvisetus strain El6A2 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MK642457</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.837</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>9.37623e-43</Hsp_evalue>
+      <Hsp_query-from>334</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>6</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>TAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCATAGA-GGCCCAGAACCAGTTCCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATTGAAAAAATTTA--GGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>TAATAATAATAGTGATGGGGGTAATAACCAAAAACTTATATTATTCATTCTAGGAAAAGCCATATCT-GGTGCACCAATCATTAATGGTACAAACCAATTTCCAAAACCTCCAATTAAAGTAGGCATAACCATAAAAAAAATCATAAC-AAAAGCATGGCCTGTTACAATTACATTATACATTTGATGATTATATTCTAAAAAATTACCATTTGGTTCAGATAAAGTAATTCTTATATACAAAGATAACGCTGTACCA</Hsp_hseq>
+      <Hsp_midline>||||||||  | |||||| || |  ||| |||| || |||||||||||||| || || ||||||||| || || ||||||||  | ||  || | | | ||||||| || |||||||||  |||||| ||||||||||| |||||||| ||||||||  |||| ||| ||||||||||| | ||||||||| ||||  ||||| |||    | || | ||| | ||| ||||| ||||| || || || |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|309241447|emb|FN557062.1|</Hit_id>
+  <Hit_def>Nitzschia cf. recta RT-2009 mitochondrial partial cox1 gene for cytochrome oxidase subunit 1, strain cf recta</Hit_def>
+  <Hit_accession>FN557062</Hit_accession>
+  <Hit_len>623</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.837</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>9.37623e-43</Hsp_evalue>
+      <Hsp_query-from>326</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>278</Hsp_hit-from>
+      <Hsp_hit-to>15</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>GATTGAACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCATAGA-GGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATTGAAAAAA--TTTAGGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>GATTCAATTAAAAGTAAAAGAGAAGGCGGAAGTAACCAAAAACTAATATTGTTCATTCTTGGAAAAGCCATATCT-GGTGCTCCAATCATTAACGGAACA-AACCAATTACCAAATCCTCCAATAAGAACAGGCATTACCATAAAAAAGATCATAA-TAAAAGCATGACCTGTTACGATAACATTGTATAAATGATGGTTATATTCTAAAAAGCTTCCTTCTGGATAAGATAAAGTTATTCTAATATATAAAGATAAAACAGTACCA</Hsp_hseq>
+      <Hsp_midline>|||| || ||| | ||  |  || || ||||| ||| |||| |||||||| |||||||| || || ||||||||| || |||||||||||  | ||  || ||||| || ||||| || ||||| | ||||||||| |||||||||||||||||||  |||||||| ||||| |||||| ||||| ||||| ||||| || ||||  |||||  ||      || | ||| | |||||||||||||||||| || ||| | ||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>94.1598</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>5.54674e-14</Hsp_evalue>
+      <Hsp_query-from>579</Hsp_query-from>
+      <Hsp_query-to>763</Hsp_query-to>
+      <Hsp_hit-from>429</Hsp_hit-from>
+      <Hsp_hit-to>623</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>CTGTACCATTGTAAATATCAGAACAGATAGTTTGCCTTTC-ACAAGTTACCCT-ATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATC--TTCCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACT</Hsp_qseq>
+      <Hsp_hseq>CTGTACTATTTTCAACATGCGTACGGATAGTTTACCTTTCCATAAATTACCTTTATTTGTTTGGGCTGTTCTTATTACTGCAGTATT-GTTACTTTTATCGTTACCAGTTTTAGCCGGAGCGA-TTACAATGTTATTGACAGACAGAAATTTTAATACAACCTTTTTTGATCCAGCTGGTGGAGGTGACCCTGTTCT</Hsp_hseq>
+      <Hsp_midline>|||||| ||| | || ||  | || |||||||| |||||| | || ||||| | |||||||||| ||||| | ||||| || |||||  ||| | |||||  | || || ||||| || || | || ||||||   | ||||| ||||||||   | |      |||||| || || || || ||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|2073953246|gb|MW849269.1|</Hit_id>
+  <Hit_def>Nitzschia traheaformis isolate Qingdao in China mitochondrion, complete genome</Hit_def>
+  <Hit_accession>MW849269</Hit_accession>
+  <Hit_len>53480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.033</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>3.27263e-42</Hsp_evalue>
+      <Hsp_query-from>331</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>390</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>AACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCA-TAGAGGCCCAGAACCAG-TTCCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATTGAAAAAATTTA--GGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACC</Hsp_qseq>
+      <Hsp_hseq>AATTAATAATAGAAGAGATGGAGGTAATAACCAAAAACTAATATTATTCATTCTAGGGAAAGCCATATC-AGGAGCACCGATCATTAAAGGAACA-AACCAGTTTCCAAAACCACCAATTAAAATTGGCATTACCATAAAAAAAATCATCAC-AAATGCATGACCAGTTACAATTACATTGTATAAATGGTGGTTATATTCTAAAAAACTACCATTAGGTTGAGATAAAGTTATTCTTATGTATAAAGATAATGCAGTACC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| |  ||||| || |  ||| |||| ||||||||||||||||| ||||| |||||||| ||| || || |||| || |||  || |||||| ||||||| |||||||||||||  ||||| ||||||||||| ||||| || ||| |||| ||| | ||| |||||||| ||||| || || || ||||  |||||  ||    |||| | ||| | ||||||||| || ||||| || || || |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>187.033</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>3.27263e-42</Hsp_evalue>
+      <Hsp_query-from>331</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>2962</Hsp_hit-from>
+      <Hsp_hit-to>2705</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>AACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCA-TAGAGGCCCAGAACCAG-TTCCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATTGAAAAAATTTA--GGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACC</Hsp_qseq>
+      <Hsp_hseq>AATTAATAATAGAAGAGATGGAGGTAATAACCAAAAACTAATATTATTCATTCTAGGGAAAGCCATATC-AGGAGCACCGATCATTAAAGGAACA-AACCAGTTTCCAAAACCACCAATTAAAATTGGCATTACCATAAAAAAAATCATCAC-AAATGCATGACCAGTTACAATTACATTGTATAAATGGTGGTTATATTCTAAAAAACTACCATTAGGTTGAGATAAAGTTATTCTTATGTATAAAGATAATGCAGTACC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| |  ||||| || |  ||| |||| ||||||||||||||||| ||||| |||||||| ||| || || |||| || |||  || |||||| ||||||| |||||||||||||  ||||| ||||||||||| ||||| || ||| |||| ||| | ||| |||||||| ||||| || || || ||||  |||||  ||    |||| | ||| | ||||||||| || ||||| || || || |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>187.033</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>3.27263e-42</Hsp_evalue>
+      <Hsp_query-from>331</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>5534</Hsp_hit-from>
+      <Hsp_hit-to>5277</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>AACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCA-TAGAGGCCCAGAACCAG-TTCCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATTGAAAAAATTTA--GGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACC</Hsp_qseq>
+      <Hsp_hseq>AATTAATAATAGAAGAGATGGAGGTAATAACCAAAAACTAATATTATTCATTCTAGGGAAAGCCATATC-AGGAGCACCGATCATTAAAGGAACA-AACCAGTTTCCAAAACCACCAATTAAAATTGGCATTACCATAAAAAAAATCATCAC-AAATGCATGACCAGTTACAATTACATTGTATAAATGGTGGTTATATTCTAAAAAACTACCATTAGGTTGAGATAAAGTTATTCTTATGTATAAAGATAATGCAGTACC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||| |  ||||| || |  ||| |||| ||||||||||||||||| ||||| |||||||| ||| || || |||| || |||  || |||||| ||||||| |||||||||||||  ||||| ||||||||||| ||||| || ||| |||| ||| | ||| |||||||| ||||| || || || ||||  |||||  ||    |||| | ||| | ||||||||| || ||||| || || || |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>112.193</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.06708e-19</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>779</Hsp_query-to>
+      <Hsp_hit-from>547</Hsp_hit-from>
+      <Hsp_hit-to>756</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGT-TTGCCTTTCACAAGTTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATTT</Hsp_qseq>
+      <Hsp_hseq>TGTACAATTGTAAATATGAGAACTGAAAGTCTTCCATTCCATAAATTACCTTTATTTGTGTGGTCAGTATTTTTAACAGCAAT-TCTTTTACTTCTATCTTTACCTGTATTAGCTGGTGCAA-TTACAATGTTATTGACTGATAGAAATTTCAATACAACATTTTTTGATCCAGCGGGTGGAGGTGATCCAGTTTTATACCAGCATTTATTT</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||| ||||| || ||| || | || || || |||||  ||||||| ||||| || ||  | |||||  | |  |||| |  ||||||  ||||||||||| ||||||| || ||||||   | || ||||||||||||  | |      |||||| || || || || ||||| || ||  | ||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>112.193</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.06708e-19</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>779</Hsp_query-to>
+      <Hsp_hit-from>3119</Hsp_hit-from>
+      <Hsp_hit-to>3328</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGT-TTGCCTTTCACAAGTTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATTT</Hsp_qseq>
+      <Hsp_hseq>TGTACAATTGTAAATATGAGAACTGAAAGTCTTCCATTCCATAAATTACCTTTATTTGTGTGGTCAGTATTTTTAACAGCAAT-TCTTTTACTTCTATCTTTACCTGTATTAGCTGGTGCAA-TTACAATGTTATTGACTGATAGAAATTTCAATACAACATTTTTTGATCCAGCGGGTGGAGGTGATCCAGTTTTATACCAGCATTTATTT</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||| ||||| || ||| || | || || || |||||  ||||||| ||||| || ||  | |||||  | |  |||| |  ||||||  ||||||||||| ||||||| || ||||||   | || ||||||||||||  | |      |||||| || || || || ||||| || ||  | ||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>6</Hsp_num>
+      <Hsp_bit-score>112.193</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.06708e-19</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>779</Hsp_query-to>
+      <Hsp_hit-from>5691</Hsp_hit-from>
+      <Hsp_hit-to>5900</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGT-TTGCCTTTCACAAGTTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATTT</Hsp_qseq>
+      <Hsp_hseq>TGTACAATTGTAAATATGAGAACTGAAAGTCTTCCATTCCATAAATTACCTTTATTTGTGTGGTCAGTATTTTTAACAGCAAT-TCTTTTACTTCTATCTTTACCTGTATTAGCTGGTGCAA-TTACAATGTTATTGACTGATAGAAATTTCAATACAACATTTTTTGATCCAGCGGGTGGAGGTGATCCAGTTTTATACCAGCATTTATTT</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||| ||||| || ||| || | || || || |||||  ||||||| ||||| || ||  | |||||  | |  |||| |  ||||||  ||||||||||| ||||||| || ||||||   | || ||||||||||||  | |      |||||| || || || || ||||| || ||  | ||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|6331151|dbj|AB020225.1|</Hit_id>
+  <Hit_def>Nitzschia frustulum mitochondrial coxI gene for cytochrome oxidase subunit I, partial cds</Hit_def>
+  <Hit_accession>AB020225</Hit_accession>
+  <Hit_len>1059</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.033</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>3.27263e-42</Hsp_evalue>
+      <Hsp_query-from>335</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>43</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>AATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTGT-ACGATTACATTATATAATTGATGATTGTATT-GAAAAAATTTAGGTAGGCT--AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACC</Hsp_qseq>
+      <Hsp_hseq>AATAATAGC---GATGGTGGCAATAACCAAAAACTAATATTATTCATTCTTGGGAATGCCATGTC-AGGCGCTCCGATCATTAGCGGTACA-AACCAGTTTCCAAAACCACCAATTAAAATAGGCATTACCATAAAAAAAATCATAA-GAATAGCATGACCAGTAATGATCACATTATAAAAATGATGGTTATATTCCAAAAAACTCCCGTTTGGTTGAGCTAGAGTTATTCGAATATAAAGTGATAAAGCAGTTCC</Hsp_hseq>
+      <Hsp_midline>|||||||||   |||||||| |  ||| |||| ||||||||||||||||| ||||| ||||| || ||| ||||| ||||| || ||  || |||||||| ||||| ||||||||||||| |||||| ||||||||||| ||||||| ||| ||||| ||| || | ||| |||||||| || ||||| || ||||  |||||| |   ||  | |  ||  |||||||||| |||||| |  || ||||| || ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>139.244</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.48708e-27</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>779</Hsp_query-to>
+      <Hsp_hit-from>457</Hsp_hit-from>
+      <Hsp_hit-to>666</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCC-TTTCACAAGTTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATC--TTCCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATTT</Hsp_qseq>
+      <Hsp_hseq>TGTACCATAGTAAATATGAGAACTGAAAGTTTACCGTTTCATAAATTACCTCTATTCGTATGGGCGGTTTTTATTACAGCTATATTACT-ATTATTATCACTTCCTGTTTTAGCAGGTGCGA-TTACAATGTTATTAACAGATCGAAATTTTAATACTACTTTTTTTGACCCCGCAGGTGGAGGAGATCCCGTTTTGTTTCAACACTTATTT</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||||| ||||| || ||||| || ||||| || ||||| ||||| || ||| | ||||| ||||||||| ||||| | |||||||||  ||||||| ||||||||||| | || ||||||   | |||||| |||||||   | |      ||||||||| ||||| || || || || ||  | |  ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|310690194|gb|HQ317083.1|</Hit_id>
+  <Hit_def>Nitzschia frustulum culture-collection CCMP:558 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>HQ317083</Hit_accession>
+  <Hit_len>665</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.033</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>3.27263e-42</Hsp_evalue>
+      <Hsp_query-from>335</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>AATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTGT-ACGATTACATTATATAATTGATGATTGTATT-GAAAAAATTTAGGTAGGCT--AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACC</Hsp_qseq>
+      <Hsp_hseq>AATAATAGC---GATGGTGGCAATAACCAAAAACTAATATTATTCATTCTTGGGAATGCCATGTC-AGGCGCTCCGATCATTAGCGGTACA-AACCAGTTTCCAAAACCACCAATTAAAATAGGCATTACCATAAAAAAAATCATAA-GAATAGCATGACCAGTAATGATCACATTATAAAAATGATGGTTATATTCCAAAAAACTCCCGTTTGGTTGAGCTAGAGTTATTCGAATATAAAGTGATAAAGCAGTTCC</Hsp_hseq>
+      <Hsp_midline>|||||||||   |||||||| |  ||| |||| ||||||||||||||||| ||||| ||||| || ||| ||||| ||||| || ||  || |||||||| ||||| ||||||||||||| |||||| ||||||||||| ||||||| ||| ||||| ||| || | ||| |||||||| || ||||| || ||||  |||||| |   ||  | |  ||  |||||||||| |||||| |  || ||||| || ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>134.736</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.81164e-26</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>779</Hsp_query-to>
+      <Hsp_hit-from>452</Hsp_hit-from>
+      <Hsp_hit-to>661</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCC-TTTCACAAGTTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATC--TTCCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATTT</Hsp_qseq>
+      <Hsp_hseq>TGTACCATAGTAAATATGAGAACTGAAAGTTTACCGTTTCATAAATTACCTCTATTCGTATGGGCGGTTTTTATTACAGCTATATTACT-ATTATTATCACTTCCTGTTTTAGCAGGTGCGA-TTACAATGTTATTAACAGATCGAAATTTTAATACTACTTTTTTTGATCCCGCAGGTGGAGGAGATCCCGTTTTGTTTCAACACTTATTT</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||||| ||||| || ||||| || ||||| || ||||| ||||| || ||| | ||||| ||||||||| ||||| | |||||||||  ||||||| ||||||||||| | || ||||||   | |||||| |||||||   | |      |||||| || ||||| || || || || ||  | |  ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1419234700|dbj|AP018510.1|</Hit_id>
+  <Hit_def>Nitzschia sp. NIES-3581 mitochondrial DNA, complete genome</Hit_def>
+  <Hit_accession>AP018510</Hit_accession>
+  <Hit_len>35897</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.23</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>1.14226e-41</Hsp_evalue>
+      <Hsp_query-from>331</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>34611</Hsp_hit-from>
+      <Hsp_hit-to>34869</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>AACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCA-TAGAGGCCCAGAACCAG-TTCCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATT----GAAA---AAATTTAGGTAGGCTAGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>AACTAATAATAGAAGAGAAGGAGGTAATAACCAAAAACTAATATTATTCATTCTTGGGAATGCCATATCT-GGTGCTCCAATCATTAAAGGAAC-GAACCAGTTTCCAAATCCTCCAATTAAAACAGGCATTACCATGAAGAAAATCATAA-TAAATGCATGACCTGTTACAATTACATTATAGAAATGGTGATTATATTCTAAGAAACCTCCATTTGGTTGTGCT----AATGTAAGTCTAATATATAGAGATAAAGCTGTACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |  || || || |  ||| |||| ||||||||||||||||| ||||| ||||||||| || |||||||||| || |||  | ||||||| ||||||| || ||||||||||||||||| ||||| || || |||||||  ||| |||| ||||| ||| ||||||||||| || || ||||| ||||    ||||     |||| | |  |||    |  || | |||||||||||  || ||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>128.424</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>2.68871e-24</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>34454</Hsp_hit-from>
+      <Hsp_hit-to>34246</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCCTTTCAC--AAGTTACCCTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATC--TTCCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGCT------TTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TGTACAGTTGTAAATATGAGAACTAACAGTTTACCATTCCATAAAATTCCTTTATTCGTTTGGTCTGTTTTCATTACTGCTATTCTA-TTATTATTATCATTACCTGTATTAGCTGGAGCTA-TTACTATGTTATTAACTGATAGAAATTTCAACACTACTTTCTTTGATCCAGCAGGTGGTGGTGATCCTGTACTATACCAGCATTTATT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||||||| |||||  | ||||| || |||    || || |  |||| |||||||||||||| ||||| ||| |  || |||||||||||  | ||||||||||| || || | || | ||||   | || ||||||||||||    ||      ||||| || ||||| |||||||| |||||||| ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1418586751|ref|NC_037990.1|</Hit_id>
+  <Hit_def>Nitzschia sp. (in: Bacillariophyta) strain 4 mitochondrion, complete genome &gt;gi|1395446230|gb|MG182051.1| Nitzschia sp. (in: Bacillariophyta) strain Nitz4 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>NC_037990</Hit_accession>
+  <Hit_len>36012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.23</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>1.14226e-41</Hsp_evalue>
+      <Hsp_query-from>331</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>635</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>AACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCA-TAGAGGCCCAGAACCAG-TTCCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATT----GAAA---AAATTTAGGTAGGCTAGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>AACTAATAATAGAAGAGAAGGAGGTAATAACCAAAAACTAATGTTATTCATTCTTGGGAATGCCATATCT-GGTGCTCCAATCATTAAAGGAAC-GAACCAGTTTCCAAATCCTCCAATTAAAACAGGCATTACCATGAAAAAAATCATAA-TAAATGCATGACCTGTTACAATTACATTATAGAAATGGTGATTATATTCTAAGAAACCTCCATTTGGTTGTGCT----AATGTAAGTCTAATATATAGAGATAAAGCTGTACCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| |  || || || |  ||| |||| ||||| ||||||||||| ||||| ||||||||| || |||||||||| || |||  | ||||||| ||||||| || ||||||||||||||||| ||||| ||||| |||||||  ||| |||| ||||| ||| ||||||||||| || || ||||| ||||    ||||     |||| | |  |||    |  || | |||||||||||  || ||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>128.424</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>2.68871e-24</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>792</Hsp_hit-from>
+      <Hsp_hit-to>1000</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCCTTTCAC--AAGTTACCCTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATC--TTCCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGCT------TTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TGTACAGTTGCAAATATGAGAACTAATAGTTTACCATTCCATAAAATTCCTTTATTCGTTTGGTCTGTTTTCATTACTGCTATTCTA-TTATTATTATCATTACCTGTATTAGCTGGAGCTA-TTACTATGTTATTAACTGATAGAAATTTCAACACTACTTTCTTTGATCCTGCAGGTGGTGGTGATCCTGTATTATACCAGCATTTATT</Hsp_hseq>
+      <Hsp_midline>|||||  ||| |||||| |||||  ||||||| || |||    || || |  |||| |||||||||||||| ||||| ||| |  || |||||||||||  | ||||||||||| || || | || | ||||   | || ||||||||||||    ||      ||||| |||||||| |||||||| |||||| | ||||| ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|2316330578|gb|MZ561059.1|</Hit_id>
+  <Hit_def>Coscinodiscus granii isolate CNS00746 cytochrome c oxidase subunit I (cox1) gene, complete cds; mitochondrial</Hit_def>
+  <Hit_accession>MZ561059</Hit_accession>
+  <Hit_len>1491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.328</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>3.98688e-41</Hsp_evalue>
+      <Hsp_query-from>334</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>351</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>TAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTTCCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATT---GTATTGAAA---AAATTTAGGTAGGCTAGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACC</Hsp_qseq>
+      <Hsp_hseq>TAATAAAATTAAAGAAGGAGGTAACAACCAAAAACTAATGTTATTCATTCTAGGGAAAGCCATGTC-AGGTGCTCCTATCATTAAAGGAACAAACCAATTTCCAAATCCTCCTATTAAAGTAGGCATTACCATAAAAAAAATCATAAC-AAAAGCATGACCTGTTACAATTACATTATATAATTGATAATTCCCGTCTAGAAATTGATTATTAGGTAG---TGAAAGAGTCATTCGAATAAATAAAGACAAAGTTGTTCC</Hsp_hseq>
+      <Hsp_midline>|||||| |  || || || || | |||| |||| ||||| ||||||||||| ||||| ||||| || ||| ||||| ||||| | |||  || | | | ||||||| || || ||||||  |||||| ||||||||||| |||||||| |||||||| ||||| ||| ||||||||||||||||||| |||   || | ||||   |   ||||||||    || ||||| |||| |||| |||| ||||||| ||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.73736e-16</Hsp_evalue>
+      <Hsp_query-from>624</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>556</Hsp_hit-from>
+      <Hsp_hit-to>719</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>TTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TTACCTCTTTTTGTTTGGTCAGTTTTAATAACAGCTTTTTTA-TTATTACTTTCTTTACCAGTATTAGCAGGAGCTA-TTACTATGTTATTAACTGATAGAAATTTTAATACTACATTTTTCGACCCGGCAGGAGGAGGAGATCCTGTTCTTTATCAGCACTTATT</Hsp_hseq>
+      <Hsp_midline>||||| || ||||||||||| |||||||| |||||| | ||| |||||| | ||||  || ||||||||||| || | || | ||||   | || |||||||||||   | |      ||| ||||| |||||||| || || ||||| ||||| || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|8117161|dbj|AB009418.1|</Hit_id>
+  <Hit_def>Melosira ambiqua mitochondrial COXI gene for cytochrome c oxidase subunit I, partial cds</Hit_def>
+  <Hit_accession>AB009418</Hit_accession>
+  <Hit_len>1059</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.328</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>3.98688e-41</Hsp_evalue>
+      <Hsp_query-from>331</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>42</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>AACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTGT-ACGATTACATTATATAATTGATGATT-GTATTGAAAAAATT-TAGGTAGGCTAGAC-AGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>AATTAATAATAACAAAGATGGAGGTAATAACCAAAAACTTATATTATTCATTCTAGGAAAAGCCATATCT-GGAGCTCCTATCATAATAGGAACA-AACCAATTACCAAAACCTCCAATTAAAGTAGGCATTACCATAAAAAAAATCATAA-TAAAAGCATGACCTGTAACAATTACATTATATAAATGATAATTATTATTTAAAAAATTATTTGAAGGTGACTCTAAAGCTAATCTGATAAACAAGGATAAAGTAGTACCA</Hsp_hseq>
+      <Hsp_midline>|| |||||||| ||| ||||| || |  ||| |||| || |||||||||||||| || || ||||||||| || ||||| ||||| | |||  || ||||| || ||||| || |||||||||  |||||| ||||||||||| |||||||  |||||||| |||||| || |||||||||||||| |||| |||  |||| |||||||| |  | |||  |  | | || || ||| ||| | ||||| ||||  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|2316330571|gb|MZ561056.1|</Hit_id>
+  <Hit_def>Coscinodiscus granii isolate CNS00613 cytochrome c oxidase subunit I (cox1) gene, complete cds; mitochondrial</Hit_def>
+  <Hit_accession>MZ561056</Hit_accession>
+  <Hit_len>1491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.328</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>3.98688e-41</Hsp_evalue>
+      <Hsp_query-from>334</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>351</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>TAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTTCCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATT---GTATTGAAA---AAATTTAGGTAGGCTAGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACC</Hsp_qseq>
+      <Hsp_hseq>TAATAAAATTAAAGAAGGAGGTAACAACCAAAAACTAATGTTATTCATTCTAGGGAAAGCCATGTC-AGGTGCTCCTATCATTAAAGGAACAAACCAATTTCCAAATCCTCCTATTAAAGTAGGCATTACCATAAAAAAAATCATAAC-AAAAGCATGACCTGTTACAATTACATTATATAATTGATAATTCCCGTCTAGAAATTGATTATTAGGTAG---TGAAAGAGTCATTCGAATAAATAAAGACAAAGTTGTTCC</Hsp_hseq>
+      <Hsp_midline>|||||| |  || || || || | |||| |||| ||||| ||||||||||| ||||| ||||| || ||| ||||| ||||| | |||  || | | | ||||||| || || ||||||  |||||| ||||||||||| |||||||| |||||||| ||||| ||| ||||||||||||||||||| |||   || | ||||   |   ||||||||    || ||||| |||| |||| |||| ||||||| ||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.73736e-16</Hsp_evalue>
+      <Hsp_query-from>624</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>556</Hsp_hit-from>
+      <Hsp_hit-to>719</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>TTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TTACCTCTTTTTGTTTGGTCAGTTTTAATAACAGCTTTTTTA-TTATTACTTTCTTTACCAGTATTAGCAGGAGCTA-TTACTATGTTATTAACTGATAGAAATTTTAATACTACATTTTTCGACCCGGCAGGAGGAGGAGATCCTGTTCTTTATCAGCACTTATT</Hsp_hseq>
+      <Hsp_midline>||||| || ||||||||||| |||||||| |||||| | ||| |||||| | ||||  || ||||||||||| || | || | ||||   | || |||||||||||   | |      ||| ||||| |||||||| || || ||||| ||||| || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|2316330569|gb|MZ561055.1|</Hit_id>
+  <Hit_def>Coscinodiscus granii isolate CNS00554 cytochrome c oxidase subunit I (cox1) gene, complete cds; mitochondrial</Hit_def>
+  <Hit_accession>MZ561055</Hit_accession>
+  <Hit_len>1491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.328</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>3.98688e-41</Hsp_evalue>
+      <Hsp_query-from>334</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>351</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>TAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTTCCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATT---GTATTGAAA---AAATTTAGGTAGGCTAGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACC</Hsp_qseq>
+      <Hsp_hseq>TAATAAAATTAAAGAAGGAGGTAACAACCAAAAACTAATGTTATTCATTCTAGGGAAAGCCATGTC-AGGTGCTCCTATCATTAAAGGAACAAACCAATTTCCAAATCCTCCTATTAAAGTAGGCATTACCATAAAAAAAATCATAAC-AAAAGCATGACCTGTTACAATTACATTATATAATTGATAATTCCCGTCTAGAAATTGATTATTAGGTAG---TGAAAGAGTCATTCGAATAAATAAAGACAAAGTTGTTCC</Hsp_hseq>
+      <Hsp_midline>|||||| |  || || || || | |||| |||| ||||| ||||||||||| ||||| ||||| || ||| ||||| ||||| | |||  || | | | ||||||| || || ||||||  |||||| ||||||||||| |||||||| |||||||| ||||| ||| ||||||||||||||||||| |||   || | ||||   |   ||||||||    || ||||| |||| |||| |||| ||||||| ||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.73736e-16</Hsp_evalue>
+      <Hsp_query-from>624</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>556</Hsp_hit-from>
+      <Hsp_hit-to>719</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>TTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TTACCTCTTTTTGTTTGGTCAGTTTTAATAACAGCTTTTTTA-TTATTACTTTCTTTACCAGTATTAGCAGGAGCTA-TTACTATGTTATTAACTGATAGAAATTTTAATACTACATTTTTCGACCCGGCAGGAGGAGGAGATCCTGTTCTTTATCAGCACTTATT</Hsp_hseq>
+      <Hsp_midline>||||| || ||||||||||| |||||||| |||||| | ||| |||||| | ||||  || ||||||||||| || | || | ||||   | || |||||||||||   | |      ||| ||||| |||||||| || || ||||| ||||| || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|2192941198|ref|NC_060315.1|</Hit_id>
+  <Hit_def>Coscinodiscus granii mitochondrion, complete sequence &gt;gi|2021374654|gb|MW435847.1| Coscinodiscus granii mitochondrion, complete genome</Hit_def>
+  <Hit_accession>NC_060315</Hit_accession>
+  <Hit_len>34970</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.328</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>3.98688e-41</Hsp_evalue>
+      <Hsp_query-from>334</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>351</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>TAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTTCCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATT---GTATTGAAA---AAATTTAGGTAGGCTAGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACC</Hsp_qseq>
+      <Hsp_hseq>TAATAAAATTAAAGAAGGAGGTAACAACCAAAAACTAATGTTATTCATTCTAGGGAAAGCCATGTC-AGGTGCTCCTATCATTAAAGGAACAAACCAATTTCCAAATCCTCCTATTAAAGTAGGCATTACCATAAAAAAAATCATAAC-AAAAGCATGACCTGTTACAATTACATTATATAATTGATAATTCCCGTCTAGAAATTGATTATTAGGTAG---TGAAAGAGTCATTCGAATAAATAAAGACAAAGTTGTTCC</Hsp_hseq>
+      <Hsp_midline>|||||| |  || || || || | |||| |||| ||||| ||||||||||| ||||| ||||| || ||| ||||| ||||| | |||  || | | | ||||||| || || ||||||  |||||| ||||||||||| |||||||| |||||||| ||||| ||| ||||||||||||||||||| |||   || | ||||   |   ||||||||    || ||||| |||| |||| |||| ||||||| ||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.73736e-16</Hsp_evalue>
+      <Hsp_query-from>624</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>556</Hsp_hit-from>
+      <Hsp_hit-to>719</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>TTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TTACCTCTTTTTGTTTGGTCAGTTTTAATAACAGCTTTTTTA-TTATTACTTTCTTTACCAGTATTAGCAGGAGCTA-TTACTATGTTATTAACTGATAGAAATTTTAATACTACATTTTTCGACCCGGCAGGAGGAGGAGATCCTGTTCTTTATCAGCACTTATT</Hsp_hseq>
+      <Hsp_midline>||||| || ||||||||||| |||||||| |||||| | ||| |||||| | ||||  || ||||||||||| || | || | ||||   | || |||||||||||   | |      ||| ||||| |||||||| || || ||||| ||||| || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|2316330576|gb|MZ561058.1|</Hit_id>
+  <Hit_def>Coscinodiscus granii isolate CNS00741 cytochrome c oxidase subunit I (cox1) gene, complete cds; mitochondrial</Hit_def>
+  <Hit_accession>MZ561058</Hit_accession>
+  <Hit_len>1491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.328</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>3.98688e-41</Hsp_evalue>
+      <Hsp_query-from>334</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>351</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>TAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTTCCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATT---GTATTGAAA---AAATTTAGGTAGGCTAGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACC</Hsp_qseq>
+      <Hsp_hseq>TAATAAAATTAAAGAAGGAGGTAACAACCAAAAACTAATGTTATTCATTCTAGGGAAAGCCATGTC-AGGTGCTCCTATCATTAAAGGAACAAACCAATTTCCAAATCCTCCTATTAAAGTAGGCATTACCATAAAAAAAATCATAAC-AAAAGCATGACCTGTTACAATTACATTATATAATTGATAATTCCCGTCTAGAAATTGATTATTAGGTAG---TGAAAGAGTCATTCGAATAAATAAAGACAAAGTTGTTCC</Hsp_hseq>
+      <Hsp_midline>|||||| |  || || || || | |||| |||| ||||| ||||||||||| ||||| ||||| || ||| ||||| ||||| | |||  || | | | ||||||| || || ||||||  |||||| ||||||||||| |||||||| |||||||| ||||| ||| ||||||||||||||||||| |||   || | ||||   |   ||||||||    || ||||| |||| |||| |||| ||||||| ||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.73736e-16</Hsp_evalue>
+      <Hsp_query-from>624</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>556</Hsp_hit-from>
+      <Hsp_hit-to>719</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>TTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TTACCTCTTTTTGTTTGGTCAGTTTTAATAACAGCTTTTTTA-TTATTACTTTCTTTACCAGTATTAGCAGGAGCTA-TTACTATGTTATTAACTGATAGAAATTTTAATACTACATTTTTCGACCCGGCAGGAGGAGGAGATCCTGTTCTTTATCAGCACTTATT</Hsp_hseq>
+      <Hsp_midline>||||| || ||||||||||| |||||||| |||||| | ||| |||||| | ||||  || ||||||||||| || | || | ||||   | || |||||||||||   | |      ||| ||||| |||||||| || || ||||| ||||| || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|2316330580|gb|MZ561060.1|</Hit_id>
+  <Hit_def>Coscinodiscus granii isolate CNS00749 cytochrome c oxidase subunit I (cox1) gene, complete cds; mitochondrial</Hit_def>
+  <Hit_accession>MZ561060</Hit_accession>
+  <Hit_len>1491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.328</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>3.98688e-41</Hsp_evalue>
+      <Hsp_query-from>334</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>351</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>TAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTTCCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATT---GTATTGAAA---AAATTTAGGTAGGCTAGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACC</Hsp_qseq>
+      <Hsp_hseq>TAATAAAATTAAAGAAGGAGGTAACAACCAAAAACTAATGTTATTCATTCTAGGGAAAGCCATGTC-AGGTGCTCCTATCATTAAAGGAACAAACCAATTTCCAAATCCTCCTATTAAAGTAGGCATTACCATAAAAAAAATCATAAC-AAAAGCATGACCTGTTACAATTACATTATATAATTGATAATTCCCGTCTAGAAATTGATTATTAGGTAG---TGAAAGAGTCATTCGAATAAATAAAGACAAAGTTGTTCC</Hsp_hseq>
+      <Hsp_midline>|||||| |  || || || || | |||| |||| ||||| ||||||||||| ||||| ||||| || ||| ||||| ||||| | |||  || | | | ||||||| || || ||||||  |||||| ||||||||||| |||||||| |||||||| ||||| ||| ||||||||||||||||||| |||   || | ||||   |   ||||||||    || ||||| |||| |||| |||| ||||||| ||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.73736e-16</Hsp_evalue>
+      <Hsp_query-from>624</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>556</Hsp_hit-from>
+      <Hsp_hit-to>719</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>TTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TTACCTCTTTTTGTTTGGTCAGTTTTAATAACAGCTTTTTTA-TTATTACTTTCTTTACCAGTATTAGCAGGAGCTA-TTACTATGTTATTAACTGATAGAAATTTTAATACTACATTTTTCGACCCGGCAGGAGGAGGAGATCCTGTTCTTTATCAGCACTTATT</Hsp_hseq>
+      <Hsp_midline>||||| || ||||||||||| |||||||| |||||| | ||| |||||| | ||||  || ||||||||||| || | || | ||||   | || |||||||||||   | |      ||| ||||| |||||||| || || ||||| ||||| || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|2316330574|gb|MZ561057.1|</Hit_id>
+  <Hit_def>Coscinodiscus granii isolate CNS00614 cytochrome c oxidase subunit I (cox1) gene, complete cds; mitochondrial</Hit_def>
+  <Hit_accession>MZ561057</Hit_accession>
+  <Hit_len>1491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.328</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>3.98688e-41</Hsp_evalue>
+      <Hsp_query-from>334</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>351</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>TAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTTCCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATT---GTATTGAAA---AAATTTAGGTAGGCTAGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACC</Hsp_qseq>
+      <Hsp_hseq>TAATAAAATTAAAGAAGGAGGTAACAACCAAAAACTAATGTTATTCATTCTAGGGAAAGCCATGTC-AGGTGCTCCTATCATTAAAGGAACAAACCAATTTCCAAATCCTCCTATTAAAGTAGGCATTACCATAAAAAAAATCATAAC-AAAAGCATGACCTGTTACAATTACATTATATAATTGATAATTCCCGTCTAGAAATTGATTATTAGGTAG---TGAAAGAGTCATTCGAATAAATAAAGACAAAGTTGTTCC</Hsp_hseq>
+      <Hsp_midline>|||||| |  || || || || | |||| |||| ||||| ||||||||||| ||||| ||||| || ||| ||||| ||||| | |||  || | | | ||||||| || || ||||||  |||||| ||||||||||| |||||||| |||||||| ||||| ||| ||||||||||||||||||| |||   || | ||||   |   ||||||||    || ||||| |||| |||| |||| ||||||| ||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.73736e-16</Hsp_evalue>
+      <Hsp_query-from>624</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>556</Hsp_hit-from>
+      <Hsp_hit-to>719</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>TTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TTACCTCTTTTTGTTTGGTCAGTTTTAATAACAGCTTTTTTA-TTATTACTTTCTTTACCAGTATTAGCAGGAGCTA-TTACTATGTTATTAACTGATAGAAATTTTAATACTACATTTTTCGACCCGGCAGGAGGAGGAGATCCTGTTCTTTATCAGCACTTATT</Hsp_hseq>
+      <Hsp_midline>||||| || ||||||||||| |||||||| |||||| | ||| |||||| | ||||  || ||||||||||| || | || | ||||   | || |||||||||||   | |      ||| ||||| |||||||| || || ||||| ||||| || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1713062362|gb|MK642461.1|</Hit_id>
+  <Hit_def>Chaetoceros debilis strain MM24C3 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MK642461</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>3.98688e-41</Hsp_evalue>
+      <Hsp_query-from>331</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>7</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>AACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCATAGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTGTA-CGATTACATTATATAATTGATGATTGTATTGAAAAAATTTA--GGTAGGCTA-GACAGAGTTATTCTAATATATAAGGACAAAGCTGTACC</Hsp_qseq>
+      <Hsp_hseq>AACTAAAAGTAATAATGATGGAGGTAGTAACCAAAAACTAATATTGTTCATTCGTGGAAAAGCCATATCC-GGAGCTCCAATCATTAACGGCACGAACCAATTACCAAAACCACCAATCAAAGTAGGCATAACCATGAAAAAAATCATAAC-AAAAGCATGACCTGTAACAATAACGTTATACATTTGGTGATTGTATTCTAAAAAACTACCGTTTGGTTGTGATAATGTAATTCTAATGTATAAAGATAAAGCTGTACC</Hsp_hseq>
+      <Hsp_midline>|||||| | ||  |||||||| || || ||| |||| |||||||| |||||||  || || ||||||||  || |||||||||||  | | |  |||||| || ||||| |||||||| |||  |||||| ||||| ||||| |||||||| |||||||| ||||||| | || || ||||| | ||| ||||||||||  |||||  ||  | | || |  || |  || |||||||| ||||| || |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1713062316|gb|MK642438.1|</Hit_id>
+  <Hit_def>Bacteriastrum hyalinum strain Na10B1 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MK642438</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>3.98688e-41</Hsp_evalue>
+      <Hsp_query-from>337</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>7</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>TAATAGCAAT---GATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTGT-ACGATTACATTATATAATTGATGATT-GTATTGAAAAAATT--TAGGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACC</Hsp_qseq>
+      <Hsp_hseq>TAATAGCATTAAAGAAGGAGGTAATAACCAAAAACTAATATTATTCATTCTAGGGAATGCCATATC-AGGAGCTCCTATCATTAAAGGAACA-AACCAATTACCAAAACCACCAATTAACGTAGGCATTACCATAAAAAAAATCATAAC-AAAAGCGTGACCTGTCACGATAACATTATAAAGATGATGATTATTATCTAAAAAATTACTA-TTAGGTTGAGCTAATGTTAATCTAATATATAAAGATAAAGCAGTACC</Hsp_hseq>
+      <Hsp_midline>|||||||| |   || || || |  ||| |||| ||||||||||||||||| ||||| |||||||| ||| ||||| ||||| | |||  || ||||| || ||||| |||||||||||   |||||| ||||||||||| |||||||| |||||| | |||||| ||||| |||||||| |  ||||||||  |||  ||||||||  ||  |||| | ||  |  |||| |||||||||||| || ||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1713062352|gb|MK642456.1|</Hit_id>
+  <Hit_def>Chaetoceros curvisetus strain Ch5B1 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MK642456</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>3.98688e-41</Hsp_evalue>
+      <Hsp_query-from>327</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>272</Hsp_hit-from>
+      <Hsp_hit-to>7</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>ATTGAA-CTAATAATAGCAATGATG---GTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCATAGA-GGCCCAGAACCAGTTCCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATTGAAAAAATTTA--GGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACC</Hsp_qseq>
+      <Hsp_hseq>ATTGAAGCTATTAACAACAATAATGACGGTGGCAATAACCAAAAACTTATATTATTCATCCTAGGGAAAGCCATATCT-GGCGCACCAATCATTAATGGTACAAACCAATTTCCAAAACCCCCAATCAAAGTAGGCATAACCATAAAAAAAATCATAAC-AAAAGCATGACCTGTTACGATTACATTATACATTTGATGATTATACTCTAAAAAGTTACCATTTGGTTCAGATAAAGTAATTCTAATATACAAAGATAATGCCGTACC</Hsp_hseq>
+      <Hsp_midline>|||||| ||| ||| | |||| |||   |||| |  ||| |||| || ||||||||||| || ||||| ||||||||| || || ||||||||  | ||  || | | | ||||||| || ||||| |||  |||||| ||||||||||| |||||||| |||||||| ||||| ||||||||||||||| | ||||||||| || |  ||||| |||    | || | ||| | ||| ||||||||||| || || || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|354806196|gb|JN418695.1|</Hit_id>
+  <Hit_def>Pinnularia sp. 11 CS-2011 cytochrome c oxidase subunit 1 (cox1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>JN418695</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.427</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>3.98688e-41</Hsp_evalue>
+      <Hsp_query-from>332</Hsp_query-from>
+      <Hsp_query-to>579</Hsp_query-to>
+      <Hsp_hit-from>251</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>ACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCA-TAGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATT-GAAAAAATTTAGGTAGGCTA--GACAGAGTTATTCTAATATATAAGGACAAAGC</Hsp_qseq>
+      <Hsp_hseq>ACTAATAAAAGTAATGATGGTGGTAGTAGCCAAAAACTTATGTTATTCATTCTAGGAAAAGCCATATCT-GGAGCTCCAATCATTAATGGAACA-AACCAATTACCAAAACCACCTATTAATGCAGGCATTACCATAAAAAAAATCATAA-TAAAAGCATGACCTGTTACAATTACATTATATAAATGATAATTATGTTCCATAAAATTGGAGTTGGGAACCGCAAGAGTTAGTCTTATATATAAAGATAATGC</Hsp_hseq>
+      <Hsp_midline>|||||||| || ||||||||||| || | | |||| || || ||||||||||| || || ||||||||| || |||||||||| ||  ||  || ||||| || ||||| ||||| |||||  ||||||| ||||||||||| |||||||  |||||||| ||||| ||| |||||||||||||| |||| ||| | ||  | ||||||   || ||  |  |  ||||||| ||| |||||||| || || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|2843845359|gb|OR663912.1|</Hit_id>
+  <Hit_def>Olpidiopsis sp. cytochrome c oxidase subunit 1 gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>OR663912</Hit_accession>
+  <Hit_len>549</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.525</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>1.39156e-40</Hsp_evalue>
+      <Hsp_query-from>331</Hsp_query-from>
+      <Hsp_query-to>522</Hsp_query-to>
+      <Hsp_hit-from>216</Hsp_hit-from>
+      <Hsp_hit-to>25</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>AACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCA-TAGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATT</Hsp_qseq>
+      <Hsp_hseq>AATTAATAATAATAATGATGGTGGTAATAACCAAAAACTAATATTATTCATTCTAGGAAAAGCCATATC-AGGAGCACCTAACATTAAAGGTACA-AACCAGTTACCAAAGCCACCAATTAATACAGGCATTACCATAAAAAAAATCATAA-TAAAAGCATGTGCTGTTACTATAACATTATATAATTGATGATT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||  ||||||||||| |  ||| |||| ||||||||||||||||| || || |||||||| ||| || || | || || |||  || |||||||| ||||||||||||||||| |||||||| ||||||||||| |||||||  ||||||||   ||| ||| || ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>97.7665</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>4.55304e-15</Hsp_evalue>
+      <Hsp_query-from>587</Hsp_query-from>
+      <Hsp_query-to>724</Hsp_query-to>
+      <Hsp_hit-from>381</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>TTGTAAATATCAGAACAGATAGTTTGCCTTT-CACAAGTTACCCT-ATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTT</Hsp_qseq>
+      <Hsp_hseq>TTGTAA-TATGAGATCACCTGGTATGACTTTTCACAGATTACCTTTATTTGTATGGTCTGTTTTAATTACAGCTATATTA-TTACTTTTATCTTTACCTGTTTTAGCAGGAGGTA-TTACAATGTTATTAACTGATAGAAATTT</Hsp_hseq>
+      <Hsp_midline>|||||| ||| ||| ||  | || || |||| ||||  ||||| | |||||| ||||||||||||||||||||| ||||| ||| | |||||||  ||||| |||||||| |  | || ||||||   | || |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1418576962|ref|NC_037729.1|</Hit_id>
+  <Hit_def>Nitzschia alba mitochondrion, complete genome &gt;gi|1372147641|gb|MF997422.1| Nitzschia alba mitochondrion, complete genome</Hit_def>
+  <Hit_accession>NC_037729</Hit_accession>
+  <Hit_len>36252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.39156e-40</Hsp_evalue>
+      <Hsp_query-from>326</Hsp_query-from>
+      <Hsp_query-to>534</Hsp_query-to>
+      <Hsp_hit-from>395</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>GATTGAACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCA-TAGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATTGAAAAAA</Hsp_qseq>
+      <Hsp_hseq>GATTCTACTAATAATAAAAGTGAAGGAGGTAATAACCAAAAACTAATATTATTCATTCTTGGAAATGCCATATC-AGGCGCACCAATCATTAGAGGAAC-GAACCAGTTACCGAATCCTCCAATTAGAACAGGCATAACCATGAAAAAAATCATAA-TAAAAGCATGTCCTGTTACAATTACATTATAAAAATGATGATTGTATTCTAAAAA</Hsp_hseq>
+      <Hsp_midline>||||  ||||||||||  | ||| || || |  ||| |||| ||||||||||||||||| || || |||||||| ||| || ||||||| ||||||  | ||||||||| || || || ||||||| ||||||||| ||||| ||||| |||||||  ||||||||  |||| ||| ||||||||||| || |||||||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|951291586|gb|KU052355.1|</Hit_id>
+  <Hit_def>Encyonema sp. WJS-2015a strain D17_036 cytochrome oxidase subunit 1 (cox1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>KU052355</Hit_accession>
+  <Hit_len>563</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.721</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>4.85701e-40</Hsp_evalue>
+      <Hsp_query-from>334</Hsp_query-from>
+      <Hsp_query-to>577</Hsp_query-to>
+      <Hsp_hit-from>249</Hsp_hit-from>
+      <Hsp_hit-to>3</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>TAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCA-TAGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTGT-ACGATTACATTATATAATTGATGATTGTA--TTGAAAAAATTTAGGTAGG-CTAGACAGAGTTATTCTAATATATAAGGACAAA</Hsp_qseq>
+      <Hsp_hseq>TAATAATAATAAAGAAGGTGGTAATAACCAAAAGCTAATATTATTCATTCTTGGAAAAGCCATATCT-GGTGCTCCAATCATTAAAGGAACA-AACCAGTTACCAAATCCACCAATTAAAGCAGGCATTACTAAAAAAAATATCATTA-AAAAAGCATGACCTGTAACAATAACATTGTATAAATGGTAATTATAATCTAAAAAAGTTGAGTTAGGACTAGCTAAAGTAGCTCTAATATATAGAGATAAA</Hsp_hseq>
+      <Hsp_midline>||||||||  || || ||||| |  ||| |||||||||||||||||||||| || || ||||||||| || |||||||||| || |||  || |||||||| ||||| |||||||||||| ||||||| || | |||||| ||||| |  |||||||| |||||| || || ||||| ||||| || | ||| ||   | ||||| || || |||| ||||  | |||   |||||||||||  || |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|2499017867|gb|OP903820.1|</Hit_id>
+  <Hit_def>Pythium sp. &apos;strain 1-9-like4&apos; isolate SK173 cytochrome oxidase subunit I (coxI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>OP903820</Hit_accession>
+  <Hit_len>688</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.721</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>4.85701e-40</Hsp_evalue>
+      <Hsp_query-from>332</Hsp_query-from>
+      <Hsp_query-to>522</Hsp_query-to>
+      <Hsp_hit-from>314</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>ACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCA-TAGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATT</Hsp_qseq>
+      <Hsp_hseq>ACTAATAATAATAATGATGGGGGTAATAACCAAAAACTAATATTATTCATTCTAGGGAAAGCCATATCT-GGAGCTCCAATCATTAAAGGAATA-AACCAGTTACCAAAACCTCCAATTAAAACAGGCATAACCATAAAAAAAATCATAA-TAAAAGCATGTGCAGTTACAACAACATTATATAATTGATGATT</Hsp_hseq>
+      <Hsp_midline>||||||||||  |||||||| || |  ||| |||| ||||||||||||||||| ||||| ||||||||| || |||||||||| || |||   | |||||||| ||||| || ||||||||||||||||| ||||||||||| |||||||  ||||||||   | | ||| |  ||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>7.21481e-19</Hsp_evalue>
+      <Hsp_query-from>615</Hsp_query-from>
+      <Hsp_query-to>779</Hsp_query-to>
+      <Hsp_hit-from>508</Hsp_hit-from>
+      <Hsp_hit-to>681</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>TTTCACAAGTTACCCT-ATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGTCTT--ACAGATAGAAATTTCCGTGC---TTT---TGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATTT</Hsp_qseq>
+      <Hsp_hseq>TTCCACAGATTACCTTTATTCGTTTGGTCAGTATTTATTACAGCTTTTTTATT-ATTATTAACATTACCTGTATTAGCAGGTGCTATTA-CAATGTTATTAACAGATAGAAATTTAAATACATCTTTCTATGATCCTTCAGGTGGAGGAGATCCTGTATTATATCAACATTTATTT</Hsp_hseq>
+      <Hsp_midline>|| ||||  ||||| | ||| |||||||| || || ||||||||| | ||||| ||||||| | |  ||||||||||||||||| |||  ||||||  |  ||||||||||||||   | |   |||   ||| ||| |||| || || || |||||| | || ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1839330951|gb|MK887235.1|</Hit_id>
+  <Hit_def>Nitzschia palea strain Sv26 cytochrome oxidase subunit 1 (Cox1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MK887235</Hit_accession>
+  <Hit_len>695</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.82</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>4.85701e-40</Hsp_evalue>
+      <Hsp_query-from>326</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>GATTGAACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATT-GAAAAAATTT-AGGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>GATTCAATTAATAATAAAAGTGAAGGCGGTAATAACCAAAAACTAATATTGTTCATTCGTGGGAATGCCATATC-AGGAGCCCCAATCATCAGCGGGACT-AACCAGTTTCCAAAACCTCCAATTAACACAGGCATAACCATAAAGAAAATCATAACG-AACGCATGACCCGTTACAATTACATTATAAAAATGATGATTATATTCTAAAAAATTTCCGTTAGGTTGTGATAAAGTAATTCGAATATAAAGAGATAATGCGGTTCCA</Hsp_hseq>
+      <Hsp_midline>|||| || ||||||||  | ||| || || |  ||| |||| |||||||| |||||||  ||||| |||||||| ||| || |||||||| || ||  |  |||||||| ||||| || |||||||| |||||||| |||||||| || ||||||||| || |||| ||| | ||| ||||||||||| || |||||||| ||||  |||||||||  | |||| |  || | ||| |||| |||||| |  || || || || |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>128.424</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>2.68871e-24</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>680</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCCTTTC-ACAAGTTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGTC-TTA-CAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TGTACTATTATTAACATGCGAACAGAAAGCTTGCCTTTCCACAAACTACCACTATTTGTTTGGGCCGTTTTTATTACAGCTATCTTACT-ATTACTATCATTACCAGTATTAGCGTCAGCAATTA-CAATGTTATTAGCCGATAGAAATTTCAACACAACCTTTTTTGACCCTGCTGGTGGTGGTGACCCCGTTCTGTACCAGCATCTATT</Hsp_hseq>
+      <Hsp_midline>||||| ||| | || ||  ||||||| || ||||||||| ||||  |||| |||||||||||| | ||||| ||||||||| | ||| | |||| |||| |  || ||||||||    ||||||  ||||||  ||| | ||||||||||||    |      |||||||||||| || ||||||||||| || || ||||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|139527530|gb|EF164929.1|</Hit_id>
+  <Hit_def>Sellaphora cf. minima voucher E3211 clone BM42 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>EF164929</Hit_accession>
+  <Hit_len>619</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.82</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>4.85701e-40</Hsp_evalue>
+      <Hsp_query-from>331</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>10</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>AACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTGT-ACGATTACATTATATAATTGATGATTGT-ATTGAAAAAAT-TTAGGTAGG-CTAGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>AATTAGTAATAATAAAGAAGGTGGTAATAACCAAAAACTTATATTATTCATTCTTGGAAAAGCCATATCT-GGAGCTCCAATCATTAAAGGAACA-AACCAATTACCAAATCCACCAATTAATGCAGGCATTACCATGAAAAATATCATAAC-AAAAGCATGGCCTGTAATAATAACATTGTATAAGTTGTAATTGTAATTTAAAAAATCAAAATTAGGACTAGAAAGATTTATTCTAATGTACATTGATAAAACTGTACCA</Hsp_hseq>
+      <Hsp_midline>|| || |||||  || || ||||| |  ||| |||| || |||||||||||||| || || ||||||||| || ||||||||||| | |||  || ||||| || ||||| |||||||||||  ||||||| ||||| ||||| |||||||| ||||||||  ||||| |  || ||||| ||||| |  | ||||| ||| |||||||   |  |||| ||||| ||| |||||||||| || |  || ||| ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>68.9126</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.20898e-06</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>761</Hsp_query-to>
+      <Hsp_hit-from>425</Hsp_hit-from>
+      <Hsp_hit-to>616</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCC-TTTCACAAGTTACCCT-ATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTT--------CCGTGCTTTTGACCCTGCAGGAGGTGGTGACCCTGTA</Hsp_qseq>
+      <Hsp_hseq>TGTACTATTACAAACATGAGAGCAAAAAGCTTTCCGTTTCACAGACTACCGTTATTTGTTTGGTCTATATTTTTAACTGCATTTTTACTAGTT-TTATCTTTACCTGTATTAGCAGGAGCTA-TAACTATGTTATTAACTGACAGAAATTTTAACACCACCTT--TTTTGATCCAGCTGGAGGTGGAGATCCTGTA</Hsp_hseq>
+      <Hsp_midline>||||| |||  ||| || ||| || | || || || |||||||   |||| | ||||||||||||| | ||  | || ||  | ||| |  || |||||||  |||||||||||||| || | |  | ||||   | || || ||||||||        || |  |||||| || || |||||||| || ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1839330953|gb|MK887236.1|</Hit_id>
+  <Hit_def>Nitzschia palea strain Che70 cytochrome oxidase subunit 1 (Cox1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MK887236</Hit_accession>
+  <Hit_len>695</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.82</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>4.85701e-40</Hsp_evalue>
+      <Hsp_query-from>326</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>GATTGAACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATT-GAAAAAATTT-AGGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>GATTCAATTAATAATAAAAGTGAAGGCGGTAATAACCAAAAACTAATATTGTTCATTCGTGGGAATGCCATATC-AGGAGCCCCAATCATCAGCGGGACT-AACCAGTTTCCAAAACCTCCAATTAACACAGGCATAACCATAAAGAAAATCATAACG-AACGCATGACCCGTTACAATTACATTATAAAAATGATGATTATATTCTAAAAAATTTCCGTTAGGTTGTGATAAAGTAATTCGAATATAAAGAGATAATGCGGTTCCA</Hsp_hseq>
+      <Hsp_midline>|||| || ||||||||  | ||| || || |  ||| |||| |||||||| |||||||  ||||| |||||||| ||| || |||||||| || ||  |  |||||||| ||||| || |||||||| |||||||| |||||||| || ||||||||| || |||| ||| | ||| ||||||||||| || |||||||| ||||  |||||||||  | |||| |  || | ||| |||| |||||| |  || || || || |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>128.424</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>2.68871e-24</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>680</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCCTTTC-ACAAGTTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGTC-TTA-CAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TGTACTATTATTAACATGCGAACAGAAAGCTTGCCTTTCCACAAACTACCACTATTTGTTTGGGCCGTTTTTATTACAGCTATCTTACT-ATTACTATCATTACCAGTATTAGCGTCAGCAATTA-CAATGTTATTAGCCGATAGAAATTTCAACACAACCTTTTTTGACCCTGCTGGTGGTGGTGACCCCGTTCTGTACCAGCATCTATT</Hsp_hseq>
+      <Hsp_midline>||||| ||| | || ||  ||||||| || ||||||||| ||||  |||| |||||||||||| | ||||| ||||||||| | ||| | |||| |||| |  || ||||||||    ||||||  ||||||  ||| | ||||||||||||    |      |||||||||||| || ||||||||||| || || ||||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1839330957|gb|MK887238.1|</Hit_id>
+  <Hit_def>Nitzschia palea strain Br cytochrome oxidase subunit 1 (Cox1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MK887238</Hit_accession>
+  <Hit_len>695</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.82</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>4.85701e-40</Hsp_evalue>
+      <Hsp_query-from>326</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>GATTGAACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATT-GAAAAAATTT-AGGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>GATTCAATTAATAATAAAAGTGAAGGCGGTAATAACCAAAAACTAATATTGTTCATTCGTGGGAATGCCATATC-AGGAGCCCCAATCATCAGCGGGACT-AACCAGTTTCCAAAACCTCCAATTAACACAGGCATAACCATAAAGAAAATCATAACG-AACGCATGACCCGTTACAATTACATTATAAAAATGATGATTATATTCTAAAAAATTTCCGTTAGGTTGTGATAAAGTAATTCGAATATAAAGAGATAATGCGGTTCCA</Hsp_hseq>
+      <Hsp_midline>|||| || ||||||||  | ||| || || |  ||| |||| |||||||| |||||||  ||||| |||||||| ||| || |||||||| || ||  |  |||||||| ||||| || |||||||| |||||||| |||||||| || ||||||||| || |||| ||| | ||| ||||||||||| || |||||||| ||||  |||||||||  | |||| |  || | ||| |||| |||||| |  || || || || |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>128.424</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>2.68871e-24</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>680</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCCTTTC-ACAAGTTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGTC-TTA-CAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TGTACTATTATTAACATGCGAACAGAAAGCTTGCCTTTCCACAAACTACCACTATTTGTTTGGGCCGTTTTTATTACAGCTATCTTACT-ATTACTATCATTACCAGTATTAGCGTCAGCAATTA-CAATGTTATTAGCCGATAGAAATTTCAACACAACCTTTTTTGACCCTGCTGGTGGTGGTGACCCCGTTCTGTACCAGCATCTATT</Hsp_hseq>
+      <Hsp_midline>||||| ||| | || ||  ||||||| || ||||||||| ||||  |||| |||||||||||| | ||||| ||||||||| | ||| | |||| |||| |  || ||||||||    ||||||  ||||||  ||| | ||||||||||||    |      |||||||||||| || ||||||||||| || || ||||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|2088232767|ref|NC_056792.1|</Hit_id>
+  <Hit_def>Tryblionella apiculata isolate SZCZR1825 mitochondrion, complete genome &gt;gi|2050585058|gb|MT383643.1| Tryblionella apiculata isolate SZCZR1825 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>NC_056792</Hit_accession>
+  <Hit_len>39061</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.82</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>4.85701e-40</Hsp_evalue>
+      <Hsp_query-from>331</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>390</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>AACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCATAGA-GGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATT----GAAA--AAATTTAGGTAGGCTAGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACC</Hsp_qseq>
+      <Hsp_hseq>AATTAATAATAAAAGAGAAGGTGGTAATAACCAAAAACTAATATTGTTCATTCGTGGGAATGCCATATCT-GGTGCACCAATCATTAATGGAACA-AACCAGTTACCAAAACCACCAATTAAAACAGGCATTACCATAAAAAAGATCATTAC-AAAAGCATGACCGGTTACCACAACATTATAAAAATGGTGATTATATTCTAAGAAAGCACCATTAGGTTG---TGATAATGTTATTCTAATATAAAGAGATAAAGCTGTACC</Hsp_hseq>
+      <Hsp_midline>|| ||||||||  |  || ||||| |  ||| |||| |||||||| |||||||  ||||| ||||||||| || || ||||||||  | ||  || |||||||| ||||| |||||||||||||||||||| ||||||||||||||||| || |||||||| ||| | ||| |  |||||||| || || ||||| ||||    ||||  |   |||||| |    || |  |||||||||||||| |  || |||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>139.244</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.48708e-27</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>779</Hsp_query-to>
+      <Hsp_hit-from>547</Hsp_hit-from>
+      <Hsp_hit-to>756</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCC-TTTCACAAGTTACCCT-ATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGTCTT--ACAGATAGAAATTT---CCGTGCTTT---TGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATTT</Hsp_qseq>
+      <Hsp_hseq>TGTACCGTTGTAAATATGCGAACTGAAAGTCTTCCATTTCATAAGTTACCATTATTTGTATGGGCGATTTTTATTACTGCAATTCT-TTTATTATTATCTTTACCAGTATTAGCAGGTGCTATTA-CAATGTTATTAACTGATAGAAATTTTAACACTACTTTCTTTGACCCAGCTGGTGGCGGTGATCCTGTATTATACCAACATTTATTT</Hsp_hseq>
+      <Hsp_midline>|||||| ||||||||||  |||| || ||| | || ||||| |||||||| | |||||| ||| |  |||| ||||| ||  |  | ||||||||||||||  || |||||||||||||| |||  ||||||  |  || |||||||||||   |  | ||||   |||||| || || || ||||| |||||| | |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1839330945|gb|MK887232.1|</Hit_id>
+  <Hit_def>Nitzschia palea strain Pk10 cytochrome oxidase subunit 1 (Cox1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MK887232</Hit_accession>
+  <Hit_len>695</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.82</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>4.85701e-40</Hsp_evalue>
+      <Hsp_query-from>326</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>GATTGAACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATT-GAAAAAATTT-AGGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>GATTCAATTAATAATAAAAGTGAAGGCGGTAATAACCAAAAACTAATATTGTTCATTCGTGGGAATGCCATATC-AGGAGCCCCAATCATCAGCGGGACT-AACCAGTTTCCAAAACCTCCAATTAACACAGGCATAACCATAAAGAAAATCATAACG-AACGCATGACCCGTTACAATTACATTATAAAAATGATGATTATATTCTAAAAAATTTCCGTTAGGTTGTGATAAAGTAATTCGAATATAAAGAGATAATGCGGTTCCA</Hsp_hseq>
+      <Hsp_midline>|||| || ||||||||  | ||| || || |  ||| |||| |||||||| |||||||  ||||| |||||||| ||| || |||||||| || ||  |  |||||||| ||||| || |||||||| |||||||| |||||||| || ||||||||| || |||| ||| | ||| ||||||||||| || |||||||| ||||  |||||||||  | |||| |  || | ||| |||| |||||| |  || || || || |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>128.424</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>2.68871e-24</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>680</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCCTTTC-ACAAGTTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGTC-TTA-CAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TGTACTATTATTAACATGCGAACAGAAAGCTTGCCTTTCCACAAACTACCACTATTTGTTTGGGCCGTTTTTATTACAGCTATCTTACT-ATTACTATCATTACCAGTATTAGCGTCAGCAATTA-CAATGTTATTAGCCGATAGAAATTTCAACACAACCTTTTTTGACCCTGCTGGTGGTGGTGACCCCGTTCTGTACCAGCATCTATT</Hsp_hseq>
+      <Hsp_midline>||||| ||| | || ||  ||||||| || ||||||||| ||||  |||| |||||||||||| | ||||| ||||||||| | ||| | |||| |||| |  || ||||||||    ||||||  ||||||  ||| | ||||||||||||    |      |||||||||||| || ||||||||||| || || ||||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1839330949|gb|MK887234.1|</Hit_id>
+  <Hit_def>Nitzschia palea strain Sv30 cytochrome oxidase subunit 1 (Cox1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MK887234</Hit_accession>
+  <Hit_len>695</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.82</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>4.85701e-40</Hsp_evalue>
+      <Hsp_query-from>326</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>GATTGAACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATT-GAAAAAATTT-AGGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>GATTCAATTAATAATAAAAGTGAAGGCGGTAATAACCAAAAACTAATATTGTTCATTCGTGGGAATGCCATATC-AGGAGCCCCAATCATCAGCGGGACT-AACCAGTTTCCAAAACCTCCAATTAACACAGGCATAACCATAAAGAAAATCATAACG-AACGCATGACCCGTTACAATTACATTATAAAAATGATGATTATATTCTAAAAAATTTCCGTTAGGTTGTGATAAAGTAATTCGAATATAAAGAGATAATGCGGTTCCA</Hsp_hseq>
+      <Hsp_midline>|||| || ||||||||  | ||| || || |  ||| |||| |||||||| |||||||  ||||| |||||||| ||| || |||||||| || ||  |  |||||||| ||||| || |||||||| |||||||| |||||||| || ||||||||| || |||| ||| | ||| ||||||||||| || |||||||| ||||  |||||||||  | |||| |  || | ||| |||| |||||| |  || || || || |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>128.424</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>2.68871e-24</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>680</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCCTTTC-ACAAGTTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGTC-TTA-CAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TGTACTATTATTAACATGCGAACAGAAAGCTTGCCTTTCCACAAACTACCACTATTTGTTTGGGCCGTTTTTATTACAGCTATCTTACT-ATTACTATCATTACCAGTATTAGCGTCAGCAATTA-CAATGTTATTAGCCGATAGAAATTTCAACACAACCTTTTTTGACCCTGCTGGTGGTGGTGACCCCGTTCTGTACCAGCATCTATT</Hsp_hseq>
+      <Hsp_midline>||||| ||| | || ||  ||||||| || ||||||||| ||||  |||| |||||||||||| | ||||| ||||||||| | ||| | |||| |||| |  || ||||||||    ||||||  ||||||  ||| | ||||||||||||    |      |||||||||||| || ||||||||||| || || ||||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1839330955|gb|MK887237.1|</Hit_id>
+  <Hit_def>Nitzschia palea strain ChH23 cytochrome oxidase subunit 1 (Cox1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MK887237</Hit_accession>
+  <Hit_len>695</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.82</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>4.85701e-40</Hsp_evalue>
+      <Hsp_query-from>326</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>GATTGAACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATT-GAAAAAATTT-AGGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>GATTCAATTAATAATAAAAGTGAAGGCGGTAATAACCAAAAACTAATATTGTTCATTCGTGGGAATGCCATATC-AGGAGCCCCAATCATCAGCGGGACT-AACCAGTTTCCAAAACCTCCAATTAACACAGGCATAACCATAAAGAAAATCATAACG-AACGCATGACCCGTTACAATTACATTATAAAAATGATGATTATATTCTAAAAAATTTCCGTTAGGTTGTGATAAAGTAATTCGAATATAAAGAGATAATGCGGTTCCA</Hsp_hseq>
+      <Hsp_midline>|||| || ||||||||  | ||| || || |  ||| |||| |||||||| |||||||  ||||| |||||||| ||| || |||||||| || ||  |  |||||||| ||||| || |||||||| |||||||| |||||||| || ||||||||| || |||| ||| | ||| ||||||||||| || |||||||| ||||  |||||||||  | |||| |  || | ||| |||| |||||| |  || || || || |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>128.424</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>2.68871e-24</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>680</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCCTTTC-ACAAGTTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGTC-TTA-CAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TGTACTATTATTAACATGCGAACAGAAAGCTTGCCTTTCCACAAACTACCACTATTTGTTTGGGCCGTTTTTATTACAGCTATCTTACT-ATTACTATCATTACCAGTATTAGCGTCAGCAATTA-CAATGTTATTAGCCGATAGAAATTTCAACACAACCTTTTTTGACCCTGCTGGTGGTGGTGACCCCGTTCTGTACCAGCATCTATT</Hsp_hseq>
+      <Hsp_midline>||||| ||| | || ||  ||||||| || ||||||||| ||||  |||| |||||||||||| | ||||| ||||||||| | ||| | |||| |||| |  || ||||||||    ||||||  ||||||  ||| | ||||||||||||    |      |||||||||||| || ||||||||||| || || ||||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1839330963|gb|MK887241.1|</Hit_id>
+  <Hit_def>Nitzschia palea strain PkB cytochrome oxidase subunit 1 (Cox1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MK887241</Hit_accession>
+  <Hit_len>695</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.82</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>4.85701e-40</Hsp_evalue>
+      <Hsp_query-from>326</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>GATTGAACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATT-GAAAAAATTT-AGGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>GATTCAATTAATAATAAAAGTGAAGGCGGTAATAACCAAAAACTAATATTGTTCATTCGTGGGAATGCCATATC-AGGAGCCCCAATCATCAGCGGGACT-AACCAGTTTCCAAAACCTCCAATTAACACAGGCATAACCATAAAGAAAATCATAACG-AACGCATGACCCGTTACAATTACATTATAAAAATGATGATTATATTCTAAAAAATTTCCGTTAGGTTGTGATAAAGTAATTCGAATATAAAGAGATAATGCGGTTCCA</Hsp_hseq>
+      <Hsp_midline>|||| || ||||||||  | ||| || || |  ||| |||| |||||||| |||||||  ||||| |||||||| ||| || |||||||| || ||  |  |||||||| ||||| || |||||||| |||||||| |||||||| || ||||||||| || |||| ||| | ||| ||||||||||| || |||||||| ||||  |||||||||  | |||| |  || | ||| |||| |||||| |  || || || || |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>128.424</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>2.68871e-24</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>680</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCCTTTC-ACAAGTTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGTC-TTA-CAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TGTACTATTATTAACATGCGAACAGAAAGCTTGCCTTTCCACAAACTACCACTATTTGTTTGGGCCGTTTTTATTACAGCTATCTTACT-ATTACTATCATTACCAGTATTAGCGTCAGCAATTA-CAATGTTATTAGCCGATAGAAATTTCAACACAACCTTTTTTGACCCTGCTGGTGGTGGTGACCCCGTTCTGTACCAGCATCTATT</Hsp_hseq>
+      <Hsp_midline>||||| ||| | || ||  ||||||| || ||||||||| ||||  |||| |||||||||||| | ||||| ||||||||| | ||| | |||| |||| |  || ||||||||    ||||||  ||||||  ||| | ||||||||||||    |      |||||||||||| || ||||||||||| || || ||||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1839330967|gb|MK887243.1|</Hit_id>
+  <Hit_def>Nitzschia palea strain CheP cytochrome oxidase subunit 1 (Cox1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MK887243</Hit_accession>
+  <Hit_len>695</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.82</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>4.85701e-40</Hsp_evalue>
+      <Hsp_query-from>326</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>GATTGAACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATT-GAAAAAATTT-AGGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>GATTCAATTAATAATAAAAGTGAAGGCGGTAATAACCAAAAACTAATATTGTTCATTCGTGGGAATGCCATATC-AGGAGCCCCAATCATCAGCGGGACT-AACCAGTTTCCAAAACCTCCAATTAACACAGGCATAACCATAAAGAAAATCATAACG-AACGCATGACCCGTTACAATTACATTATAAAAATGATGATTATATTCTAAAAAATTTCCGTTAGGTTGTGATAAAGTAATTCGAATATAAAGAGATAATGCGGTTCCA</Hsp_hseq>
+      <Hsp_midline>|||| || ||||||||  | ||| || || |  ||| |||| |||||||| |||||||  ||||| |||||||| ||| || |||||||| || ||  |  |||||||| ||||| || |||||||| |||||||| |||||||| || ||||||||| || |||| ||| | ||| ||||||||||| || |||||||| ||||  |||||||||  | |||| |  || | ||| |||| |||||| |  || || || || |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>128.424</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>2.68871e-24</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>680</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCCTTTC-ACAAGTTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGTC-TTA-CAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TGTACTATTATTAACATGCGAACAGAAAGCTTGCCTTTCCACAAACTACCACTATTTGTTTGGGCCGTTTTTATTACAGCTATCTTACT-ATTACTATCATTACCAGTATTAGCGTCAGCAATTA-CAATGTTATTAGCCGATAGAAATTTCAACACAACCTTTTTTGACCCTGCTGGTGGTGGTGACCCCGTTCTGTACCAGCATCTATT</Hsp_hseq>
+      <Hsp_midline>||||| ||| | || ||  ||||||| || ||||||||| ||||  |||| |||||||||||| | ||||| ||||||||| | ||| | |||| |||| |  || ||||||||    ||||||  ||||||  ||| | ||||||||||||    |      |||||||||||| || ||||||||||| || || ||||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1839330947|gb|MK887233.1|</Hit_id>
+  <Hit_def>Nitzschia palea strain Pk9 cytochrome oxidase subunit 1 (Cox1) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MK887233</Hit_accession>
+  <Hit_len>695</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.82</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>4.85701e-40</Hsp_evalue>
+      <Hsp_query-from>326</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>GATTGAACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATT-GAAAAAATTT-AGGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>GATTCAATTAATAATAAAAGTGAAGGCGGTAATAACCAAAAACTAATATTGTTCATTCGTGGGAATGCCATATC-AGGAGCCCCAATCATCAGCGGGACT-AACCAGTTTCCAAAACCTCCAATTAACACAGGCATAACCATAAAGAAAATCATAACG-AACGCATGACCCGTTACAATTACATTATAAAAATGATGATTATATTCTAAAAAATTTCCGTTAGGTTGTGATAAAGTAATTCGAATATAAAGAGATAATGCGGTTCCA</Hsp_hseq>
+      <Hsp_midline>|||| || ||||||||  | ||| || || |  ||| |||| |||||||| |||||||  ||||| |||||||| ||| || |||||||| || ||  |  |||||||| ||||| || |||||||| |||||||| |||||||| || ||||||||| || |||| ||| | ||| ||||||||||| || |||||||| ||||  |||||||||  | |||| |  || | ||| |||| |||||| |  || || || || |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>128.424</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>2.68871e-24</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>680</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCCTTTC-ACAAGTTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGTC-TTA-CAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TGTACTATTATTAACATGCGAACAGAAAGCTTGCCTTTCCACAAACTACCACTATTTGTTTGGGCCGTTTTTATTACAGCTATCTTACT-ATTACTATCATTACCAGTATTAGCGTCAGCAATTA-CAATGTTATTAGCCGATAGAAATTTCAACACAACCTTTTTTGACCCTGCTGGTGGTGGTGACCCCGTTCTGTACCAGCATCTATT</Hsp_hseq>
+      <Hsp_midline>||||| ||| | || ||  ||||||| || ||||||||| ||||  |||| |||||||||||| | ||||| ||||||||| | ||| | |||| |||| |  || ||||||||    ||||||  ||||||  ||| | ||||||||||||    |      |||||||||||| || ||||||||||| || || ||||| ||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|2055416875|ref|NC_056364.1|</Hit_id>
+  <Hit_def>Thalassiosira profunda strain CNS00050 mitochondrion, complete genome &gt;gi|1946837916|gb|MW013551.1| Thalassiosira profunda strain CNS00050 mitochondrion, complete genome</Hit_def>
+  <Hit_accession>NC_056364</Hit_accession>
+  <Hit_len>40470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.918</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>1.69526e-39</Hsp_evalue>
+      <Hsp_query-from>335</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>380</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>AATAATAGCAAT---GATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTGT-ACGATTACATTATATAATTGATGATTGTATTGAAAAAATTTA--GGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACC</Hsp_qseq>
+      <Hsp_hseq>AACAATAGTAATAGAGATGGTGGGAGTAGCCAAAAGCTAATGTTGTTCATTCTTGGGAATGCCATGTCT-GGTGCTCCAATCATTAAAGGAACA-AACCAATTGCCAAAGCCTCCAATTAACGTAGGCATTACCATAAAAAAAATCATTA-ATATAGCATGACCTGTGACAATTACGTTGTATAAATGGTGATTGTATTCTAAAAAACTACTGTTAGGTTGAGCTAATGTTATCCTAATATATAAAGACAAAGCGGTTCC</Hsp_hseq>
+      <Hsp_midline>|| ||||| |||   |||||||| || | | |||||||||| || |||||||| ||||| ||||| ||| || ||||||||||| | |||  || ||||| || |||||||| ||||||||   |||||| ||||||||||| ||||| |   | ||||| |||||| || ||||| || ||||| || ||||||||||  |||||  ||  | |||| | ||  |  ||||| ||||||||||| |||||||| || ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>102.275</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.07077e-16</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>761</Hsp_query-to>
+      <Hsp_hit-from>538</Hsp_hit-from>
+      <Hsp_hit-to>729</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCCTTT-CACAAGTTACCCTATTT-GTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTA</Hsp_qseq>
+      <Hsp_hseq>TGTACAATTTTCAATATGCGAGTAAAAAGTTTATCTTTTCACAACCTTCCTTTGTTCGTGTGGTCTGTTTTAATTACAGCATTCTTA-CTGTTACTATCTTTGCCTGTACTAGCAGGAGCAA-TAACAATGTTGTTGACAGATAGAAACTTCAATACCACCTTTTTTGATCCTGCTGGAGGTGGCGACCCTGTA</Hsp_hseq>
+      <Hsp_midline>||||| ||| | |||||  ||  | | |||||  |||| |||||  | || |  || || ||||||||||||||||||||  | |||  | ||| ||||||  |||||| ||||||| |||| |  ||||||   | ||||||||||| |||  | |      |||||| ||||| |||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1713062342|gb|MK642451.1|</Hit_id>
+  <Hit_def>Chaetoceros cinctus strain Ch3C4 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MK642451</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.918</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>1.69526e-39</Hsp_evalue>
+      <Hsp_query-from>334</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>6</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>TAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCA-TAGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATTGAAAAAATTTA--GGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>TAACAATAATAATGATGGTGGTAGTAACCAAAAACTAATATTGTTCATTCGTGGAAATGCCATATCT-GGAGCACCAATCATTAGAGGTACA-AACCAGTTACCAAAACCACCAATTAAAGTAGGCATAACCATAAAGAAAATCATAAC-AAAAGCGTGCCCTGTTACGATAACATTATACATTTGATGATTATGCTCTAGAAAACTACTATTAGGCTGTGCTAATGTAATTCGGATATATAAAGATAATGCTGTACCA</Hsp_hseq>
+      <Hsp_midline>||| ||||  ||||||||||| || ||| |||| |||||||| |||||||  || || ||||||||| || || ||||||| ||||||  || |||||||| ||||| ||||||||||||  |||||| |||||||| || |||||||| |||||| |  |||| |||||| |||||||| | ||||||||| |  |  | |||  ||    ||||||  |  |  || ||||  |||||||| || || |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1713062378|gb|MK642469.1|</Hit_id>
+  <Hit_def>Chaetoceros diversus strain Na5B2 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>MK642469</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.918</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>1.69526e-39</Hsp_evalue>
+      <Hsp_query-from>334</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>6</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>TAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCAT-AGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTATTGAA--AAAATTTAGGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>TAATAATAACAAAGAAGGAGGTAATAACCAAAAACTTATGTTATTCATTCTAGGAAAAGCCATATC-AGGCGCTCCTATCATTAAAGGAACA-AACCAGTTACCAAACCCACCAATTAAAGTAGGCATAACCATAAAGAAAATCATTAC-AAAAGCATGACCTGTTACAATAACATTATACATTTGATGATTATGTTCAAGGAAAGATCCGTTAGGTTGTGATAAATTTATCCTTATATATAACGATAAAGCAGTACCA</Hsp_hseq>
+      <Hsp_midline>|||||||| ||| || || || |  ||| |||| || || ||||||||||| || || |||||||| ||| ||||| ||||| | |||  || |||||||| ||||| ||||||||||||  |||||| |||||||| || ||||| || |||||||| ||||| ||| || |||||||| | ||||||||| | || ||  |||  |  | |||| |  || | | |||| || |||||||| || ||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|459936785|gb|KC736646.1|</Hit_id>
+  <Hit_def>Mayamaea permitis clone TCC540 cytochrome oxidase subunit 1 gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>KC736646</Hit_accession>
+  <Hit_len>678</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.115</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>5.91705e-39</Hsp_evalue>
+      <Hsp_query-from>331</Hsp_query-from>
+      <Hsp_query-to>535</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>AACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCA-TAGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTA-TTGAAAAAAT</Hsp_qseq>
+      <Hsp_hseq>AATTAATAATAACAATGATGGAGGTAATAACCAAAAACTAATGTTATTCATTCTAGGAAACGCCATATC-AGGAGCTCCGATCATTAATGGTACA-AACCAGTTACCAAAACCTCCAATTAAAGCAGGCATTACCATGAAAAAAATCATCACG-AAAGCGTGACCTGTTACAACTACATTATATAAATGATAATTGTAGTCGAAAAAAT</Hsp_hseq>
+      <Hsp_midline>|| |||||||| ||||||||| || |  ||| |||| ||||| ||||||||||| || || |||||||| ||| ||||| |||| ||  ||  || |||||||| ||||| || ||||||||| ||||||| ||||| ||||| ||||| ||| ||||| | ||||| ||| | |||||||||||| |||| |||||| | ||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>94.1598</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>5.54674e-14</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>779</Hsp_query-to>
+      <Hsp_hit-from>457</Hsp_hit-from>
+      <Hsp_hit-to>666</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>TGTACCATTGTAAATATCAGAACAGATAGTTTGCCTTTC-ACA-AGTTACCCTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTT---CCGTGCT---TTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATTT</Hsp_qseq>
+      <Hsp_hseq>TGTACTATTACTAATATGAGAGCAAAAAGCCTTCCATTCCACAGACTTCCTTTATTTGCATGGGCGATTTTTCTAACAGCGTTTTTATT-ATTACTATCTTTACCAGTATTAGCAGGTGCTA-TTACTATGTTATTAACTGATAGAAATTTTAACACTACTTTCTTTGATCCTGCTGGAGGTGGAGATCCTGTATTATACCAGCATTTATTT</Hsp_hseq>
+      <Hsp_midline>||||| |||   ||||| ||| || | ||  | || ||| ||| | || |  ||||||  ||| |  ||||  | |||||  | ||||| |||| ||||||  || |||||||||||||| | || | ||||   | || |||||||||||   |  | ||   ||||| ||||| |||||||| || |||||| | ||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|400973673|emb|HE862399.1|</Hit_id>
+  <Hit_def>Pythium sp. LY221g mitochondrial partial COI gene for cytochrome oxidase subunit 1, strain LY221g</Hit_def>
+  <Hit_accession>HE862399</Hit_accession>
+  <Hit_len>1092</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.115</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>5.91705e-39</Hsp_evalue>
+      <Hsp_query-from>331</Hsp_query-from>
+      <Hsp_query-to>519</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>AACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCA-TAGAGGCCCAGAACCAGTT-CCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATG</Hsp_qseq>
+      <Hsp_hseq>AACTAATAATAATAAAGAAGGAGGTAATAACCAAAAACTAATATTATTCATTCTAGGGAAAGCCATATCT-GGAGCACCAATCATTAAAGGTACA-AACCAGTTACCAAAGCCACCAATTAAAACAGGCATAACCATGAAGAAAATCATAA-TAAAAGCATGAGCTGTTACTACTACATTATATAAATGATG</Hsp_hseq>
+      <Hsp_midline>|||||||||||  || || || || |  ||| |||| ||||||||||||||||| ||||| ||||||||| || || ||||||| || |||  || |||||||| |||||||||||||||||||||||||| ||||| || || |||||||  |||||||| | ||| ||| | |||||||||||| |||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>86.9463</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>8.23209e-12</Hsp_evalue>
+      <Hsp_query-from>630</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>398</Hsp_hit-from>
+      <Hsp_hit-to>554</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>TATTTGTTTGGTCTGTTTTAATTACAGCTGTATTATTTATTATTATCTT--CCTGTATTAGCAGGTGCAATTTTCAATGTCTT--ACAGATAGAAATTTCCGTGCTTTT------GACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>TATTCGTATGGGCTGTTTTTATTACAGCATTTTTATT-ATTATTAACATTACCTGTTTTAGCTGGAGCAATTA-CAATGTTATTAACAGATAGAAATTTAAATACTTCTTTCTATGATCCTTCTGGTGGAGGTGATCCAGTATTATATCAACATTTATT</Hsp_hseq>
+      <Hsp_midline>|||| || ||| ||||||| ||||||||  | ||||| ||||||| | |  ||||| ||||| || ||||||  ||||||  |  ||||||||||||||   | ||| |      || ||| | || || ||||| || ||| | || |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|310690200|gb|HQ317086.1|</Hit_id>
+  <Hit_def>Nitzschia sp. CCMP2533 cytochrome oxidase subunit 1 (COI) gene, partial cds; mitochondrial</Hit_def>
+  <Hit_accession>HQ317086</Hit_accession>
+  <Hit_len>665</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.213</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>5.91705e-39</Hsp_evalue>
+      <Hsp_query-from>324</Hsp_query-from>
+      <Hsp_query-to>586</Hsp_query-to>
+      <Hsp_hit-from>302</Hsp_hit-from>
+      <Hsp_hit-to>37</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>CCGATTGAACTAATAATAGCAATGATGGTGGAAGCAACGAAAAGCTAATATTATTCATTCTGGGGAAGGCCATATCTAGGGGCTCCAATCATAGAGGCCCAGAACC-----AGTTCCAAAGCCACCAATTAAAACAGGCATCACCATAAAAAAGATCATAACGAAAAGCATCACCTG-TACGATTACATTATATAATTGATGATTGTAT--TGAAAAAATTTAGGTAGGCT-AGACAGAGTTATTCTAATATATAAGGACAAAGCTGTACCA</Hsp_qseq>
+      <Hsp_hseq>CCGATTCAACTAGTAACAGAAGCGATGGAGGTAGTAACCAAAAGCTAATATTATTCATTCTAGGGAATGCCATATC-AGGTGCACCGATCATTAATG----GAACCATCCAATTTCCAAAACCACCAATTAGTACAGGCATTACCATAAAAAAAATCATAA-TAAATGCGTGACCTGTTACAATAACGTTATACAAATGATGATTGTATGCTAAAAAACTTCCATTGGGCTGGGATAGAGTAATTCGAATATAAAGAGATAATGCAGTCCCA</Hsp_hseq>
+      <Hsp_midline>|||||| ||||| ||| || |  ||||| || || ||| |||||||||||||||||||||| ||||| |||||||| ||| || || |||||  | |    |||||     | ||||||| ||||||||||  |||||||| ||||||||||| |||||||  ||| || | ||||| ||| || || ||||| || ||||||||||||  | ||||| ||    | ||||  || ||||| |||| |||||| |  || || || || |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>112.193</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.06708e-19</Hsp_evalue>
+      <Hsp_query-from>579</Hsp_query-from>
+      <Hsp_query-to>778</Hsp_query-to>
+      <Hsp_hit-from>451</Hsp_hit-from>
+      <Hsp_hit-to>660</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>CTGTACCATTGTAAATATCAGAACAGATAGTTTGCC-TTTCACAAGTTACC-CTATTTGTTTGGTCTGTTTTAATTACAGCTGTATTA--TTTATTATTATCTTCCTGTATTAGCAGGTGCAATTTTCAATGT--CTTACAGATAGAAATTTCCGTGC------TTTTGACCCTGCAGGAGGTGGTGACCCTGTACTTTACCAACATTTATT</Hsp_qseq>
+      <Hsp_hseq>CTGTACTATTGTCAATATGCGAACAGATAGTTTACCGTTCCATAAATTACCTTTATTCGTTTGGGCAGTGTTTATTACTGCAATTTTACTTTTATTA-TCTCTGCCAGTACTAGCAGGTGCTA-TTACAATGTTACTTGCGGATCGAAATTTTAATACAACTTTTTTTGATCCTGCCGGTGGAGGTGACCCCGTGTTATACCAGCACTTGTT</Hsp_hseq>
+      <Hsp_midline>|||||| ||||| |||||  ||||||||||||| || || || || |||||  |||| |||||| | || || ||||| ||  | |||  ||||||| | ||| || ||| |||||||||| | || ||||||  ||| | ||| |||||||   | |      |||||| ||||| || || |||||||| ||  | ||||| || || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>111347470</Statistics_db-num>
+      <Statistics_db-len>1457433627</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
