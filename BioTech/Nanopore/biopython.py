@@ -10,7 +10,7 @@ with open(os.path.join(keys_folder, 'ncbi.txt'), 'r') as file:
 
 current_directory = os.getcwd()
 rawfiles_folder = os.path.join(current_directory, 'RawFiles')
-file_path = os.path.join(rawfiles_folder, 'Split47.txt')
+file_path = os.path.join(rawfiles_folder, 'Split48.txt')
 with open(file_path, 'r') as text_file:
     lines = text_file.readlines()
 
@@ -18,7 +18,7 @@ Bio.Blast.email = email
 
 for i, line in enumerate(lines):
     try:
-        if i > 644:
+        if i > -1:
             if line.strip():
                 fasta_inc = ">con"+str(i)+"\n"+line
                 print(fasta_inc)

@@ -1,0 +1,2393 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>core_nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_5329157</BlastOutput_query-ID>
+  <BlastOutput_query-def>con1386</BlastOutput_query-def>
+  <BlastOutput_query-len>678</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_5329157</Iteration_query-ID>
+  <Iteration_query-def>con1386</Iteration_query-def>
+  <Iteration_query-len>678</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1566416975|gb|CP025934.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes DSM 1897 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP025934</Hit_accession>
+  <Hit_len>2495002</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2221848</Hsp_hit-from>
+      <Hsp_hit-to>2222215</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2222056</Hsp_hit-from>
+      <Hsp_hit-to>2221882</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|966544767|gb|CP012355.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain PA_15_1_R1 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP012355</Hit_accession>
+  <Hit_len>2493976</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2221456</Hsp_hit-from>
+      <Hsp_hit-to>2221823</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2221664</Hsp_hit-from>
+      <Hsp_hit-to>2221490</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|365738411|gb|CP003197.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes TypeIA2 P.acn31, complete genome</Hit_def>
+  <Hit_accession>CP003197</Hit_accession>
+  <Hit_len>2498766</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2225805</Hsp_hit-from>
+      <Hsp_hit-to>2226172</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2226013</Hsp_hit-from>
+      <Hsp_hit-to>2225839</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|2463608150|gb|CP120207.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain YM-1 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP120207</Hit_accession>
+  <Hit_len>2494935</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>1736226</Hsp_hit-from>
+      <Hsp_hit-to>1736593</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>1736434</Hsp_hit-from>
+      <Hsp_hit-to>1736260</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|332674398|gb|CP002409.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes 266, complete genome</Hit_def>
+  <Hit_accession>CP002409</Hit_accession>
+  <Hit_len>2494578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2221590</Hsp_hit-from>
+      <Hsp_hit-to>2221957</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2221798</Hsp_hit-from>
+      <Hsp_hit-to>2221624</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|2179609309|gb|CP059596.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain HKGB1 chromosome</Hit_def>
+  <Hit_accession>CP059596</Hit_accession>
+  <Hit_len>2430894</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2253879</Hsp_hit-from>
+      <Hsp_hit-to>2254246</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2254087</Hsp_hit-from>
+      <Hsp_hit-to>2253913</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1820239045|dbj|AP022844.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes SZ1 DNA, complete genome</Hit_def>
+  <Hit_accession>AP022844</Hit_accession>
+  <Hit_len>2494525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2221546</Hsp_hit-from>
+      <Hsp_hit-to>2221913</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2221754</Hsp_hit-from>
+      <Hsp_hit-to>2221580</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|657118275|gb|CP006032.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes hdn-1, complete genome</Hit_def>
+  <Hit_accession>CP006032</Hit_accession>
+  <Hit_len>2494562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2221522</Hsp_hit-from>
+      <Hsp_hit-to>2221889</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2221730</Hsp_hit-from>
+      <Hsp_hit-to>2221556</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|291375051|gb|CP001977.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes SK137, complete genome</Hit_def>
+  <Hit_accession>CP001977</Hit_accession>
+  <Hit_len>2495334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2222813</Hsp_hit-from>
+      <Hsp_hit-to>2223180</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2223021</Hsp_hit-from>
+      <Hsp_hit-to>2222847</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1519063555|gb|CP033842.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain FDAARGOS_503 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP033842</Hit_accession>
+  <Hit_len>2494539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>1799765</Hsp_hit-from>
+      <Hsp_hit-to>1799398</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAGAA-GAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>1799557</Hsp_hit-from>
+      <Hsp_hit-to>1799731</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1755605466|dbj|AP019664.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes TP-CU389 DNA, complete genome</Hit_def>
+  <Hit_accession>AP019664</Hit_accession>
+  <Hit_len>2494387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>1249510</Hsp_hit-from>
+      <Hsp_hit-to>1249877</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>1249718</Hsp_hit-from>
+      <Hsp_hit-to>1249544</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|365742920|gb|CP003195.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes TypeIA2 P.acn33, complete genome</Hit_def>
+  <Hit_accession>CP003195</Hit_accession>
+  <Hit_len>2489623</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2216665</Hsp_hit-from>
+      <Hsp_hit-to>2217032</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2216873</Hsp_hit-from>
+      <Hsp_hit-to>2216699</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|966542502|gb|CP012354.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain PA_12_1_L1 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP012354</Hit_accession>
+  <Hit_len>2491961</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2219024</Hsp_hit-from>
+      <Hsp_hit-to>2219391</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2219232</Hsp_hit-from>
+      <Hsp_hit-to>2219058</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1373293347|gb|CP023676.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain ATCC 6919 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP023676</Hit_accession>
+  <Hit_len>2495001</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2221848</Hsp_hit-from>
+      <Hsp_hit-to>2222215</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2222056</Hsp_hit-from>
+      <Hsp_hit-to>2221882</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1518061020|gb|CP033718.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain FDAARGOS_577 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP033718</Hit_accession>
+  <Hit_len>2495332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>588101</Hsp_hit-from>
+      <Hsp_hit-to>587734</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAGAA-GAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>587893</Hsp_hit-from>
+      <Hsp_hit-to>588067</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|2188771726|dbj|AP025554.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes TP-CU411 DNA, complete genome</Hit_def>
+  <Hit_accession>AP025554</Hit_accession>
+  <Hit_len>2493567</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2127743</Hsp_hit-from>
+      <Hsp_hit-to>2128110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2127951</Hsp_hit-from>
+      <Hsp_hit-to>2127777</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|966540260|gb|CP012353.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain PA_12_1_R1 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP012353</Hit_accession>
+  <Hit_len>2470017</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2197432</Hsp_hit-from>
+      <Hsp_hit-to>2197799</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2197640</Hsp_hit-from>
+      <Hsp_hit-to>2197466</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|2179609308|gb|CP059595.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain HKGB2 chromosome</Hit_def>
+  <Hit_accession>CP059595</Hit_accession>
+  <Hit_len>2477993</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>111964</Hsp_hit-from>
+      <Hsp_hit-to>112331</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>112172</Hsp_hit-from>
+      <Hsp_hit-to>111998</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|481319564|gb|CP003293.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes HL096PA1, complete genome</Hit_def>
+  <Hit_accession>CP003293</Hit_accession>
+  <Hit_len>2494190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2221738</Hsp_hit-from>
+      <Hsp_hit-to>2222105</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2221946</Hsp_hit-from>
+      <Hsp_hit-to>2221772</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|966537955|gb|CP012352.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain PA_15_2_L1 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP012352</Hit_accession>
+  <Hit_len>2540008</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2242331</Hsp_hit-from>
+      <Hsp_hit-to>2242698</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2242539</Hsp_hit-from>
+      <Hsp_hit-to>2242365</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|2179609307|gb|CP059594.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain HKGB3 chromosome</Hit_def>
+  <Hit_accession>CP059594</Hit_accession>
+  <Hit_len>2478156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>1617334</Hsp_hit-from>
+      <Hsp_hit-to>1617701</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>1617542</Hsp_hit-from>
+      <Hsp_hit-to>1617368</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|2438331669|dbj|AP026712.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes TP-CU426 DNA, complete genome</Hit_def>
+  <Hit_accession>AP026712</Hit_accession>
+  <Hit_len>2495124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2222033</Hsp_hit-from>
+      <Hsp_hit-to>2222400</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2222241</Hsp_hit-from>
+      <Hsp_hit-to>2222067</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|407902950|gb|CP003877.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes C1, complete genome</Hit_def>
+  <Hit_accession>CP003877</Hit_accession>
+  <Hit_len>2519002</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2243957</Hsp_hit-from>
+      <Hsp_hit-to>2244324</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2244165</Hsp_hit-from>
+      <Hsp_hit-to>2243991</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1752919477|gb|CP044255.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain ATCC 6919 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP044255</Hit_accession>
+  <Hit_len>2494216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2221330</Hsp_hit-from>
+      <Hsp_hit-to>2221697</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2221538</Hsp_hit-from>
+      <Hsp_hit-to>2221364</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1681032767|dbj|AP019723.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes subsp. acnes NBRC 107605 DNA, complete genome</Hit_def>
+  <Hit_accession>AP019723</Hit_accession>
+  <Hit_len>2494738</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2221572</Hsp_hit-from>
+      <Hsp_hit-to>2221939</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2221780</Hsp_hit-from>
+      <Hsp_hit-to>2221606</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|365740656|gb|CP003196.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes TypeIA2 P.acn17, complete genome</Hit_def>
+  <Hit_accession>CP003196</Hit_accession>
+  <Hit_len>2522885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2225208</Hsp_hit-from>
+      <Hsp_hit-to>2225575</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2225416</Hsp_hit-from>
+      <Hsp_hit-to>2225242</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1820241289|dbj|AP022845.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes SZ2 DNA, complete genome</Hit_def>
+  <Hit_accession>AP022845</Hit_accession>
+  <Hit_len>2504552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.193</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>3.82159e-116</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2221536</Hsp_hit-from>
+      <Hsp_hit-to>2221903</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>335</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2221744</Hsp_hit-from>
+      <Hsp_hit-to>2221570</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|2179609306|gb|CP059593.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain HKGB4 chromosome</Hit_def>
+  <Hit_accession>CP059593</Hit_accession>
+  <Hit_len>2452489</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.685</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>4.65565e-115</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2084386</Hsp_hit-from>
+      <Hsp_hit-to>2084753</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>334</Hsp_identity>
+      <Hsp_positive>334</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGCCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||| ||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2084594</Hsp_hit-from>
+      <Hsp_hit-to>2084420</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|2493043383|gb|CP114012.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain CBS-BPNBT19269 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP114012</Hit_accession>
+  <Hit_len>2547251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.685</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>4.65565e-115</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2249415</Hsp_hit-from>
+      <Hsp_hit-to>2249782</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>334</Hsp_identity>
+      <Hsp_positive>334</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACG-GGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG---CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTAC-TGGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCCGATCAG-AAGAGCCACATGCT-CCCGGAGGAAG--CACGCGGAGAGATCCT-TGACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTTGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| |||||||||||  |||| |||||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||| ||||||||||||||||||||    | |||||||| ||   ||||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || | ||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>205.067</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.62997e-48</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2249623</Hsp_hit-from>
+      <Hsp_hit-to>2249449</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGAC--GGTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACAAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCTCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAGCTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| ||||||||||||||||||||||  ||||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||||||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|2104388252|gb|CP084017.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes subsp. acnes strain NBRC 113869 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP084017</Hit_accession>
+  <Hit_len>2560907</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.57</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>2.41169e-112</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2540142</Hsp_hit-from>
+      <Hsp_hit-to>2540509</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCGC---CGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGGCC-GAACCTAGAATTGGGCGTCG-CCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCACTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGATCAGAA-GAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCTT-GACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGACG--ACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||| |||||||||||  | |||| ||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| |||   |||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||||| |||||| ||||| | ||||  ||||||||||  ||| || || |||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>200.559</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>4.09477e-46</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2540350</Hsp_hit-from>
+      <Hsp_hit-to>2540176</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|2493029944|gb|CP114007.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain CBS-BPNBT19153 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP114007</Hit_accession>
+  <Hit_len>2550536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.57</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>2.41169e-112</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2278619</Hsp_hit-from>
+      <Hsp_hit-to>2278986</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCGC---CGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGGCC-GAACCTAGAATTGGGCGTCG-CCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCACTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGATCAGAA-GAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCTT-GACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGACG--ACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||| |||||||||||  | |||| ||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| |||   |||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||||| |||||| ||||| | ||||  ||||||||||  ||| || || |||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>200.559</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>4.09477e-46</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2278827</Hsp_hit-from>
+      <Hsp_hit-to>2278653</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|2513804817|gb|CP126744.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain W81 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP126744</Hit_accession>
+  <Hit_len>2560819</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.57</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>2.41169e-112</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2287976</Hsp_hit-from>
+      <Hsp_hit-to>2288343</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCGC---CGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGGCC-GAACCTAGAATTGGGCGTCG-CCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCACTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGATCAGAA-GAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCTT-GACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGACG--ACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||| |||||||||||  | |||| ||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| |||   |||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||||| |||||| ||||| | ||||  ||||||||||  ||| || || |||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>200.559</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>4.09477e-46</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2288184</Hsp_hit-from>
+      <Hsp_hit-to>2288010</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1446500593|gb|CP031442.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain KCOM 1315 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP031442</Hit_accession>
+  <Hit_len>2560321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.57</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>2.41169e-112</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>1851700</Hsp_hit-from>
+      <Hsp_hit-to>1851333</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCGC---CGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGGCC-GAACCTAGAATTGGGCGTCG-CCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCACTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGATCAGAA-GAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCTT-GACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGACG--ACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||| |||||||||||  | |||| ||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| |||   |||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||||| |||||| ||||| | ||||  ||||||||||  ||| || || |||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>200.559</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>4.09477e-46</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>1851492</Hsp_hit-from>
+      <Hsp_hit-to>1851666</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|2790107115|gb|CP166959.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain CN6 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP166959</Hit_accession>
+  <Hit_len>2550458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.57</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>2.41169e-112</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>1672149</Hsp_hit-from>
+      <Hsp_hit-to>1672516</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCGC---CGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGGCC-GAACCTAGAATTGGGCGTCG-CCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCACTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGATCAGAA-GAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCTT-GACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGACG--ACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||| |||||||||||  | |||| ||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| |||   |||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||||| |||||| ||||| | ||||  ||||||||||  ||| || || |||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>200.559</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>4.09477e-46</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>1672357</Hsp_hit-from>
+      <Hsp_hit-to>1672183</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|2513802487|gb|CP126745.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain W80 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP126745</Hit_accession>
+  <Hit_len>2560578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.57</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>2.41169e-112</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2287742</Hsp_hit-from>
+      <Hsp_hit-to>2288109</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCGC---CGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGGCC-GAACCTAGAATTGGGCGTCG-CCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCACTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGATCAGAA-GAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCTT-GACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGACG--ACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||| |||||||||||  | |||| ||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| |||   |||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||||| |||||| ||||| | ||||  ||||||||||  ||| || || |||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>200.559</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>4.09477e-46</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2287950</Hsp_hit-from>
+      <Hsp_hit-to>2287776</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|2543759516|gb|CP129003.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain EASDk81A chromosome, complete genome</Hit_def>
+  <Hit_accession>CP129003</Hit_accession>
+  <Hit_len>2560652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.57</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>2.41169e-112</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2287699</Hsp_hit-from>
+      <Hsp_hit-to>2288066</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCGC---CGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGGCC-GAACCTAGAATTGGGCGTCG-CCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCACTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGATCAGAA-GAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCTT-GACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGACG--ACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||| |||||||||||  | |||| ||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| |||   |||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||||| |||||| ||||| | ||||  ||||||||||  ||| || || |||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>200.559</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>4.09477e-46</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2287907</Hsp_hit-from>
+      <Hsp_hit-to>2287733</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|50839098|gb|AE017283.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes KPA171202, complete genome</Hit_def>
+  <Hit_accession>AE017283</Hit_accession>
+  <Hit_len>2560265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.57</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>2.41169e-112</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2287585</Hsp_hit-from>
+      <Hsp_hit-to>2287952</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCGC---CGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGGCC-GAACCTAGAATTGGGCGTCG-CCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCACTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGATCAGAA-GAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCTT-GACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGACG--ACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||| |||||||||||  | |||| ||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| |||   |||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||||| |||||| ||||| | ||||  ||||||||||  ||| || || |||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>200.559</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>4.09477e-46</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2287793</Hsp_hit-from>
+      <Hsp_hit-to>2287619</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|966535676|gb|CP012351.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain PA_21_1_L1 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP012351</Hit_accession>
+  <Hit_len>2560354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.57</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>2.41169e-112</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2287702</Hsp_hit-from>
+      <Hsp_hit-to>2288069</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCGC---CGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGGCC-GAACCTAGAATTGGGCGTCG-CCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCACTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGATCAGAA-GAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCTT-GACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGACG--ACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||| |||||||||||  | |||| ||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| |||   |||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||||| |||||| ||||| | ||||  ||||||||||  ||| || || |||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>200.559</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>4.09477e-46</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2287910</Hsp_hit-from>
+      <Hsp_hit-to>2287736</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1566419340|gb|CP025935.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes KPA171202 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP025935</Hit_accession>
+  <Hit_len>2560634</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.57</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>2.41169e-112</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2287707</Hsp_hit-from>
+      <Hsp_hit-to>2288074</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCGC---CGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGGCC-GAACCTAGAATTGGGCGTCG-CCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCACTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGATCAGAA-GAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCTT-GACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGACG--ACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||| |||||||||||  | |||| ||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| |||   |||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||||| |||||| ||||| | ||||  ||||||||||  ||| || || |||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>200.559</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>4.09477e-46</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2287915</Hsp_hit-from>
+      <Hsp_hit-to>2287741</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|2493040937|gb|CP114011.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain CBS-BPNBT19195 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP114011</Hit_accession>
+  <Hit_len>2560088</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.57</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>2.41169e-112</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2287150</Hsp_hit-from>
+      <Hsp_hit-to>2287517</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCGC---CGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGGCC-GAACCTAGAATTGGGCGTCG-CCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCACTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGATCAGAA-GAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCTT-GACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGACG--ACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||| |||||||||||  | |||| ||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| |||   |||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||||| |||||| ||||| | ||||  ||||||||||  ||| || || |||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>200.559</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>4.09477e-46</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2287358</Hsp_hit-from>
+      <Hsp_hit-to>2287184</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|335276409|gb|CP002815.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes 6609, complete genome</Hit_def>
+  <Hit_accession>CP002815</Hit_accession>
+  <Hit_len>2560282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.57</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>2.41169e-112</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2287604</Hsp_hit-from>
+      <Hsp_hit-to>2287971</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCGC---CGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGGCC-GAACCTAGAATTGGGCGTCG-CCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCACTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGATCAGAA-GAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCTT-GACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGACG--ACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||| |||||||||||  | |||| ||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| |||   |||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||||| |||||| ||||| | ||||  ||||||||||  ||| || || |||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>200.559</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>4.09477e-46</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2287812</Hsp_hit-from>
+      <Hsp_hit-to>2287638</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|966533409|gb|CP012350.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain PA_30_2_L1 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP012350</Hit_accession>
+  <Hit_len>2530708</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.57</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>2.41169e-112</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2259080</Hsp_hit-from>
+      <Hsp_hit-to>2259447</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>331</Hsp_identity>
+      <Hsp_positive>331</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGCT-GGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCGC---CGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGGCC-GAACCTAGAATTGGGCGTCG-CCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCACTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGATCAGAA-GAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCTT-GACGACGTCGCCGCCCAGCTCGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGA----CGCCCCTCCCCCGCGCCCGGAGTACTTCGACTTGTCAGATGCGGTATCCAAAG-CGGTCGAGAGGGGACGACG--ACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTTGGTGACGAGGCCACCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||| ||||||| |||||||||||| |||||||||||  | |||| ||||||||  |||||| ||||||||||||| ||||| |||||  |||||||||||||||||||||||||||||||||||||    | |||||||| |||   |||| |  |||||||||||||||||||||||||||| |||  |||||||||| ||   |||||||| |||||| ||||| | ||||  ||||||||||  ||| || || |||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>200.559</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>4.09477e-46</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2259288</Hsp_hit-from>
+      <Hsp_hit-to>2259114</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGGG-CGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAGTACTCCGGGCGCGGGGGAGGGGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCGAGCTGGGCGGCGACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGATCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||| |||||||| |||||||| |||||||||||||||||||| |||| |||||  | || ||| ||||| |||||||||||||||||||||||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|2415255273|gb|CP114143.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes subsp. acnes strain CCSM0331 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP114143</Hit_accession>
+  <Hit_len>2496923</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.027</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>7.88384e-106</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>2206257</Hsp_hit-from>
+      <Hsp_hit-to>2206623</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>325</Hsp_identity>
+      <Hsp_positive>325</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGC-TGGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG-CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCCCTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGACCAG-AAGAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCT-TGACGACGTGGCCGCCCAGCTTGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGG--ACGCTCCTCCCCCGCGTCCGGAGTATTTCGACTTGTCAGATGCGGTGTCCAAAG-CAGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTGGGTGACGAGGCCACCTTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||| ||||||||||||||||||||||||||| ||||||||||| | ||| |||||||||||||| |||||||||||  | |||| ||||||||  |||||| | |||||||||| |||||| |||||  ||||||||||||||||||||||||||||||||||||  |  |||| | |||||| ||||| | ||||||||||||||||||||| ||||||| | |  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || || |||||| ||||| || ||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>178.016</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>1.33859e-39</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2206465</Hsp_hit-from>
+      <Hsp_hit-to>2206291</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGG-GCGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAATACTCCGGACGCGGGGGAGGAGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCAAGCTGGGCGGCCACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGGTCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||| | |||||| ||||||||||| ||||||||||||||||||||||||  |||||| |||||||| |||||||| || ||||||||||| ||||| |||| |||||  | || ||| ||||| |||||||||||||||||||| ||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|969866734|gb|CP013693.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain A1-14 chromosome</Hit_def>
+  <Hit_accession>CP013693</Hit_accession>
+  <Hit_len>2399738</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.519</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>3.35229e-104</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>2129855</Hsp_hit-from>
+      <Hsp_hit-to>2130221</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGC-TGGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG-CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCCCTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGACCAG-AAGAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCT-TGACGACGTGGCCGCCCAGCTTGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGG--ACGCTCCTCCCCCGCGTCCGGAGTATTTCGACTTGTCAGATGCGGTGTCTAAAG-CAGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTGGGTGACGAGGCCACCTTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||| ||||||||||||||||||||||||||| ||||||||||| | ||| |||||||||||||| |||||||||||  | |||| ||||||||  |||||| | |||||||||| |||||| |||||  ||||||||||||||||||||||||||||||||||||  |  |||| | |||||| ||||| | ||||||||||||||||||||| || |||| | |  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || || |||||| ||||| || ||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>178.016</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>1.33859e-39</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2130063</Hsp_hit-from>
+      <Hsp_hit-to>2129889</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGG-GCGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAATACTCCGGACGCGGGGGAGGAGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCAAGCTGGGCGGCCACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGGTCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||| | |||||| ||||||||||| ||||||||||||||||||||||||  |||||| |||||||| |||||||| || ||||||||||| ||||| |||| |||||  | || ||| ||||| |||||||||||||||||||| ||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|927037141|gb|CP012647.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain KCOM 1861 (= ChDC B594) chromosome, complete genome</Hit_def>
+  <Hit_accession>CP012647</Hit_accession>
+  <Hit_len>2522438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.519</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>3.35229e-104</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>2327435</Hsp_hit-from>
+      <Hsp_hit-to>2327801</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGC-TGGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG-CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCCCTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGACCAG-AAGAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCT-TGACGACGTGGCCGCCCAGCTTGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGG--ACGCTCCTCCCCCGCGTCCGGAGTATTTCGACTTGTCAGATGCGGTGTCTAAAG-CAGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTGGGTGACGAGGCCACCTTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||| ||||||||||||||||||||||||||| ||||||||||| | ||| |||||||||||||| |||||||||||  | |||| ||||||||  |||||| | |||||||||| |||||| |||||  ||||||||||||||||||||||||||||||||||||  |  |||| | |||||| ||||| | ||||||||||||||||||||| || |||| | |  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || || |||||| ||||| || ||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>178.016</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>1.33859e-39</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2327643</Hsp_hit-from>
+      <Hsp_hit-to>2327469</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGG-GCGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAATACTCCGGACGCGGGGGAGGAGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCAAGCTGGGCGGCCACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGGTCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||| | |||||| ||||||||||| ||||||||||||||||||||||||  |||||| |||||||| |||||||| || ||||||||||| ||||| |||| |||||  | || ||| ||||| |||||||||||||||||||| ||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|353454017|gb|CP003084.1|</Hit_id>
+  <Hit_def>Propionibacterium acnes ATCC 11828, complete genome</Hit_def>
+  <Hit_accession>CP003084</Hit_accession>
+  <Hit_len>2488626</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.519</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>3.35229e-104</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>704253</Hsp_hit-from>
+      <Hsp_hit-to>704619</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGC-TGGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG-CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCCCTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGACCAG-AAGAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCT-TGACGACGTGGCCGCCCAGCTTGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGG--ACGCTCCTCCCCCGCGTCCGGAGTATTTCGACTTGTCAGATGCGGTGTCTAAAG-CAGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTGGGTGACGAGGCCACCTTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||| ||||||||||||||||||||||||||| ||||||||||| | ||| |||||||||||||| |||||||||||  | |||| ||||||||  |||||| | |||||||||| |||||| |||||  ||||||||||||||||||||||||||||||||||||  |  |||| | |||||| ||||| | ||||||||||||||||||||| || |||| | |  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || || |||||| ||||| || ||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>178.016</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>1.33859e-39</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>704461</Hsp_hit-from>
+      <Hsp_hit-to>704287</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGG-GCGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAATACTCCGGACGCGGGGGAGGAGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCAAGCTGGGCGGCCACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGGTCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||| | |||||| ||||||||||| ||||||||||||||||||||||||  |||||| |||||||| |||||||| || ||||||||||| ||||| |||| |||||  | || ||| ||||| |||||||||||||||||||| ||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|2548746222|gb|CP129004.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain EASDk81B chromosome, complete genome</Hit_def>
+  <Hit_accession>CP129004</Hit_accession>
+  <Hit_len>2497202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.519</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>3.35229e-104</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>2206640</Hsp_hit-from>
+      <Hsp_hit-to>2207006</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGC-TGGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG-CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCCCTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGACCAG-AAGAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCT-TGACGACGTGGCCGCCCAGCTTGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGG--ACGCTCCTCCCCCGCGTCCGGAGTATTTCGACTTGTCAGATGCGGTGTCTAAAG-CAGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTGGGTGACGAGGCCACCTTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||| ||||||||||||||||||||||||||| ||||||||||| | ||| |||||||||||||| |||||||||||  | |||| ||||||||  |||||| | |||||||||| |||||| |||||  ||||||||||||||||||||||||||||||||||||  |  |||| | |||||| ||||| | ||||||||||||||||||||| || |||| | |  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || || |||||| ||||| || ||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>178.016</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>1.33859e-39</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2206848</Hsp_hit-from>
+      <Hsp_hit-to>2206674</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGG-GCGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAATACTCCGGACGCGGGGGAGGAGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCAAGCTGGGCGGCCACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGGTCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||| | |||||| ||||||||||| ||||||||||||||||||||||||  |||||| |||||||| |||||||| || ||||||||||| ||||| |||| |||||  | || ||| ||||| |||||||||||||||||||| ||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|2613050028|gb|CP136361.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes subsp. defendens strain 11-79 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP136361</Hit_accession>
+  <Hit_len>2498044</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.519</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>3.35229e-104</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>2206918</Hsp_hit-from>
+      <Hsp_hit-to>2207284</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGC-TGGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG-CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCCCTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGACCAG-AAGAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCT-TGACGACGTGGCCGCCCAGCTTGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGG--ACGCTCCTCCCCCGCGTCCGGAGTATTTCGACTTGTCAGATGCGGTGTCTAAAG-CAGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTGGGTGACGAGGCCACCTTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||| ||||||||||||||||||||||||||| ||||||||||| | ||| |||||||||||||| |||||||||||  | |||| ||||||||  |||||| | |||||||||| |||||| |||||  ||||||||||||||||||||||||||||||||||||  |  |||| | |||||| ||||| | ||||||||||||||||||||| || |||| | |  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || || |||||| ||||| || ||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>178.016</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>1.33859e-39</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2207126</Hsp_hit-from>
+      <Hsp_hit-to>2206952</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGG-GCGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAATACTCCGGACGCGGGGGAGGAGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCAAGCTGGGCGGCCACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGGTCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||| | |||||| ||||||||||| ||||||||||||||||||||||||  |||||| |||||||| |||||||| || ||||||||||| ||||| |||| |||||  | || ||| ||||| |||||||||||||||||||| ||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|2493038017|gb|CP114010.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain CBS-BPNBT19329 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP114010</Hit_accession>
+  <Hit_len>2492467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.519</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>3.35229e-104</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>2201350</Hsp_hit-from>
+      <Hsp_hit-to>2201716</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>324</Hsp_identity>
+      <Hsp_positive>324</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>CCTCTCCACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGC-TGGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG-CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTC</Hsp_qseq>
+      <Hsp_hseq>CCTC-CCACGAACTGCGAACCCCCCTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGACCAG-AAGAGCCACATGCT-CCCGGAGGAAGCACGCGGG-GAGATCCT-TGACGACGTGGCCGCCCAGCTTGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGG--ACGCTCCTCCCCCGCGTCCGGAGTATTTCGACTTGTCAGATGCGGTGTCTAAAG-CAGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGTCCCATTTGGTGCTGGGTGACGAGGCCACCTTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||| |||||||| ||||||||||||||||||||||||||| ||||||||||| | ||| |||||||||||||| |||||||||||  | |||| ||||||||  |||||| | |||||||||| |||||| |||||  ||||||||||||||||||||||||||||||||||||  |  |||| | |||||| ||||| | ||||||||||||||||||||| || |||| | |  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||||||  ||| || || |||||| ||||| || ||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>178.016</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>1.33859e-39</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2201558</Hsp_hit-from>
+      <Hsp_hit-to>2201384</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGG-GCGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAATACTCCGGACGCGGGGGAGGAGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCAAGCTGGGCGGCCACGTCGTCAAGGATCTCCCCGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGGTCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||| | |||||| ||||||||||| ||||||||||||||||||||||||  |||||| |||||||| |||||||| || ||||||||||| ||||| |||| |||||  | || ||| ||||| |||||||||||||||||||| ||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|2493035247|gb|CP114009.1|</Hit_id>
+  <Hit_def>Cutibacterium acnes strain CBS-BPNBT19223 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP114009</Hit_accession>
+  <Hit_len>2578943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.092</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>7.38392e-100</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>2292219</Hsp_hit-from>
+      <Hsp_hit-to>2292581</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>317</Hsp_identity>
+      <Hsp_positive>317</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>CACGAACTACGAACCCCACTGACCTCGATGCGCACCAACGTCGAGCTGCTGATGGCC-ATCAGAAAGAGCCACATGCTACCCGGAGGAAGACCACGGGAGAGATCCTGCGACGACATCGCCGCCCAGC-TGGTGACTTCTCAGGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGGAAAACCTCCCCTCCCGCG-CCGGATTGTTTCGACTTGTCAGATGCGGTATCCAAAGACGGATGAGAGGGGACAACAGTACGCGG-CCGAACCTAGAATTGGGCGT-CGCCTGGAGTCCATTTTCGTACT-GGTGACAAGGCCGCCCTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_qseq>
+      <Hsp_hseq>CACGAACTGCGAACCCCCCTGACCTCGATGCGCACCAACGTCGAGTTGCTGATGGCCGACCAG-AAGAGCCACATGCT-CCCGGAGGAAGCACGCAGG-GAGATCCT-TGACGACGTGGCCGCCCAGCTTGGTGAGTTCTCCAGCCTCATTGGCGACCTCGTCCAGCTCTCGCGCGAGG--ACGCTCCTCCCCCGCGTCCGGAGTATTTCGACTTGTCATATGCGGTATCTAAAG-CAGTCGAGAGGGGACGAC--GACGCGGCCCGAACCTGGAATTCGACGTCCACCTGGAGCCCCATTTGGTGCTGGGCGACGAGGCCACCTTGGAGCGGGCTGTCACCAACCTGCTCGATAATGCGGTGAAGTTCTCC</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||||| ||||||||||||||||||||||||||| ||||||||||| | ||| |||||||||||||| |||||||||||  | | || ||||||||  |||||| | |||||||||| |||||| |||||  ||||||||||||||||||||||||||||||||||||  |  |||| | |||||| ||||| | ||||||||||||| |||||||||| |||| | |  |||||||||| ||   |||||| |||||||| ||||| | ||| | ||||||| ||  ||| || || || ||| ||||| || |||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>182.525</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>1.09878e-40</Hsp_evalue>
+      <Hsp_query-from>431</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>2292422</Hsp_hit-from>
+      <Hsp_hit-to>2292248</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GAAGTTCTCCGGGCGCGGGGGAGG-GCGTCCTCGCGCGAGAGCTGGACG--GTCGCCGATGAGGCTCGAGAACTCGCCGAGCTGGGCGGCGACGTCATCAA-GATCT-GCTGCATGC-TCCTCAGGGAGCATGTGGCTCTTCTGATCGGCCATCGGCAGCTCAAGCGTGGTGGGC</Hsp_qseq>
+      <Hsp_hseq>GAAATACTCCGGACGCGGGGGAGGAGCGTCCTCGCGCGAGAGCTGGACGAGGTCGCCAATGAGGCTGGAGAACTCACCAAGCTGGGCGGCCACGTCGTCAAGGATCTCCCTGCGTGCTTCCTCCGGGAGCATGTGGCTCTTCTGGTCGGCCATCAGCAACTCGACGTTGGTGCGC</Hsp_hseq>
+      <Hsp_midline>||| | |||||| ||||||||||| ||||||||||||||||||||||||  |||||| |||||||| |||||||| || ||||||||||| ||||| |||| |||||  |||| ||| ||||| |||||||||||||||||||| ||||||||| ||| ||| |   ||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>111347470</Statistics_db-num>
+      <Statistics_db-len>1457433627</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

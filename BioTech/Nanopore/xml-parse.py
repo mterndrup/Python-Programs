@@ -30,7 +30,7 @@ class Logger:
         self.terminal.flush()
         self.log.flush()
 
-sys.stdout = Logger("output.txt")
+sys.stdout = Logger("output47.txt")
 
 def get_tax_id(species):
     """to get data from ncbi taxomomy, we need to have the taxid. we can
@@ -45,6 +45,8 @@ def get_tax_data(taxid):
     """once we have the taxid, we can fetch the record"""
     search = Entrez.efetch(id = taxid, db = "taxonomy", retmode = "xml")
     return Entrez.read(search)
+
+kingdom_counter = []
 
 def run():
     try:
@@ -103,6 +105,7 @@ def run():
                             lineage_list.append(lineage)
                         except Exception as e:
                             print(e)
+                    print(lineage_list)
                     try:
                         # Extract all kingdoms from the lineage_list
                         kingdoms = [list(lineage.values())[0] for lineage in lineage_list if lineage]
@@ -113,7 +116,18 @@ def run():
                         # Find the most common kingdom
                         most_common_kingdom = kingdom_counts.most_common(1)[0][0]
 
+                        # Update kingdom_counter
+                        kingdom_found = False
+                        for kingdom in kingdom_counter:
+                            if kingdom['name'] == most_common_kingdom:
+                                kingdom['count'] += 1
+                                kingdom_found = True
+                                break
+                        if not kingdom_found:
+                            kingdom_counter.append({'name': most_common_kingdom, 'count': 1})
+
                         print(f'The most common kingdom is: {most_common_kingdom}')
+                        print(f'Kingdom counter: {kingdom_counter}')
                     except Exception as e:
                         print(e)
                 else:
@@ -124,3 +138,5 @@ def run():
         print(e)
 
 run()
+
+print(kingdom_counter)
