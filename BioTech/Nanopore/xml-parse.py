@@ -6,7 +6,7 @@ from collections import Counter
 
 current_directory = os.getcwd()
 xmls = os.path.join(current_directory, 'xmls')
-folder_47 = os.path.join(xmls, '47')
+folder_48 = os.path.join(xmls, '48')
 rawfiles_folder = os.path.join(current_directory, 'RawFiles')
 
 email = ""
@@ -30,7 +30,7 @@ class Logger:
         self.terminal.flush()
         self.log.flush()
 
-sys.stdout = Logger("output47.txt")
+sys.stdout = Logger("output48.txt")
 
 def get_tax_id(species):
     """to get data from ncbi taxomomy, we need to have the taxid. we can
