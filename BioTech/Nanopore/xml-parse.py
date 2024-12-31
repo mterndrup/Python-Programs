@@ -56,10 +56,10 @@ def run():
             number_match = re.search(r'\d+', file_name)
             if number_match:
                 number = int(number_match.group())
-                if number > 0:
+                if number > 1499:
                     print(f"Processing file number: {number}")
 
-                    raw_file_path = os.path.join(rawfiles_folder, 'Split47.txt')
+                    raw_file_path = os.path.join(rawfiles_folder, 'Split48.txt')
                     with open(raw_file_path, 'r') as raw_file:
                         lines = raw_file.readlines()
                         if number <= len(lines):
