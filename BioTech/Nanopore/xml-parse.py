@@ -6,7 +6,7 @@ from collections import Counter
 
 current_directory = os.getcwd()
 xmls = os.path.join(current_directory, 'xmls')
-folder_48 = os.path.join(xmls, '48')
+folder_47 = os.path.join(xmls, '47')
 rawfiles_folder = os.path.join(current_directory, 'RawFiles')
 
 email = ""
@@ -30,7 +30,7 @@ class Logger:
         self.terminal.flush()
         self.log.flush()
 
-sys.stdout = Logger("output48-full.txt")
+sys.stdout = Logger("output47-full.txt")
 
 def get_tax_id(species):
     """to get data from ncbi taxomomy, we need to have the taxid. we can
@@ -55,7 +55,7 @@ kingdom_counter = []
 
 def run():
     try:
-        xml_files = glob.glob(folder_48 + "/*.xml")
+        xml_files = glob.glob(folder_47 + "/*.xml")
         xml_files_sorted = sorted(xml_files, key=lambda x: extract_number(os.path.basename(x)))
         for xml_file in xml_files_sorted:
             file_name = os.path.basename(xml_file)
@@ -65,7 +65,7 @@ def run():
                 if number > -1:
                     print(f"Processing file number: {number}")
 
-                    raw_file_path = os.path.join(rawfiles_folder, 'Split48.txt')
+                    raw_file_path = os.path.join(rawfiles_folder, 'Split47.txt')
                     with open(raw_file_path, 'r') as raw_file:
                         lines = raw_file.readlines()
                         if number <= len(lines):
