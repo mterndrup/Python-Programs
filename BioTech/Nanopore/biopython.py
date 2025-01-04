@@ -18,7 +18,7 @@ Bio.Blast.email = email
 
 for i, line in enumerate(lines):
     try:
-        if i > 1605:
+        if i > -1:
             if line.strip():
                 fasta_inc = ">con"+str(i)+"\n"+line
                 print(fasta_inc)

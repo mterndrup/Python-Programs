@@ -30,7 +30,7 @@ class Logger:
         self.terminal.flush()
         self.log.flush()
 
-sys.stdout = Logger("output48.txt")
+sys.stdout = Logger("output48-full.txt")
 
 def get_tax_id(species):
     """to get data from ncbi taxomomy, we need to have the taxid. we can
@@ -46,17 +46,23 @@ def get_tax_data(taxid):
     search = Entrez.efetch(id = taxid, db = "taxonomy", retmode = "xml")
     return Entrez.read(search)
 
+# Function to extract the numeric part of the file name
+def extract_number(file_name):
+    match = re.search(r'\d+', file_name)
+    return int(match.group()) if match else float('inf')
+
 kingdom_counter = []
 
 def run():
     try:
         xml_files = glob.glob(folder_48 + "/*.xml")
-        for xml_file in xml_files:
+        xml_files_sorted = sorted(xml_files, key=lambda x: extract_number(os.path.basename(x)))
+        for xml_file in xml_files_sorted:
             file_name = os.path.basename(xml_file)
             number_match = re.search(r'\d+', file_name)
             if number_match:
                 number = int(number_match.group())
-                if number > 1499:
+                if number > -1:
                     print(f"Processing file number: {number}")
 
                     raw_file_path = os.path.join(rawfiles_folder, 'Split48.txt')
