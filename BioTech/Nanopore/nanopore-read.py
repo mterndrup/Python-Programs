@@ -15,16 +15,8 @@ lines = content.strip().splitlines()
 with open("basepairmedium47.txt", "w") as text_file:
     for i, line in enumerate(lines):
         try:
-            if ((i - 2) % 4 == 0):
-                llen = len(lines[i-1])
-                print(llen)
-                if("GTTGA" in lines[i-1]):
-                    if("TGTAA" in lines[i-1]):
-                        if ("GGTTA" in lines[i - 1]):
-                            if ("TCTTT" in lines[i - 1]):
-                                if(llen>250 and llen<750):
-                                    output = str(lines[i-1])
-                                    print(lines[i-1])
-                                    text_file.write(f">con{i} \n {output}\n\n")
+            output = str(lines[i-1])
+            print(lines[i-1])
+            text_file.write(f">con{i} \n {output}\n\n")
         except Exception as e:
             print(e)
