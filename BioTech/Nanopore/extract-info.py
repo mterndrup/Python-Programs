@@ -45,21 +45,6 @@ def extract_information(file_content):
                 if isinstance(item, dict) and 'kingdom' in item:
                     current_kingdom = item['kingdom']
 
-    # Process the last DNA sequence block
-    if dna_sequence:
-        most_common_kingdom = current_kingdom
-
-        most_common_genus = Counter(genus_list).most_common(1)
-        if most_common_genus and most_common_genus[0][1] > 1:
-            most_common_genus_name = f"{most_common_genus[0][0]} (Count: {most_common_genus[0][1]})"
-        else:
-            most_common_genus_name = "Undetermined"
-
-        output.append(f"{line_number}")
-        output.append(f"{dna_sequence}")
-        output.append(f"Most Common Genus: {most_common_genus_name}")
-        output.append(f"Most Common Kingdom: {most_common_kingdom}")
-        output.append("")
 
     # Count all species and sort by most common descending
     species_counter = Counter(species_list)
@@ -81,17 +66,17 @@ def extract_information(file_content):
     return "\n".join(output)
 
 # Read the content of the original file
-with open('output48-full.txt', 'r') as file:
+with open('output47-full.txt', 'r') as file:
     file_content = file.read()
 
 # Extract information
 extracted_info = extract_information(file_content)
 
 # Write the result to a text file
-with open('output48-extracted_info.txt', 'w') as output_file:
+with open('output47-extracted_info.txt', 'w') as output_file:
     output_file.write(extracted_info)
 
 # Print the result to the terminal
 print(extracted_info)
 
-print("The extracted information has been saved to output48-extracted_info.txt")
+print("The extracted information has been saved to output47-extracted_info.txt")
