@@ -32,6 +32,7 @@ for foldername in os.listdir(parent_dir):
                     "--cpu", cpus,
                     "--preserve", "T",
                     "--allow_partial",
+                    "--kingdom", "F"
                     "--save_regions", "all"
                 ]
 

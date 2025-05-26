@@ -1,85 +1,67 @@
 import os
-import subprocess
 import time
-import urllib.error
 from Bio.Blast import NCBIWWW, NCBIXML
 from Bio import SeqIO, Entrez
 import threading
-import queue
 import sys
 from datetime import datetime
 import csv
 import glob
 
-if os.name == 'nt':
-    import msvcrt
-else:
-    import select
-
 barcode = input("Enter the barcode number (e.g., 05 for barcode05): ").strip().zfill(2)
-# === Config ===
+primertype = "FITS"
+
 input_dir = (r"C:\Users\ketgl\OneDrive\Documents\GitHub\Python-Programs\BioTech"
              r"\Bioinformatics\Chaparral\wildfirePlants-DNA-nanopore-sequence"
              fr"\fastq_pass\barcode{barcode}")
 
-primertype = "FITS"
-fwd_primer = "GGAAGTAAAAGTCGTAACAAGG"
-rev_primer = "CAAGAGATCCGTTGTTGAAAGTT"
-cutadapt_path = r"C:\Users\ketgl\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts\cutadapt.exe"
+# Now the input fasta file (no fastq or cutadapt steps)
+input_fasta_path = os.path.join(input_dir, f"barcode{barcode}_{primertype}.fasta")
 
-identity_threshold = 75
+if not os.path.exists(input_fasta_path):
+    sys.exit(f"❌ Input FASTA file not found: {input_fasta_path}")
+
+identity_threshold = 85
 Entrez.api_key = "b1ee6a94722846e3fe858612221221948607"
 Entrez.email = "terndrupm@gmail.com"
 
 folder_name = os.path.basename(input_dir.rstrip(os.sep))
-input_files = sorted(f for f in os.listdir(input_dir) if f.endswith("_trimmed.fastq"))
 
-if not input_files:
-    print("No _trimmed.fastq files found.")
-    exit()
+# Output files
+fasta_blast_output_path = os.path.join(input_dir, f"{folder_name}_{primertype}_BLAST.fasta")
 
-final_output_path = os.path.join(input_dir, f"{folder_name}_{primertype}_final_trimmed_raw.fastq")
+log_files = sorted(glob.glob(os.path.join(input_dir, f"{folder_name}_{primertype}_blast_log_*.txt")))
 
-# === Step 1: Cutadapt Trimming ===
-if os.path.exists(final_output_path):
-    print(f"⚡ Found existing trimmed FASTQ: {final_output_path}, skipping Cutadapt.")
+if log_files:
+    log_output_path = log_files[-1]
+    print(f"⚡ Resuming from existing log: {log_output_path}")
 else:
-    print("\U0001faa9 No trimmed FASTQ found. Running Cutadapt...")
-    with open(final_output_path, "w") as final_out:
-        for filename in input_files:
-            input_path = os.path.join(input_dir, filename)
-            temp_output_path = os.path.join(input_dir, f"temp_{filename}_cutadapt.fastq")
-            cmd = [
-                cutadapt_path, "-g", fwd_primer, "-a", rev_primer,
-                "-e", "0.1", "--minimum-length", "60", "--overlap", "5",
-                "--discard-untrimmed", "-o", temp_output_path, input_path
-            ]
-            print(f"🔪 Running Cutadapt on {filename}")
-            try:
-                subprocess.run(cmd, check=True)
-                with open(temp_output_path, "r") as temp_in:
-                    final_out.write(temp_in.read())
-                os.remove(temp_output_path)
-            except subprocess.CalledProcessError as e:
-                print(f"❌ Cutadapt error on {filename}: {e}")
-    print(f"🎉 Trimmed FASTQ saved: {final_output_path}")
+    log_output_path = os.path.join(input_dir, f"{folder_name}_{primertype}_blast_log_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.txt")
+    print(f"🆕 Starting new log file: {log_output_path}")
 
-# === Step 2: Convert to FASTA ===
-fasta_output_path = os.path.join(input_dir, f"{folder_name}_{primertype}_final_trimmed.fasta")
-if os.path.exists(fasta_output_path):
-    print(f"⚡ Found existing FASTA: {fasta_output_path}, skipping conversion.")
-else:
-    print("\U0001f501 Converting to FASTA...")
-    with open(final_output_path, "r") as fastq_in, open(fasta_output_path, "w") as fasta_out:
-        for i, line in enumerate(fastq_in):
-            line = line.strip()
-            if i % 4 == 0:
-                fasta_out.write(f">{line[1:]}\n")
-            elif i % 4 == 1:
-                fasta_out.write(line + "\n")
-    print(f"📂 FASTA saved: {fasta_output_path}")
+summary_csv_path = os.path.join(input_dir, f"{folder_name}_sum.csv")
 
-# === Updated blast_with_timeout Function ===
+species_counts = {}
+processed_ids = set()
+
+if os.path.exists(fasta_blast_output_path):
+    for record in SeqIO.parse(fasta_blast_output_path, "fasta"):
+        processed_ids.add(record.id)
+
+if os.path.exists(log_output_path):
+    with open(log_output_path, "r", encoding="utf-8") as log_file:
+        header_line = log_file.readline()
+        for line in log_file:
+            if line.strip():
+                rec_id = line.split("\t")[0]
+                processed_ids.add(rec_id)
+
+if os.path.exists(summary_csv_path):
+    with open(summary_csv_path, "r", encoding="utf-8") as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            species_counts[row["Species"]] = int(row["Count"])
+
 def blast_with_timeout(seq, timeout=300):
     blast_result = [None]
 
@@ -116,7 +98,6 @@ def blast_with_timeout(seq, timeout=300):
 
     return result
 
-# === Helper Functions ===
 def extract_genus_species(description):
     parts = description.split()
     if len(parts) >= 2:
@@ -140,49 +121,13 @@ def is_fungi_kingdom_or_uncultured(hit_def, accession):
         print(f"  ⚠️ Taxonomy lookup error for {accession}: {e}")
         return False
 
-# === Step 3: BLAST and Filter with resume capability ===
-fasta_blast_output_path = os.path.join(input_dir, f"{folder_name}_{primertype}_fungi_only.fasta")
-
-log_files = sorted(glob.glob(os.path.join(input_dir, f"{folder_name}_{primertype}_blast_log_*.txt")))
-
-if log_files:
-    log_output_path = log_files[-1]
-    print(f"⚡ Resuming from existing log: {log_output_path}")
-else:
-    log_output_path = os.path.join(input_dir, f"{folder_name}_{primertype}_blast_log_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.txt")
-    print(f"🆕 Starting new log file: {log_output_path}")
-
-summary_csv_path = os.path.join(input_dir, f"{folder_name}_sum.csv")
-
-species_counts = {}
-processed_ids = set()
-
-if os.path.exists(fasta_blast_output_path):
-    for record in SeqIO.parse(fasta_blast_output_path, "fasta"):
-        processed_ids.add(record.id)
-
-if os.path.exists(log_output_path):
-    with open(log_output_path, "r", encoding="utf-8") as log_file:
-        header_line = log_file.readline()
-        for line in log_file:
-            if line.strip():
-                rec_id = line.split("\t")[0]
-                processed_ids.add(rec_id)
-
-if os.path.exists(summary_csv_path):
-    with open(summary_csv_path, "r", encoding="utf-8") as csvfile:
-        reader = csv.DictReader(csvfile)
-        for row in reader:
-            species_counts[row["Species"]] = int(row["Count"])
-
 with open(fasta_blast_output_path, "a") as fasta_out, \
-     open(log_output_path, "a", encoding="utf-8") as log_file, \
-     open(fasta_output_path, "r") as fasta_in:
+     open(log_output_path, "a", encoding="utf-8") as log_file:
 
     if os.path.getsize(log_output_path) == 0:
         log_file.write("ID\tStatus\tReason\tTop_Hit\n")
 
-    for record in SeqIO.parse(fasta_output_path, "fasta"):
+    for record in SeqIO.parse(input_fasta_path, "fasta"):
         if record.id in processed_ids:
             print(f"⏭️ Skipping already-processed: {record.id}")
             continue
@@ -245,7 +190,7 @@ with open(fasta_blast_output_path, "a") as fasta_out, \
         processed_ids.add(record.id)
         time.sleep(3)
 
-# === Write Summary CSV ===
+# Write Summary CSV
 with open(summary_csv_path, "w", newline='', encoding='utf-8') as csvfile:
     fieldnames = ["Species", "Count"]
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
