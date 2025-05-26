@@ -4,29 +4,32 @@ from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 
 def find_orfs(seq, min_pro_len=100):
-    """Find ORFs in all 6 frames, return nucleotide and protein sequences."""
+    """Find ORFs in all 6 frames, return nucleotide and protein sequences as Seq objects."""
+    if not isinstance(seq, Seq):
+        seq = Seq(seq)  # convert to Seq if raw string passed
     orfs = []
+    seq_len = len(seq)
     for strand, nuc in [(+1, seq), (-1, seq.reverse_complement())]:
         for frame in range(3):
+            # Translate from frame, don't stop at stop codons
             trans = nuc[frame:].translate(to_stop=False)
             trans_len = len(trans)
             aa_start = 0
             while aa_start < trans_len:
                 aa_end = trans.find("*", aa_start)
                 if aa_end == -1:
-                    aa_end = trans_len
+                    aa_end = trans_len  # no stop codon found, go to end
+                # Check if ORF length meets minimum protein length
                 if aa_end - aa_start >= min_pro_len:
-                    # nucleotide coordinates in original sequence
                     if strand == 1:
                         start = frame + aa_start * 3
                         end = frame + aa_end * 3
                         orf_nuc_seq = seq[start:end]
                     else:
-                        # For reverse strand, coordinates are reversed
-                        start = len(seq) - (frame + aa_end * 3)
-                        end = len(seq) - (frame + aa_start * 3)
+                        # Reverse strand: coordinates reversed relative to original seq
+                        start = seq_len - (frame + aa_end * 3)
+                        end = seq_len - (frame + aa_start * 3)
                         orf_nuc_seq = seq[start:end].reverse_complement()
-
                     orf_prot_seq = trans[aa_start:aa_end]
                     orfs.append((orf_nuc_seq, orf_prot_seq))
                 aa_start = aa_end + 1
@@ -51,7 +54,7 @@ def score_orfs_against_target(orfs, target_seq):
     scores = []
     for rec in orfs:
         prot_seq = rec.annotations['protein_seq']
-        #Globalxx and localxx produce the same orf count, local is faster
+        # localxx is faster for alignment and good enough here
         alignments = pairwise2.align.localxx(target_seq, prot_seq, one_alignment_only=True)
         score = alignments[0].score if alignments else 0
         scores.append((rec.id, score))
