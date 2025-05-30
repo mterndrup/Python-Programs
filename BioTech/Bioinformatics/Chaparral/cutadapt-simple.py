@@ -3,21 +3,20 @@ import subprocess
 import sys
 
 # --- Config ---
-fastq_base_dir = (r"C:\Users\ketgl\OneDrive\Documents\GitHub\Python-Programs\BioTech"
-                  r"\Bioinformatics\Chaparral\wildfirePlants-DNA-nanopore-sequence"
-                  r"\fastq_pass")
+fastq_base_dir = (r"C:\Users\ketgl\OneDrive\Documents\GitHub\Python-Programs"
+                  r"\BioTech\Bioinformatics\Tribal-Medicine\Cacti\DNA_Sequences")
 
 cutadapt_path = r"C:\Users\ketgl\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts\cutadapt.exe"
 
 primers = {
-    "FITS": {
-        "fwd": "GGAAGTAAAAGTCGTAACAAGG",
-        "rev": "CAAGAGATCCGTTGTTGAAAGTT"
+    #"FITS": {
+    #    "fwd": "GGAAGTAAAAGTCGTAACAAGG",
+    #    "rev": "CAAGAGATCCGTTGTTGAAAGTT"
+    #},
+    "PITS": {
+        "fwd": "ATGCGATACTTGGTGTGAAT",
+        "rev": "GACGCTTCTCCAGACTACAAT"
     },
-    # "PITS": {
-    #     "fwd": "ATGCGATACTTGGTGTGAAT",
-    #     "rev": "GACGCTTCTCCAGACTACAAT"
-    # },
     # "18S": {
     #     "fwd": "GTACACACCGCCCGTC",
     #     "rev": "TGATCCTTCTGCAGGTTCACCTAC"
@@ -103,7 +102,7 @@ for barcode_dir in barcode_dirs:
             os.remove(cutadapt_out)
 
     # Write per-barcode FASTA inside barcode folder but outside Raw
-    barcode_output_path = os.path.join(fastq_base_dir, barcode_dir, f"{barcode_dir}_FITS_full.fasta")
+    barcode_output_path = os.path.join(fastq_base_dir, barcode_dir, f"{barcode_dir}_PITS.fasta")
     with open(barcode_output_path, "w") as fout:
         fout.writelines(all_fasta_records)
 
