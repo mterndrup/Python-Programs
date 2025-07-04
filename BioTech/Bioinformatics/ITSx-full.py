@@ -6,7 +6,7 @@ from datetime import datetime
 
 def get_base_dir(project_choice):
     if project_choice == "1":
-        return "/mnt/c/Users/ketgl/OneDrive/Documents/GitHub/Python-Programs/BioTech/Bioinformatics/Chaparral/Wildfire/fastq_pass"
+        return "/mnt/c/Users/ketgl/OneDrive/Documents/GitHub/Python-Programs/BioTech/Bioinformatics/Chaparral/Wildfire-Sequences/fastq_pass"
     elif project_choice == "2":
         return "/mnt/c/Users/ketgl/OneDrive/Documents/Glowing-Fungi"
     elif project_choice == "3":
@@ -32,10 +32,17 @@ def get_fasta_path(project_choice, base_dir, barcode_num, mode, use_18s=False):
             suffix = "PITS" if mode == "plant" else "FITS"
             fasta_file = f"barcode{barcode_num}_{suffix}.fasta"
             return os.path.join(folder_path, fasta_file)
-    elif project_choice in ("2", "3"):
+
+    elif project_choice == "2":
+        # Glowing Mushroom project - fixed full path to Flye split FASTA
+        return r"/mnt/c/Users/ketgl/OneDrive/Documents/Glowing-Fungi/Flye/assembly_contigs_split.fasta"
+
+    elif project_choice == "3":
         return os.path.join(base_dir, "assembly.fasta")
+
     else:
         return None
+
 
 def make_headers_unique(input_fasta, output_fasta):
     print("Making sequence headers unique...")
