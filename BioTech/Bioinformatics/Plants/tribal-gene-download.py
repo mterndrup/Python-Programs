@@ -9,7 +9,7 @@ Entrez.email = "your_email@example.com"  # Replace with your email
 search_term = "Banisteriopsis caapi[Organism]"
 max_results = 1000
 
-output_folder = "DNA-Sequences-B.caapi"
+output_folder = "References"
 os.makedirs(output_folder, exist_ok=True)
 
 
@@ -124,7 +124,7 @@ for idx, ncbi_id in enumerate(ids):
     time.sleep(0.4)
 
 # Save to CSV with columns for the ribosomal RNA regions and function
-with open("b.caapi-genetics.csv", "w", newline="") as f:
+with open("Aya/References/b.caapi-genetics.csv", "w", newline="") as f:
     writer = csv.writer(f)
     writer.writerow([
         "Accession", "Strain",
