@@ -1,0 +1,43 @@
+ ketglo@Ketglo:~$ kraken2-build --standard --db kraken2db
+Downloading nucleotide gb accession to taxon map... done.
+Downloading nucleotide wgs accession to taxon map... done.
+Downloaded accession to taxon map(s)
+Downloading taxonomy tree data... done.
+Uncompressing taxonomy data... done.
+Untarring taxonomy tree data... done.
+Step 1/2: Performing rsync file transfer of requested files
+Rsync file transfer complete.
+Step 2/2: Assigning taxonomic IDs to sequences
+Processed 661 projects (1250 sequences, 1.90 Gbp)... done.
+All files processed, cleaning up extra sequence files... done, library complete.
+Masking low-complexity regions of downloaded library... done.
+Step 1/2: Performing rsync file transfer of requested files
+[generator] io timeout after 47084 seconds -- exiting
+rsync error: timeout in data send/receive (code 30) at io.c(201) [generator=3.2.7]
+rsync error: received SIGUSR1 (code 19) at main.c(1613) [receiver=3.2.7]
+rsync_from_ncbi.pl: rsync error, exiting: 7680
+(base) ketglo@Ketglo:~$ kraken2-build --standard --db kraken2db
+Step 1/2: Performing rsync file transfer of requested files
+Rsync file transfer complete.
+Step 2/2: Assigning taxonomic IDs to sequences
+Processed 661 projects (1250 sequences, 1.90 Gbp)... done.
+All files processed, cleaning up extra sequence files... done, library complete.
+Masking low-complexity regions of downloaded library... done.
+Step 1/2: Performing rsync file transfer of requested files
+Rsync file transfer complete.
+Step 2/2: Assigning taxonomic IDs to sequences
+Processed 57477 projects (136219 sequences, 245.73 Gbp)... done.
+All files processed, cleaning up extra sequence files... done, library complete.
+Masking low-complexity regions of downloaded library... done.
+Step 1/2: Performing rsync file transfer of requested files
+Rsync file transfer complete.
+Step 2/2: Assigning taxonomic IDs to sequences
+Processed 14975 projects (18652 sequences, 550.31 Mbp)... done.
+All files processed, cleaning up extra sequence files... done, library complete.
+Masking low-complexity regions of downloaded library... done.
+Downloading plasmid files from FTP...xargs: warning: options --max-args and --replace/-I/-i are mutually exclusive, ignoring previous --max-args value
+xargs: warning: options --max-args and --replace/-I/-i are mutually exclusive, ignoring previous --max-args value
+ done.
+Masking low-complexity regions of downloaded library... done.
+mv: replace 'assembly_summary.txt', overriding mode 0444 (r--r--r--)?
+(base) ketglo@Ketglo:~$
