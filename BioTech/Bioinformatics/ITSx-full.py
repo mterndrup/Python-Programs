@@ -12,7 +12,7 @@ def get_base_dir(project_choice):
     elif project_choice == "3":
         return "/mnt/c/Users/ketgl/OneDrive/Documents/GitHub/Python-Programs/BioTech/Bioinformatics/Plants/Cacti"
     elif project_choice == "4":  # Added Aya
-        return "/mnt/c/Users/ketgl/OneDrive/Documents/GitHub/Python-Programs/BioTech/Bioinformatics/Plants/Aya/DNA_Sequences"
+        return "/mnt/c/Users/ketgl/OneDrive/Documents/GitHub/Python-Programs/BioTech/Bioinformatics/Plants/Aya/DNA_Sequences1"
     else:
         return None
 
