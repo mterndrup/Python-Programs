@@ -1,9 +1,9 @@
 from Bio import SeqIO
 
 def merge_fasta_taxonomy():
-    fasta_path = r"C:\Users\ketgl\OneDrive\Documents\GitHub\Python-Programs\BioTech\Bioinformatics\Tools\UNITE\QIIME\sh_qiime_release_19.02.2025\sh_refs_qiime_ver10_dynamic_19.02.2025.fasta"
-    taxonomy_map_path = r"C:\Users\ketgl\OneDrive\Documents\GitHub\Python-Programs\BioTech\Bioinformatics\Tools\UNITE\QIIME\sh_qiime_release_19.02.2025\sh_taxonomy_qiime_ver10_dynamic_19.02.2025.txt"
-    output_fasta_path = r"C:\Users\ketgl\OneDrive\Documents\GitHub\Python-Programs\BioTech\Bioinformatics\Tools\UNITE\QIIME\sh_qiime_release_19.02.2025\merged_sh_qiime_19.02.2025.fasta"
+    fasta_path = r"/BioTech/Bioinformatics/Tools/UNITE/QIIME/sh_qiime_release_19.02.2025/sh_refs_qiime_ver10_dynamic_19.02.2025.fasta"
+    taxonomy_map_path = r"/BioTech/Bioinformatics/Tools/UNITE/QIIME/sh_qiime_release_19.02.2025/sh_taxonomy_qiime_ver10_dynamic_19.02.2025.txt"
+    output_fasta_path = r"/BioTech/Bioinformatics/Tools/UNITE/QIIME/sh_qiime_release_19.02.2025/merged_sh_qiime_19.02.2025.fasta"
 
     # Read taxonomy mapping into dictionary {ID: taxonomy}
     tax_dict = {}

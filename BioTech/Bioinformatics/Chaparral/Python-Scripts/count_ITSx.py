@@ -2,8 +2,8 @@ import os
 import csv
 
 # Paths
-base_dir = r"C:\Users\ketgl\OneDrive\Documents\GitHub\Python-Programs\BioTech\Bioinformatics\Chaparral\Round2"
-logs_dir = r"C:\Users\ketgl\OneDrive\Documents\GitHub\Python-Programs\BioTech\Bioinformatics\Chaparral\Logs"
+base_dir = r"/BioTech/Bioinformatics/Chaparral/Round2"
+logs_dir = r"/BioTech/Bioinformatics/Chaparral/Logs"
 
 # ITSx region types
 regions = ['5_8S', 'ITS1', 'ITS2', 'LSU', 'SSU', 'full', 'no_detections']

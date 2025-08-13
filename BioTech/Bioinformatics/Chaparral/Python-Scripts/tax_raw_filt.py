@@ -3,10 +3,10 @@ import subprocess
 from datetime import datetime
 
 # Paths - adjust as needed
-base_dir = r"C:/Users/ketgl/OneDrive/Documents/GitHub/Python-Programs/BioTech/Bioinformatics/Chaparral/Round2"
-logs_dir = r"C:/Users/ketgl/OneDrive/Documents/GitHub/Python-Programs/BioTech/Bioinformatics/Chaparral/Logs"
+base_dir = r"/BioTech/Bioinformatics/Chaparral/Round2"
+logs_dir = r"/BioTech/Bioinformatics/Chaparral/Logs"
 
-vsearch_path = r"C:/Users/ketgl/OneDrive/Documents/GitHub/Python-Programs/BioTech/Bioinformatics/Tools/VSEARCH/vsearch-2.30.0-win-x86_64/bin/vsearch.exe"
+vsearch_path = r"/BioTech/Bioinformatics/Tools/VSEARCH/vsearch-2.30.0-win-x86_64/bin/vsearch.exe"
 sintax_ref_fasta = r"C:/Users/ketgl/OneDrive/Documents/GitHub/Python-Programs/BioTech/Bioinformatics/Tools/UNITE/QIIME/sh_qiime_release_19.02.2025/sh_refs_qiime_ver10_dynamic_19.02.2025_sintax.fasta"
 
 

@@ -2,7 +2,7 @@ import os
 import csv
 
 # Base directory containing barcode folders
-base_dir = r"C:/Users/ketgl/OneDrive/Documents/GitHub/Python-Programs/BioTech/Bioinformatics/Chaparral/Round2"
+base_dir = r"/BioTech/Bioinformatics/Chaparral/Round2"
 
 def read_fasta_ids(fasta_path):
     """Read sequence IDs from a FASTA file."""

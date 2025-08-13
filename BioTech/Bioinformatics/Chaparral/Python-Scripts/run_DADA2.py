@@ -26,8 +26,8 @@ def run_dada2(base_path, r_script_path, rscript_exe):
         print(e.stderr)
 
 if __name__ == "__main__":
-    base_path = r"C:\Users\ketgl\OneDrive\Documents\GitHub\Python-Programs\BioTech\Bioinformatics\Chaparral\Round2"
-    r_script_path = r"C:\Users\ketgl\OneDrive\Documents\GitHub\Python-Programs\BioTech\Bioinformatics\Tools\DADA2\run_dada2.R"
+    base_path = r"/BioTech/Bioinformatics/Chaparral/Round2"
+    r_script_path = r"/BioTech/Bioinformatics/Tools/DADA2/run_dada2.R"
     rscript_exe = r"C:\Program Files\R\R-4.5.0\bin\x64\Rscript.exe"
 
     run_dada2(base_path, r_script_path, rscript_exe)

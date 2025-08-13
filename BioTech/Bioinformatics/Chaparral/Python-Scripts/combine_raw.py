@@ -2,7 +2,7 @@ import os
 import re
 
 # Root directory
-base_dir = r"C:\Users\ketgl\OneDrive\Documents\GitHub\Python-Programs\BioTech\Bioinformatics\Chaparral\Round2"
+base_dir = r"/BioTech/Bioinformatics/Chaparral/Round2"
 
 # Pattern for original .fastq files (excluding _trimmed, _filtered, etc.)
 original_pattern = re.compile(r"^(.*?_pass_barcode\d{2}_[a-f0-9]+_[a-f0-9]+_[0-9]+)\.fastq$")

@@ -2,7 +2,7 @@ import os
 import csv
 
 # Paths
-base_dir = r"C:\Users\ketgl\OneDrive\Documents\GitHub\Python-Programs\BioTech\Bioinformatics\Chaparral\Round2"
+base_dir = r"/BioTech/Bioinformatics/Chaparral/Round2"
 regions = ['5_8S', 'ITS1', 'ITS2', 'LSU', 'SSU', 'full', 'no_detections']
 
 def convert_barcode_to_prefix(barcode_folder):

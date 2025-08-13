@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Define the path to the directory containing barcode folders
-base_dir = "Wildfire-Sequences/fastq_pass"
+base_dir = "../Wildfire-Sequences/fastq_pass"
 barcodes = [f"barcode{str(i).zfill(2)}" for i in range(1, 65)]
 
 # Define the required columns and fallbacks

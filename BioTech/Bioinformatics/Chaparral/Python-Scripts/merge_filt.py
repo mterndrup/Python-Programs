@@ -32,5 +32,5 @@ def merge_filtered_fastq_files(base_path):
         print(f"  Combined FASTQ saved to {combined_path}\n")
 
 if __name__ == "__main__":
-    base_path = r"C:\Users\ketgl\OneDrive\Documents\GitHub\Python-Programs\BioTech\Bioinformatics\Chaparral\Round2"
+    base_path = r"/BioTech/Bioinformatics/Chaparral/Round2"
     merge_filtered_fastq_files(base_path)
