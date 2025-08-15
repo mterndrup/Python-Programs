@@ -1,13 +1,15 @@
 import pandas as pd
+import datetime
 import matplotlib.pyplot as plt
 import os
 import numpy as np
 import itertools
 
+timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 # -------- CONFIGURATION --------
 csv_file = r'C:\Users\ketgl\OneDrive\Documents\GitHub\Python-Programs\BioTech\Bioinformatics\Environmental_Protection\XRF\Results_accurate_RU2.csv'
 output_dir = 'RU2'
-summary_file = 'summary-RU2.txt'
+summary_file = f"summary-RU2{datetime.datetime.now():%Y%m%d_%H%M%S}.txt"
 # --------------------------------
 
 # Create output directory if it doesn't exist

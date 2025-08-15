@@ -5,7 +5,7 @@ import tarfile
 import zipfile
 from datetime import datetime
 
-BASE_DIR = Path(r"C:\Users\ketgl\OneDrive\Desktop\Sandbox\Wild")
+BASE_DIR = Path(r"C:\Users\ketgl\OneDrive\Desktop\Sandbox\Wild3")
 LOG_DIR = Path(r"C:\Users\ketgl\OneDrive\Desktop\Sandbox\Logs")
 
 def log_message(log_file, message):
