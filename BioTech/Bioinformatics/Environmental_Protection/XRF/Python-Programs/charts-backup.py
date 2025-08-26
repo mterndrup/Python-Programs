@@ -7,8 +7,9 @@ import itertools
 
 timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 # -------- CONFIGURATION --------
-csv_file = r'C:\Users\ketgl\OneDrive\Documents\GitHub\Python-Programs\BioTech\Bioinformatics\Environmental_Protection\XRF\Results_accurate_RU2.csv'
-output_dir = 'RU2'
+csv_file = r'C:\Users\ketgl\OneDrive\Documents\GitHub\Python-Programs\BioTech\Bioinformatics\Environmental_Protection\XRF\Results_accurate_Palladium.csv'
+output_dir = 'Palladium-Final'
+output_csv = os.path.join(output_dir, "Results_accurate_Palladium_v2.csv")
 summary_file = f"summary-RU2{datetime.datetime.now():%Y%m%d_%H%M%S}.txt"
 # --------------------------------
 
@@ -28,15 +29,35 @@ df.replace(["< LOD", "", " "], pd.NA, inplace=True)
 if "Location" not in df.columns:
     raise ValueError("Missing 'Location' column in CSV!")
 
+df["Location"] = df["Location"].replace({
+    "Altadena - Hardware Store": "Altadena Hardware Store",
+    "Temescal Gateway Park - Unburned": "Temescal Gateway Park",
+    "Angeles National Forest - Main Trail": "Angeles National Forest",
+    "Dodger's - Playground": "Dodger's Playground",
+    "#3 - Tuna Canyon Park": "Tuna Canyon Park"
+})
+
+
 locations = df["Location"]
 
+
 # Identify element columns and their corresponding error columns
-element_columns = []
-for col in df.columns:
-    if col.endswith(" Err"):
-        base_col = col.replace(" Err", "")
-        if base_col in df.columns:
-            element_columns.append((base_col, col))
+element_columns = [col for col in df.columns if not col.endswith("Err") and col not in ["File #","Location","DateTime","ElapsedTime","Cal Check"]]
+
+# Convert all element columns to numeric (coerce errors)
+for col in element_columns:
+    df[col] = pd.to_numeric(df[col], errors='coerce') * 10000  # convert to ppm
+
+# Calculate z-scores for each element
+for col in element_columns:
+    mean_val = df[col].mean()
+    std_val = df[col].std()
+    z_col_name = f"{col}_zscore"
+    df[z_col_name] = (df[col] - mean_val) / std_val
+
+# Save new CSV
+df.to_csv(output_csv, index=False)
+print(f"\n✅ Z-scores added and saved to: {output_csv}")
 
 # Create mapping lowercase -> actual DataFrame column name
 cols_lower_map = {col.lower(): col for col in df.columns}
@@ -48,6 +69,25 @@ element_colors = {
     "y":  "#8dd3c7",   # yttrium
     "rb": "#bebada",   # rubidium
     "sr": "#fb8072"    # strontium
+}
+
+element_full_names = {
+    "Cu": "Copper",
+    "Pd": "Palladium",
+    "Y": "Yttrium",
+    "Rb": "Rubidium",
+    "Sr": "Strontium",
+    "Pb": "Lead",
+    "Zn": "Zinc",
+    "Cr": "Chromium",
+    "Sn": "Tin",
+    "Sb": "Antimony",
+    "Mo": "Molybdenum",
+    "Ni": "Nickel",
+    "Ga": "Gallium",
+    "As": "Arsenic",
+    "Ce": "Cerium",
+    # add others if needed...
 }
 
 # Fallback color cycle for unlisted elements
@@ -96,7 +136,7 @@ if combo_input:
 # If user requested 'total', build it after filtering out empty elements
 if add_total:
     all_elements = []
-    for base, _ in element_columns:
+    for base in element_columns:   # not for base, _
         values = pd.to_numeric(df[base], errors='coerce') * 10000
         if not values.isna().all() and (values.fillna(0) != 0).any():
             all_elements.append(base)
@@ -127,7 +167,7 @@ def plot_chart(elements, output_name_suffix):
         # Single element with error bars
         element = elements[0]
         error_col = element + " Err"
-        values = pd.to_numeric(df[element], errors='coerce') * 10000
+        values = pd.to_numeric(df[element], errors='coerce')
         errors = pd.to_numeric(df[error_col], errors='coerce') * 10000
         color = get_color_for_element(element)
         plt.bar(x, values, width=0.8, yerr=errors, capsize=3.5,
@@ -158,9 +198,24 @@ def plot_chart(elements, output_name_suffix):
 
     plt.xlabel("Location")
     plt.ylabel("Concentration (ppm)")
-    plt.title(f"Elements: {', '.join(elements)} Concentration by Location")
+    # Convert symbols to "Name (Symbol)" form
+    pretty_elements = []
+    for el in elements:
+        symbol = el.strip()
+        name = element_full_names.get(symbol, symbol)  # fallback to symbol if missing
+        pretty_elements.append(f"{name} ({symbol})")
+
+    plt.title(f"{', '.join(pretty_elements)} Concentrations in Los Angeles County Soils (2025) by Location",fontweight='bold')
     plt.xticks(x, locations, rotation=45, ha="right")
     plt.tight_layout()
+
+    # Draw vertical line in the middle
+    middle_x = len(locations) / 2 - 0.5  # subtract 0.5 to align with bar edges
+    plt.axvline(x=middle_x, color='black', linestyle='--', linewidth=1.5)
+
+    # Add labels for each half
+    plt.text(middle_x / 2, plt.ylim()[1] * 0.95, "Urban", ha='center', va='top', fontsize=12)
+    plt.text(middle_x + middle_x / 2 + 0.5, plt.ylim()[1] * 0.95, "Recreational", ha='center', va='top', fontsize=12)
 
     chart_file = os.path.join(output_dir, f"{output_name_suffix}_ppm_with_error.png")
     plt.savefig(chart_file)
@@ -169,7 +224,7 @@ def plot_chart(elements, output_name_suffix):
 
 # Plot individual element charts if not skipping
 if not skip_singles:
-    for element, error_col in element_columns:
+    for element in element_columns:  # not for element, error_col
         plot_chart([element], element.lower())
 
 # Plot combined charts if any
