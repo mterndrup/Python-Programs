@@ -1,0 +1,30 @@
+2025-09-05 13:00:31,807 [INFO] ==== Starting Resistance Ingestion Pipeline ====
+2025-09-05 13:00:32,927 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 13:00:33,717 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22Mycobacterium+tuberculosis%22%5BTitle%2FAbstract%5D%29+AND+%28infection+OR+disease+OR+syndrome+OR+disorder+OR+clinical%29&retmode=json&retmax=15 HTTP/1.1" 200 None
+2025-09-05 13:00:33,891 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 13:00:34,541 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/efetch.fcgi?db=pubmed&id=40910469%2C40910054%2C40909630%2C40909595%2C40909081%2C40907433%2C40906914%2C40906796&rettype=abstract&retmode=text HTTP/1.1" 200 None
+2025-09-05 13:00:34,607 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 13:00:35,221 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/efetch.fcgi?db=pubmed&id=40910469%2C40910054%2C40909630%2C40909595%2C40909081&retmode=xml HTTP/1.1" 200 None
+2025-09-05 13:00:35,327 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 13:00:35,933 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22Mycobacterium+tuberculosis%22%5BTitle%2FAbstract%5D%29+AND+%28tuberculosis+OR+meningitis+OR+sepsis+OR+pneumonia+OR+endocarditis%29&retmode=json&retmax=15 HTTP/1.1" 200 None
+2025-09-05 13:00:36,018 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 13:00:36,632 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/efetch.fcgi?db=pubmed&id=40910469%2C40910054%2C40909630%2C40909595%2C40909081%2C40907940%2C40907433%2C40907035&rettype=abstract&retmode=text HTTP/1.1" 200 None
+2025-09-05 13:00:36,786 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 13:00:37,371 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/efetch.fcgi?db=pubmed&id=40910469%2C40910054%2C40909630%2C40909595%2C40909081&retmode=xml HTTP/1.1" 200 None
+2025-09-05 13:00:37,507 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 13:00:38,055 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/efetch.fcgi?db=taxonomy&id=1773&retmode=xml HTTP/1.1" 200 None
+2025-09-05 13:00:38,096 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 13:00:38,570 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/esearch.fcgi?db=mesh&term=%22Mycobacterium+tuberculosis%22&retmode=json&retmax=10 HTTP/1.1" 200 None
+2025-09-05 13:00:38,627 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 13:00:39,618 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/efetch.fcgi?db=mesh&id=68055985%2C68020306%2C68014390%2C68014386%2C68014385%2C68014383%2C68014381%2C68014376%2C68014373%2C68012830&retmode=xml HTTP/1.1" 200 None
+2025-09-05 13:00:39,683 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 13:00:40,474 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22Mycobacterium+tuberculosis%22%5BTitle%2FAbstract%5D%29+AND+%28replication+OR+transcription+OR+translation+OR+phagocytosis+OR+biofilm+OR+metabolism+OR+signaling+OR+motility+OR+secretion%29&retmode=json&retmax=15 HTTP/1.1" 200 None
+2025-09-05 13:00:40,587 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 13:00:41,095 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/efetch.fcgi?db=pubmed&id=40910469%2C40909630%2C40909595%2C40907940%2C40906914%2C40906796%2C40905483%2C40903908&rettype=abstract&retmode=text HTTP/1.1" 200 None
+2025-09-05 13:00:41,192 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 13:00:41,853 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22Mycobacterium+tuberculosis%22%5BTitle%2FAbstract%5D%29+AND+%28apoptosis+OR+necrosis+OR+activation+OR+inhibition+OR+pathogenesis%29&retmode=json&retmax=15 HTTP/1.1" 200 None
+2025-09-05 13:00:41,940 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 13:00:42,514 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/efetch.fcgi?db=pubmed&id=40910469%2C40909630%2C40909081%2C40907940%2C40906914%2C40906796%2C40904315%2C40903908&rettype=abstract&retmode=text HTTP/1.1" 200 None
+2025-09-05 13:00:42,594 [INFO] Organism: Mycobacterium tuberculosis \u2192 Type: Actinomycetota
+2025-09-05 13:00:42,595 [INFO] Diseases: Child, Middle Aged, Tuberculosis, Humans, Hiv
+2025-09-05 13:00:42,595 [INFO] Biological Processes: Translation, Activation, Metabolism, Secretion, Transcription

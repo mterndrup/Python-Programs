@@ -1,0 +1,1123 @@
+[2025-08-20 22:45:17] Script: chem_sqlite.py
+[2025-08-20 22:45:17] Start time: 2025-08-20 22:45:17.442097
+[2025-08-20 22:45:17] [INFO] Inspecting SQLite database for tables and columns...
+[2025-08-20 22:45:17] [INFO] Found 80 tables in the database:
+[2025-08-20 22:45:17]   - action_type
+[2025-08-20 22:45:17]       Column: action_type (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: description (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: parent_type (VARCHAR(50))
+[2025-08-20 22:45:17]   - assay_type
+[2025-08-20 22:45:17]       Column: assay_type (VARCHAR(1))
+[2025-08-20 22:45:17]       Column: assay_desc (VARCHAR(250))
+[2025-08-20 22:45:17]   - chembl_id_lookup
+[2025-08-20 22:45:17]       Column: chembl_id (VARCHAR(20))
+[2025-08-20 22:45:17]       Column: entity_type (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: entity_id (BIGINT)
+[2025-08-20 22:45:17]       Column: status (VARCHAR(10))
+[2025-08-20 22:45:17]       Column: last_active (INTEGER)
+[2025-08-20 22:45:17]   - confidence_score_lookup
+[2025-08-20 22:45:17]       Column: confidence_score (SMALLINT)
+[2025-08-20 22:45:17]       Column: description (VARCHAR(100))
+[2025-08-20 22:45:17]       Column: target_mapping (VARCHAR(30))
+[2025-08-20 22:45:17]   - curation_lookup
+[2025-08-20 22:45:17]       Column: curated_by (VARCHAR(32))
+[2025-08-20 22:45:17]       Column: description (VARCHAR(100))
+[2025-08-20 22:45:17]   - chembl_release
+[2025-08-20 22:45:17]       Column: chembl_release_id (INTEGER)
+[2025-08-20 22:45:17]       Column: chembl_release (VARCHAR(20))
+[2025-08-20 22:45:17]       Column: creation_date (DATETIME)
+[2025-08-20 22:45:17]   - source
+[2025-08-20 22:45:17]       Column: src_id (INTEGER)
+[2025-08-20 22:45:17]       Column: src_description (VARCHAR(500))
+[2025-08-20 22:45:17]       Column: src_short_name (VARCHAR(20))
+[2025-08-20 22:45:17]       Column: src_comment (VARCHAR(1200))
+[2025-08-20 22:45:17]       Column: src_url (VARCHAR(200))
+[2025-08-20 22:45:17]   - relationship_type
+[2025-08-20 22:45:17]       Column: relationship_type (VARCHAR(1))
+[2025-08-20 22:45:17]       Column: relationship_desc (VARCHAR(250))
+[2025-08-20 22:45:17]   - target_type
+[2025-08-20 22:45:17]       Column: target_type (VARCHAR(30))
+[2025-08-20 22:45:17]       Column: target_desc (VARCHAR(250))
+[2025-08-20 22:45:17]       Column: parent_type (VARCHAR(25))
+[2025-08-20 22:45:17]   - variant_sequences
+[2025-08-20 22:45:17]       Column: variant_id (BIGINT)
+[2025-08-20 22:45:17]       Column: mutation (VARCHAR(2000))
+[2025-08-20 22:45:17]       Column: accession (VARCHAR(25))
+[2025-08-20 22:45:17]       Column: version (BIGINT)
+[2025-08-20 22:45:17]       Column: isoform (BIGINT)
+[2025-08-20 22:45:17]       Column: sequence (TEXT)
+[2025-08-20 22:45:17]       Column: organism (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: tax_id (BIGINT)
+[2025-08-20 22:45:17]   - bioassay_ontology
+[2025-08-20 22:45:17]       Column: bao_id (VARCHAR(11))
+[2025-08-20 22:45:17]       Column: label (VARCHAR(100))
+[2025-08-20 22:45:17]   - data_validity_lookup
+[2025-08-20 22:45:17]       Column: data_validity_comment (VARCHAR(30))
+[2025-08-20 22:45:17]       Column: description (VARCHAR(200))
+[2025-08-20 22:45:17]   - activity_smid
+[2025-08-20 22:45:17]       Column: smid (BIGINT)
+[2025-08-20 22:45:17]   - activity_stds_lookup
+[2025-08-20 22:45:17]       Column: std_act_id (BIGINT)
+[2025-08-20 22:45:17]       Column: standard_type (VARCHAR(250))
+[2025-08-20 22:45:17]       Column: definition (VARCHAR(500))
+[2025-08-20 22:45:17]       Column: standard_units (VARCHAR(100))
+[2025-08-20 22:45:17]       Column: normal_range_min (NUMERIC(24, 12))
+[2025-08-20 22:45:17]       Column: normal_range_max (NUMERIC(24, 12))
+[2025-08-20 22:45:17]   - assay_classification
+[2025-08-20 22:45:17]       Column: assay_class_id (BIGINT)
+[2025-08-20 22:45:17]       Column: l1 (VARCHAR(100))
+[2025-08-20 22:45:17]       Column: l2 (VARCHAR(100))
+[2025-08-20 22:45:17]       Column: l3 (VARCHAR(1000))
+[2025-08-20 22:45:17]       Column: class_type (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: source (VARCHAR(50))
+[2025-08-20 22:45:17]   - atc_classification
+[2025-08-20 22:45:17]       Column: who_name (VARCHAR(2000))
+[2025-08-20 22:45:17]       Column: level1 (VARCHAR(10))
+[2025-08-20 22:45:17]       Column: level2 (VARCHAR(10))
+[2025-08-20 22:45:17]       Column: level3 (VARCHAR(10))
+[2025-08-20 22:45:17]       Column: level4 (VARCHAR(10))
+[2025-08-20 22:45:17]       Column: level5 (VARCHAR(10))
+[2025-08-20 22:45:17]       Column: level1_description (VARCHAR(2000))
+[2025-08-20 22:45:17]       Column: level2_description (VARCHAR(2000))
+[2025-08-20 22:45:17]       Column: level3_description (VARCHAR(2000))
+[2025-08-20 22:45:17]       Column: level4_description (VARCHAR(2000))
+[2025-08-20 22:45:17]   - bio_component_sequences
+[2025-08-20 22:45:17]       Column: component_id (BIGINT)
+[2025-08-20 22:45:17]       Column: component_type (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: description (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: sequence (TEXT)
+[2025-08-20 22:45:17]       Column: sequence_md5sum (VARCHAR(32))
+[2025-08-20 22:45:17]       Column: tax_id (BIGINT)
+[2025-08-20 22:45:17]       Column: organism (VARCHAR(150))
+[2025-08-20 22:45:17]   - component_sequences
+[2025-08-20 22:45:17]       Column: component_id (BIGINT)
+[2025-08-20 22:45:17]       Column: component_type (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: accession (VARCHAR(25))
+[2025-08-20 22:45:17]       Column: sequence (TEXT)
+[2025-08-20 22:45:17]       Column: sequence_md5sum (VARCHAR(32))
+[2025-08-20 22:45:17]       Column: description (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: tax_id (BIGINT)
+[2025-08-20 22:45:17]       Column: organism (VARCHAR(150))
+[2025-08-20 22:45:17]       Column: db_source (VARCHAR(25))
+[2025-08-20 22:45:17]       Column: db_version (VARCHAR(10))
+[2025-08-20 22:45:17]   - protein_classification
+[2025-08-20 22:45:17]       Column: protein_class_id (BIGINT)
+[2025-08-20 22:45:17]       Column: parent_id (BIGINT)
+[2025-08-20 22:45:17]       Column: pref_name (VARCHAR(500))
+[2025-08-20 22:45:17]       Column: short_name (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: protein_class_desc (VARCHAR(410))
+[2025-08-20 22:45:17]       Column: definition (VARCHAR(4000))
+[2025-08-20 22:45:17]       Column: class_level (BIGINT)
+[2025-08-20 22:45:17]   - domains
+[2025-08-20 22:45:17]       Column: domain_id (BIGINT)
+[2025-08-20 22:45:17]       Column: domain_type (VARCHAR(20))
+[2025-08-20 22:45:17]       Column: source_domain_id (VARCHAR(20))
+[2025-08-20 22:45:17]       Column: domain_name (VARCHAR(100))
+[2025-08-20 22:45:17]       Column: domain_description (VARCHAR(500))
+[2025-08-20 22:45:17]   - go_classification
+[2025-08-20 22:45:17]       Column: go_id (VARCHAR(10))
+[2025-08-20 22:45:17]       Column: parent_go_id (VARCHAR(10))
+[2025-08-20 22:45:17]       Column: pref_name (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: class_level (SMALLINT)
+[2025-08-20 22:45:17]       Column: aspect (VARCHAR(1))
+[2025-08-20 22:45:17]       Column: path (VARCHAR(1000))
+[2025-08-20 22:45:17]   - structural_alert_sets
+[2025-08-20 22:45:17]       Column: alert_set_id (BIGINT)
+[2025-08-20 22:45:17]       Column: set_name (VARCHAR(100))
+[2025-08-20 22:45:17]       Column: priority (SMALLINT)
+[2025-08-20 22:45:17]   - products
+[2025-08-20 22:45:17]       Column: dosage_form (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: route (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: trade_name (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: approval_date (DATETIME)
+[2025-08-20 22:45:17]       Column: ad_type (VARCHAR(5))
+[2025-08-20 22:45:17]       Column: oral (SMALLINT)
+[2025-08-20 22:45:17]       Column: topical (SMALLINT)
+[2025-08-20 22:45:17]       Column: parenteral (SMALLINT)
+[2025-08-20 22:45:17]       Column: black_box_warning (SMALLINT)
+[2025-08-20 22:45:17]       Column: applicant_full_name (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: innovator_company (SMALLINT)
+[2025-08-20 22:45:17]       Column: product_id (VARCHAR(30))
+[2025-08-20 22:45:17]       Column: nda_type (VARCHAR(10))
+[2025-08-20 22:45:17]   - frac_classification
+[2025-08-20 22:45:17]       Column: frac_class_id (BIGINT)
+[2025-08-20 22:45:17]       Column: active_ingredient (VARCHAR(500))
+[2025-08-20 22:45:17]       Column: level1 (VARCHAR(2))
+[2025-08-20 22:45:17]       Column: level1_description (VARCHAR(2000))
+[2025-08-20 22:45:17]       Column: level2 (VARCHAR(2))
+[2025-08-20 22:45:17]       Column: level2_description (VARCHAR(2000))
+[2025-08-20 22:45:17]       Column: level3 (VARCHAR(6))
+[2025-08-20 22:45:17]       Column: level3_description (VARCHAR(2000))
+[2025-08-20 22:45:17]       Column: level4 (VARCHAR(7))
+[2025-08-20 22:45:17]       Column: level4_description (VARCHAR(2000))
+[2025-08-20 22:45:17]       Column: level5 (VARCHAR(8))
+[2025-08-20 22:45:17]       Column: frac_code (VARCHAR(4))
+[2025-08-20 22:45:17]   - hrac_classification
+[2025-08-20 22:45:17]       Column: hrac_class_id (BIGINT)
+[2025-08-20 22:45:17]       Column: active_ingredient (VARCHAR(500))
+[2025-08-20 22:45:17]       Column: level1 (VARCHAR(2))
+[2025-08-20 22:45:17]       Column: level1_description (VARCHAR(2000))
+[2025-08-20 22:45:17]       Column: level2 (VARCHAR(3))
+[2025-08-20 22:45:17]       Column: level2_description (VARCHAR(2000))
+[2025-08-20 22:45:17]       Column: level3 (VARCHAR(5))
+[2025-08-20 22:45:17]       Column: hrac_code (VARCHAR(2))
+[2025-08-20 22:45:17]   - irac_classification
+[2025-08-20 22:45:17]       Column: irac_class_id (BIGINT)
+[2025-08-20 22:45:17]       Column: active_ingredient (VARCHAR(500))
+[2025-08-20 22:45:17]       Column: level1 (VARCHAR(1))
+[2025-08-20 22:45:17]       Column: level1_description (VARCHAR(2000))
+[2025-08-20 22:45:17]       Column: level2 (VARCHAR(3))
+[2025-08-20 22:45:17]       Column: level2_description (VARCHAR(2000))
+[2025-08-20 22:45:17]       Column: level3 (VARCHAR(6))
+[2025-08-20 22:45:17]       Column: level3_description (VARCHAR(2000))
+[2025-08-20 22:45:17]       Column: level4 (VARCHAR(8))
+[2025-08-20 22:45:17]       Column: irac_code (VARCHAR(3))
+[2025-08-20 22:45:17]   - research_stem
+[2025-08-20 22:45:17]       Column: res_stem_id (BIGINT)
+[2025-08-20 22:45:17]       Column: research_stem (VARCHAR(20))
+[2025-08-20 22:45:17]   - organism_class
+[2025-08-20 22:45:17]       Column: oc_id (BIGINT)
+[2025-08-20 22:45:17]       Column: tax_id (BIGINT)
+[2025-08-20 22:45:17]       Column: l1 (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: l2 (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: l3 (VARCHAR(200))
+[2025-08-20 22:45:17]   - patent_use_codes
+[2025-08-20 22:45:17]       Column: patent_use_code (VARCHAR(8))
+[2025-08-20 22:45:17]       Column: definition (VARCHAR(500))
+[2025-08-20 22:45:17]   - usan_stems
+[2025-08-20 22:45:17]       Column: usan_stem_id (BIGINT)
+[2025-08-20 22:45:17]       Column: stem (VARCHAR(100))
+[2025-08-20 22:45:17]       Column: subgroup (VARCHAR(100))
+[2025-08-20 22:45:17]       Column: annotation (VARCHAR(2000))
+[2025-08-20 22:45:17]       Column: stem_class (VARCHAR(100))
+[2025-08-20 22:45:17]       Column: major_class (VARCHAR(100))
+[2025-08-20 22:45:17]   - version
+[2025-08-20 22:45:17]       Column: name (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: creation_date (DATETIME)
+[2025-08-20 22:45:17]       Column: comments (VARCHAR(2000))
+[2025-08-20 22:45:17]   - cell_dictionary
+[2025-08-20 22:45:17]       Column: cell_id (BIGINT)
+[2025-08-20 22:45:17]       Column: cell_name (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: cell_description (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: cell_source_tissue (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: cell_source_organism (VARCHAR(150))
+[2025-08-20 22:45:17]       Column: cell_source_tax_id (BIGINT)
+[2025-08-20 22:45:17]       Column: clo_id (VARCHAR(11))
+[2025-08-20 22:45:17]       Column: efo_id (VARCHAR(12))
+[2025-08-20 22:45:17]       Column: cellosaurus_id (VARCHAR(15))
+[2025-08-20 22:45:17]       Column: cl_lincs_id (VARCHAR(8))
+[2025-08-20 22:45:17]       Column: chembl_id (VARCHAR(20))
+[2025-08-20 22:45:17]       Column: cell_ontology_id (VARCHAR(10))
+[2025-08-20 22:45:17]   - docs
+[2025-08-20 22:45:17]       Column: doc_id (BIGINT)
+[2025-08-20 22:45:17]       Column: journal (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: year (INTEGER)
+[2025-08-20 22:45:17]       Column: volume (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: issue (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: first_page (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: last_page (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: pubmed_id (BIGINT)
+[2025-08-20 22:45:17]       Column: doi (VARCHAR(100))
+[2025-08-20 22:45:17]       Column: chembl_id (VARCHAR(20))
+[2025-08-20 22:45:17]       Column: title (VARCHAR(500))
+[2025-08-20 22:45:17]       Column: doc_type (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: authors (VARCHAR(4000))
+[2025-08-20 22:45:17]       Column: abstract (TEXT)
+[2025-08-20 22:45:17]       Column: patent_id (VARCHAR(20))
+[2025-08-20 22:45:17]       Column: ridx (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: src_id (INTEGER)
+[2025-08-20 22:45:17]       Column: chembl_release_id (INTEGER)
+[2025-08-20 22:45:17]       Column: contact (VARCHAR(200))
+[2025-08-20 22:45:17]   - target_dictionary
+[2025-08-20 22:45:17]       Column: tid (BIGINT)
+[2025-08-20 22:45:17]       Column: target_type (VARCHAR(30))
+[2025-08-20 22:45:17]       Column: pref_name (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: tax_id (BIGINT)
+[2025-08-20 22:45:17]       Column: organism (VARCHAR(150))
+[2025-08-20 22:45:17]       Column: chembl_id (VARCHAR(20))
+[2025-08-20 22:45:17]       Column: species_group_flag (SMALLINT)
+[2025-08-20 22:45:17]   - tissue_dictionary
+[2025-08-20 22:45:17]       Column: tissue_id (BIGINT)
+[2025-08-20 22:45:17]       Column: uberon_id (VARCHAR(15))
+[2025-08-20 22:45:17]       Column: pref_name (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: efo_id (VARCHAR(20))
+[2025-08-20 22:45:17]       Column: chembl_id (VARCHAR(20))
+[2025-08-20 22:45:17]       Column: bto_id (VARCHAR(20))
+[2025-08-20 22:45:17]       Column: caloha_id (VARCHAR(7))
+[2025-08-20 22:45:17]   - molecule_dictionary
+[2025-08-20 22:45:17]       Column: molregno (BIGINT)
+[2025-08-20 22:45:17]       Column: pref_name (VARCHAR(255))
+[2025-08-20 22:45:17]       Column: chembl_id (VARCHAR(20))
+[2025-08-20 22:45:17]       Column: max_phase (NUMERIC(2, 1))
+[2025-08-20 22:45:17]       Column: therapeutic_flag (SMALLINT)
+[2025-08-20 22:45:17]       Column: dosed_ingredient (SMALLINT)
+[2025-08-20 22:45:17]       Column: structure_type (VARCHAR(10))
+[2025-08-20 22:45:17]       Column: chebi_par_id (BIGINT)
+[2025-08-20 22:45:17]       Column: molecule_type (VARCHAR(30))
+[2025-08-20 22:45:17]       Column: first_approval (INTEGER)
+[2025-08-20 22:45:17]       Column: oral (SMALLINT)
+[2025-08-20 22:45:17]       Column: parenteral (SMALLINT)
+[2025-08-20 22:45:17]       Column: topical (SMALLINT)
+[2025-08-20 22:45:17]       Column: black_box_warning (SMALLINT)
+[2025-08-20 22:45:17]       Column: natural_product (SMALLINT)
+[2025-08-20 22:45:17]       Column: first_in_class (SMALLINT)
+[2025-08-20 22:45:17]       Column: chirality (SMALLINT)
+[2025-08-20 22:45:17]       Column: prodrug (SMALLINT)
+[2025-08-20 22:45:17]       Column: inorganic_flag (SMALLINT)
+[2025-08-20 22:45:17]       Column: usan_year (INTEGER)
+[2025-08-20 22:45:17]       Column: availability_type (SMALLINT)
+[2025-08-20 22:45:17]       Column: usan_stem (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: polymer_flag (SMALLINT)
+[2025-08-20 22:45:17]       Column: usan_substem (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: usan_stem_definition (VARCHAR(1000))
+[2025-08-20 22:45:17]       Column: indication_class (VARCHAR(1000))
+[2025-08-20 22:45:17]       Column: withdrawn_flag (SMALLINT)
+[2025-08-20 22:45:17]       Column: chemical_probe (SMALLINT)
+[2025-08-20 22:45:17]       Column: orphan (SMALLINT)
+[2025-08-20 22:45:17]   - activity_supp
+[2025-08-20 22:45:17]       Column: as_id (BIGINT)
+[2025-08-20 22:45:17]       Column: rgid (BIGINT)
+[2025-08-20 22:45:17]       Column: smid (BIGINT)
+[2025-08-20 22:45:17]       Column: type (VARCHAR(250))
+[2025-08-20 22:45:17]       Column: relation (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: value (NUMERIC)
+[2025-08-20 22:45:17]       Column: units (VARCHAR(100))
+[2025-08-20 22:45:17]       Column: text_value (VARCHAR(1000))
+[2025-08-20 22:45:17]       Column: standard_type (VARCHAR(250))
+[2025-08-20 22:45:17]       Column: standard_relation (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: standard_value (NUMERIC)
+[2025-08-20 22:45:17]       Column: standard_units (VARCHAR(100))
+[2025-08-20 22:45:17]       Column: standard_text_value (VARCHAR(1000))
+[2025-08-20 22:45:17]       Column: comments (VARCHAR(4000))
+[2025-08-20 22:45:17]   - component_class
+[2025-08-20 22:45:17]       Column: component_id (BIGINT)
+[2025-08-20 22:45:17]       Column: protein_class_id (BIGINT)
+[2025-08-20 22:45:17]       Column: comp_class_id (BIGINT)
+[2025-08-20 22:45:17]   - component_domains
+[2025-08-20 22:45:17]       Column: compd_id (BIGINT)
+[2025-08-20 22:45:17]       Column: domain_id (BIGINT)
+[2025-08-20 22:45:17]       Column: component_id (BIGINT)
+[2025-08-20 22:45:17]       Column: start_position (BIGINT)
+[2025-08-20 22:45:17]       Column: end_position (BIGINT)
+[2025-08-20 22:45:17]   - component_go
+[2025-08-20 22:45:17]       Column: comp_go_id (BIGINT)
+[2025-08-20 22:45:17]       Column: component_id (BIGINT)
+[2025-08-20 22:45:17]       Column: go_id (VARCHAR(10))
+[2025-08-20 22:45:17]   - component_synonyms
+[2025-08-20 22:45:17]       Column: compsyn_id (BIGINT)
+[2025-08-20 22:45:17]       Column: component_id (BIGINT)
+[2025-08-20 22:45:17]       Column: component_synonym (VARCHAR(500))
+[2025-08-20 22:45:17]       Column: syn_type (VARCHAR(20))
+[2025-08-20 22:45:17]   - structural_alerts
+[2025-08-20 22:45:17]       Column: alert_id (BIGINT)
+[2025-08-20 22:45:17]       Column: alert_set_id (BIGINT)
+[2025-08-20 22:45:17]       Column: alert_name (VARCHAR(100))
+[2025-08-20 22:45:17]       Column: smarts (VARCHAR(4000))
+[2025-08-20 22:45:17]   - defined_daily_dose
+[2025-08-20 22:45:17]       Column: atc_code (VARCHAR(10))
+[2025-08-20 22:45:17]       Column: ddd_units (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: ddd_admr (VARCHAR(1000))
+[2025-08-20 22:45:17]       Column: ddd_comment (VARCHAR(2000))
+[2025-08-20 22:45:17]       Column: ddd_id (BIGINT)
+[2025-08-20 22:45:17]       Column: ddd_value (NUMERIC)
+[2025-08-20 22:45:17]   - product_patents
+[2025-08-20 22:45:17]       Column: prod_pat_id (BIGINT)
+[2025-08-20 22:45:17]       Column: product_id (VARCHAR(30))
+[2025-08-20 22:45:17]       Column: patent_no (VARCHAR(20))
+[2025-08-20 22:45:17]       Column: patent_expire_date (DATETIME)
+[2025-08-20 22:45:17]       Column: drug_substance_flag (SMALLINT)
+[2025-08-20 22:45:17]       Column: drug_product_flag (SMALLINT)
+[2025-08-20 22:45:17]       Column: patent_use_code (VARCHAR(10))
+[2025-08-20 22:45:17]       Column: delist_flag (SMALLINT)
+[2025-08-20 22:45:17]       Column: submission_date (DATETIME)
+[2025-08-20 22:45:17]   - protein_class_synonyms
+[2025-08-20 22:45:17]       Column: protclasssyn_id (BIGINT)
+[2025-08-20 22:45:17]       Column: protein_class_id (BIGINT)
+[2025-08-20 22:45:17]       Column: protein_class_synonym (VARCHAR(1000))
+[2025-08-20 22:45:17]       Column: syn_type (VARCHAR(20))
+[2025-08-20 22:45:17]   - research_companies
+[2025-08-20 22:45:17]       Column: co_stem_id (BIGINT)
+[2025-08-20 22:45:17]       Column: res_stem_id (BIGINT)
+[2025-08-20 22:45:17]       Column: company (VARCHAR(100))
+[2025-08-20 22:45:17]       Column: country (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: previous_company (VARCHAR(100))
+[2025-08-20 22:45:17]   - assays
+[2025-08-20 22:45:17]       Column: assay_id (BIGINT)
+[2025-08-20 22:45:17]       Column: doc_id (BIGINT)
+[2025-08-20 22:45:17]       Column: description (VARCHAR(4000))
+[2025-08-20 22:45:17]       Column: assay_type (VARCHAR(1))
+[2025-08-20 22:45:17]       Column: assay_test_type (VARCHAR(20))
+[2025-08-20 22:45:17]       Column: assay_category (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: assay_organism (VARCHAR(250))
+[2025-08-20 22:45:17]       Column: assay_tax_id (BIGINT)
+[2025-08-20 22:45:17]       Column: assay_strain (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: assay_tissue (VARCHAR(100))
+[2025-08-20 22:45:17]       Column: assay_cell_type (VARCHAR(100))
+[2025-08-20 22:45:17]       Column: assay_subcellular_fraction (VARCHAR(100))
+[2025-08-20 22:45:17]       Column: tid (BIGINT)
+[2025-08-20 22:45:17]       Column: relationship_type (VARCHAR(1))
+[2025-08-20 22:45:17]       Column: confidence_score (SMALLINT)
+[2025-08-20 22:45:17]       Column: curated_by (VARCHAR(32))
+[2025-08-20 22:45:17]       Column: src_id (INTEGER)
+[2025-08-20 22:45:17]       Column: src_assay_id (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: chembl_id (VARCHAR(20))
+[2025-08-20 22:45:17]       Column: cell_id (BIGINT)
+[2025-08-20 22:45:17]       Column: bao_format (VARCHAR(11))
+[2025-08-20 22:45:17]       Column: tissue_id (BIGINT)
+[2025-08-20 22:45:17]       Column: variant_id (BIGINT)
+[2025-08-20 22:45:17]       Column: aidx (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: assay_group (VARCHAR(200))
+[2025-08-20 22:45:17]   - compound_records
+[2025-08-20 22:45:17]       Column: record_id (BIGINT)
+[2025-08-20 22:45:17]       Column: molregno (BIGINT)
+[2025-08-20 22:45:17]       Column: doc_id (BIGINT)
+[2025-08-20 22:45:17]       Column: compound_key (VARCHAR(250))
+[2025-08-20 22:45:17]       Column: compound_name (VARCHAR(4000))
+[2025-08-20 22:45:17]       Column: src_id (INTEGER)
+[2025-08-20 22:45:17]       Column: src_compound_id (VARCHAR(150))
+[2025-08-20 22:45:17]       Column: cidx (VARCHAR(200))
+[2025-08-20 22:45:17]   - binding_sites
+[2025-08-20 22:45:17]       Column: site_id (BIGINT)
+[2025-08-20 22:45:17]       Column: site_name (VARCHAR(200))
+[2025-08-20 22:45:17]       Column: tid (BIGINT)
+[2025-08-20 22:45:17]   - biotherapeutics
+[2025-08-20 22:45:17]       Column: molregno (BIGINT)
+[2025-08-20 22:45:17]       Column: description (VARCHAR(2000))
+[2025-08-20 22:45:17]       Column: helm_notation (VARCHAR(4000))
+[2025-08-20 22:45:17]   - compound_properties
+[2025-08-20 22:45:17]       Column: molregno (BIGINT)
+[2025-08-20 22:45:17]       Column: mw_freebase (NUMERIC(9, 2))
+[2025-08-20 22:45:17]       Column: alogp (NUMERIC(9, 2))
+[2025-08-20 22:45:17]       Column: hba (INTEGER)
+[2025-08-20 22:45:17]       Column: hbd (INTEGER)
+[2025-08-20 22:45:17]       Column: psa (NUMERIC(9, 2))
+[2025-08-20 22:45:17]       Column: rtb (INTEGER)
+[2025-08-20 22:45:17]       Column: ro3_pass (VARCHAR(3))
+[2025-08-20 22:45:17]       Column: num_ro5_violations (SMALLINT)
+[2025-08-20 22:45:17]       Column: cx_most_apka (NUMERIC(9, 2))
+[2025-08-20 22:45:17]       Column: cx_most_bpka (NUMERIC(9, 2))
+[2025-08-20 22:45:17]       Column: cx_logp (NUMERIC(9, 2))
+[2025-08-20 22:45:17]       Column: cx_logd (NUMERIC(9, 2))
+[2025-08-20 22:45:17]       Column: molecular_species (VARCHAR(50))
+[2025-08-20 22:45:17]       Column: full_mwt (NUMERIC(9, 2))
+[2025-08-20 22:45:17]       Column: aromatic_rings (INTEGER)
+[2025-08-20 22:45:17]       Column: heavy_atoms (INTEGER)
+[2025-08-20 22:45:17]       Column: qed_weighted (NUMERIC(3, 2))
+[2025-08-20 22:45:17]       Column: mw_monoisotopic (NUMERIC(11, 4))
+[2025-08-20 22:45:17]       Column: full_molformula (VARCHAR(100))
+[2025-08-20 22:45:17]       Column: hba_lipinski (INTEGER)
+[2025-08-20 22:45:17]       Column: hbd_lipinski (INTEGER)
+[2025-08-20 22:45:17]       Column: num_lipinski_ro5_violations (SMALLINT)
+[2025-08-20 22:45:17]       Column: np_likeness_score (NUMERIC(3, 2))
+[2025-08-20 22:45:17]   - compound_structural_alerts
+[2025-08-20 22:45:17]       Column: cpd_str_alert_id (BIGINT)
+[2025-08-20 22:45:17]       Column: molregno (BIGINT)
+[2025-08-20 22:45:17]       Column: alert_id (BIGINT)
+[2025-08-20 22:45:17]   - compound_structures
+[2025-08-20 22:45:17]       Column: molregno (BIGINT)
+[2025-08-20 22:45:17]       Column: molfile (TEXT)
+[2025-08-20 22:45:17]       Column: standard_inchi (VARCHAR(4000))
+[2025-08-20 22:45:17]       Column: standard_inchi_key (VARCHAR(27))
+[2025-08-20 22:45:17]       Column: canonical_smiles (VARCHAR(4000))
+[2025-08-20 22:45:17]   - molecule_atc_classification
+[2025-08-20 22:45:17]       Column: mol_atc_id (BIGINT)
+[2025-08-20 22:45:17]       Column: level5 (VARCHAR(10))
+[2025-08-20 22:45:17]       Column: molregno (BIGINT)
+[2025-08-20 22:45:17]   - molecule_frac_classification
+[2025-08-20 22:45:17]       Column: mol_frac_id (BIGINT)
+[2025-08-20 22:45:17]       Column: frac_class_id (BIGINT)
+[2025-08-20 22:45:18]       Column: molregno (BIGINT)
+[2025-08-20 22:45:18]   - molecule_hierarchy
+[2025-08-20 22:45:18]       Column: molregno (BIGINT)
+[2025-08-20 22:45:18]       Column: parent_molregno (BIGINT)
+[2025-08-20 22:45:18]       Column: active_molregno (BIGINT)
+[2025-08-20 22:45:18]   - molecule_hrac_classification
+[2025-08-20 22:45:18]       Column: mol_hrac_id (BIGINT)
+[2025-08-20 22:45:18]       Column: hrac_class_id (BIGINT)
+[2025-08-20 22:45:18]       Column: molregno (BIGINT)
+[2025-08-20 22:45:18]   - molecule_irac_classification
+[2025-08-20 22:45:18]       Column: mol_irac_id (BIGINT)
+[2025-08-20 22:45:18]       Column: irac_class_id (BIGINT)
+[2025-08-20 22:45:18]       Column: molregno (BIGINT)
+[2025-08-20 22:45:18]   - molecule_synonyms
+[2025-08-20 22:45:18]       Column: molregno (BIGINT)
+[2025-08-20 22:45:18]       Column: syn_type (VARCHAR(50))
+[2025-08-20 22:45:18]       Column: molsyn_id (BIGINT)
+[2025-08-20 22:45:18]       Column: res_stem_id (BIGINT)
+[2025-08-20 22:45:18]       Column: synonyms (VARCHAR(250))
+[2025-08-20 22:45:18]   - target_components
+[2025-08-20 22:45:18]       Column: tid (BIGINT)
+[2025-08-20 22:45:18]       Column: component_id (BIGINT)
+[2025-08-20 22:45:18]       Column: targcomp_id (BIGINT)
+[2025-08-20 22:45:18]       Column: homologue (SMALLINT)
+[2025-08-20 22:45:18]   - target_relations
+[2025-08-20 22:45:18]       Column: tid (BIGINT)
+[2025-08-20 22:45:18]       Column: relationship (VARCHAR(20))
+[2025-08-20 22:45:18]       Column: related_tid (BIGINT)
+[2025-08-20 22:45:18]       Column: targrel_id (BIGINT)
+[2025-08-20 22:45:18]   - activities
+[2025-08-20 22:45:18]       Column: activity_id (BIGINT)
+[2025-08-20 22:45:18]       Column: assay_id (BIGINT)
+[2025-08-20 22:45:18]       Column: doc_id (BIGINT)
+[2025-08-20 22:45:18]       Column: record_id (BIGINT)
+[2025-08-20 22:45:18]       Column: molregno (BIGINT)
+[2025-08-20 22:45:18]       Column: standard_relation (VARCHAR(50))
+[2025-08-20 22:45:18]       Column: standard_value (NUMERIC)
+[2025-08-20 22:45:18]       Column: standard_units (VARCHAR(100))
+[2025-08-20 22:45:18]       Column: standard_flag (SMALLINT)
+[2025-08-20 22:45:18]       Column: standard_type (VARCHAR(250))
+[2025-08-20 22:45:18]       Column: activity_comment (VARCHAR(4000))
+[2025-08-20 22:45:18]       Column: data_validity_comment (VARCHAR(30))
+[2025-08-20 22:45:18]       Column: potential_duplicate (SMALLINT)
+[2025-08-20 22:45:18]       Column: pchembl_value (NUMERIC(4, 2))
+[2025-08-20 22:45:18]       Column: bao_endpoint (VARCHAR(11))
+[2025-08-20 22:45:18]       Column: uo_units (VARCHAR(10))
+[2025-08-20 22:45:18]       Column: qudt_units (VARCHAR(70))
+[2025-08-20 22:45:18]       Column: toid (INTEGER)
+[2025-08-20 22:45:18]       Column: upper_value (NUMERIC)
+[2025-08-20 22:45:18]       Column: standard_upper_value (NUMERIC)
+[2025-08-20 22:45:18]       Column: src_id (INTEGER)
+[2025-08-20 22:45:18]       Column: type (VARCHAR(250))
+[2025-08-20 22:45:18]       Column: relation (VARCHAR(50))
+[2025-08-20 22:45:18]       Column: value (NUMERIC)
+[2025-08-20 22:45:18]       Column: units (VARCHAR(100))
+[2025-08-20 22:45:18]       Column: text_value (VARCHAR(1000))
+[2025-08-20 22:45:18]       Column: standard_text_value (VARCHAR(1000))
+[2025-08-20 22:45:18]       Column: action_type (VARCHAR(50))
+[2025-08-20 22:45:18]   - assay_class_map
+[2025-08-20 22:45:18]       Column: ass_cls_map_id (BIGINT)
+[2025-08-20 22:45:18]       Column: assay_id (BIGINT)
+[2025-08-20 22:45:18]       Column: assay_class_id (BIGINT)
+[2025-08-20 22:45:18]   - assay_parameters
+[2025-08-20 22:45:18]       Column: assay_param_id (BIGINT)
+[2025-08-20 22:45:18]       Column: assay_id (BIGINT)
+[2025-08-20 22:45:18]       Column: type (VARCHAR(250))
+[2025-08-20 22:45:18]       Column: relation (VARCHAR(50))
+[2025-08-20 22:45:18]       Column: value (NUMERIC)
+[2025-08-20 22:45:18]       Column: units (VARCHAR(100))
+[2025-08-20 22:45:18]       Column: text_value (VARCHAR(4000))
+[2025-08-20 22:45:18]       Column: standard_type (VARCHAR(250))
+[2025-08-20 22:45:18]       Column: standard_relation (VARCHAR(50))
+[2025-08-20 22:45:18]       Column: standard_value (NUMERIC)
+[2025-08-20 22:45:18]       Column: standard_units (VARCHAR(100))
+[2025-08-20 22:45:18]       Column: standard_text_value (VARCHAR(4000))
+[2025-08-20 22:45:18]       Column: comments (VARCHAR(4000))
+[2025-08-20 22:45:18]   - biotherapeutic_components
+[2025-08-20 22:45:18]       Column: biocomp_id (BIGINT)
+[2025-08-20 22:45:18]       Column: molregno (BIGINT)
+[2025-08-20 22:45:18]       Column: component_id (BIGINT)
+[2025-08-20 22:45:18]   - drug_indication
+[2025-08-20 22:45:18]       Column: drugind_id (BIGINT)
+[2025-08-20 22:45:18]       Column: record_id (BIGINT)
+[2025-08-20 22:45:18]       Column: molregno (BIGINT)
+[2025-08-20 22:45:18]       Column: max_phase_for_ind (NUMERIC(2, 1))
+[2025-08-20 22:45:18]       Column: mesh_id (VARCHAR(20))
+[2025-08-20 22:45:18]       Column: mesh_heading (VARCHAR(200))
+[2025-08-20 22:45:18]       Column: efo_id (VARCHAR(20))
+[2025-08-20 22:45:18]       Column: efo_term (VARCHAR(200))
+[2025-08-20 22:45:18]   - drug_mechanism
+[2025-08-20 22:45:18]       Column: mec_id (BIGINT)
+[2025-08-20 22:45:18]       Column: record_id (BIGINT)
+[2025-08-20 22:45:18]       Column: molregno (BIGINT)
+[2025-08-20 22:45:18]       Column: mechanism_of_action (VARCHAR(250))
+[2025-08-20 22:45:18]       Column: tid (BIGINT)
+[2025-08-20 22:45:18]       Column: site_id (BIGINT)
+[2025-08-20 22:45:18]       Column: action_type (VARCHAR(50))
+[2025-08-20 22:45:18]       Column: direct_interaction (SMALLINT)
+[2025-08-20 22:45:18]       Column: molecular_mechanism (SMALLINT)
+[2025-08-20 22:45:18]       Column: disease_efficacy (SMALLINT)
+[2025-08-20 22:45:18]       Column: mechanism_comment (VARCHAR(2000))
+[2025-08-20 22:45:18]       Column: selectivity_comment (VARCHAR(1000))
+[2025-08-20 22:45:18]       Column: binding_site_comment (VARCHAR(1000))
+[2025-08-20 22:45:18]       Column: variant_id (BIGINT)
+[2025-08-20 22:45:18]   - drug_warning
+[2025-08-20 22:45:18]       Column: warning_id (BIGINT)
+[2025-08-20 22:45:18]       Column: record_id (BIGINT)
+[2025-08-20 22:45:18]       Column: molregno (BIGINT)
+[2025-08-20 22:45:18]       Column: warning_type (VARCHAR(20))
+[2025-08-20 22:45:18]       Column: warning_class (VARCHAR(100))
+[2025-08-20 22:45:18]       Column: warning_description (VARCHAR(4000))
+[2025-08-20 22:45:18]       Column: warning_country (VARCHAR(1000))
+[2025-08-20 22:45:18]       Column: warning_year (INTEGER)
+[2025-08-20 22:45:18]       Column: efo_term (VARCHAR(200))
+[2025-08-20 22:45:18]       Column: efo_id (VARCHAR(20))
+[2025-08-20 22:45:18]       Column: efo_id_for_warning_class (VARCHAR(20))
+[2025-08-20 22:45:18]   - formulations
+[2025-08-20 22:45:18]       Column: product_id (VARCHAR(30))
+[2025-08-20 22:45:18]       Column: ingredient (VARCHAR(200))
+[2025-08-20 22:45:18]       Column: strength (VARCHAR(300))
+[2025-08-20 22:45:18]       Column: record_id (BIGINT)
+[2025-08-20 22:45:18]       Column: molregno (BIGINT)
+[2025-08-20 22:45:18]       Column: formulation_id (BIGINT)
+[2025-08-20 22:45:18]   - metabolism
+[2025-08-20 22:45:18]       Column: met_id (BIGINT)
+[2025-08-20 22:45:18]       Column: drug_record_id (BIGINT)
+[2025-08-20 22:45:18]       Column: substrate_record_id (BIGINT)
+[2025-08-20 22:45:18]       Column: metabolite_record_id (BIGINT)
+[2025-08-20 22:45:18]       Column: pathway_id (BIGINT)
+[2025-08-20 22:45:18]       Column: pathway_key (VARCHAR(50))
+[2025-08-20 22:45:18]       Column: enzyme_name (VARCHAR(200))
+[2025-08-20 22:45:18]       Column: enzyme_tid (BIGINT)
+[2025-08-20 22:45:18]       Column: met_conversion (VARCHAR(200))
+[2025-08-20 22:45:18]       Column: organism (VARCHAR(100))
+[2025-08-20 22:45:18]       Column: tax_id (BIGINT)
+[2025-08-20 22:45:18]       Column: met_comment (VARCHAR(1000))
+[2025-08-20 22:45:18]   - site_components
+[2025-08-20 22:45:18]       Column: sitecomp_id (BIGINT)
+[2025-08-20 22:45:18]       Column: site_id (BIGINT)
+[2025-08-20 22:45:18]       Column: component_id (BIGINT)
+[2025-08-20 22:45:18]       Column: domain_id (BIGINT)
+[2025-08-20 22:45:18]       Column: site_residues (VARCHAR(2000))
+[2025-08-20 22:45:18]   - activity_properties
+[2025-08-20 22:45:18]       Column: ap_id (BIGINT)
+[2025-08-20 22:45:18]       Column: activity_id (BIGINT)
+[2025-08-20 22:45:18]       Column: type (VARCHAR(250))
+[2025-08-20 22:45:18]       Column: relation (VARCHAR(50))
+[2025-08-20 22:45:18]       Column: value (NUMERIC)
+[2025-08-20 22:45:18]       Column: units (VARCHAR(100))
+[2025-08-20 22:45:18]       Column: text_value (VARCHAR(2000))
+[2025-08-20 22:45:18]       Column: standard_type (VARCHAR(250))
+[2025-08-20 22:45:18]       Column: standard_relation (VARCHAR(50))
+[2025-08-20 22:45:18]       Column: standard_value (NUMERIC)
+[2025-08-20 22:45:18]       Column: standard_units (VARCHAR(100))
+[2025-08-20 22:45:18]       Column: standard_text_value (VARCHAR(2000))
+[2025-08-20 22:45:18]       Column: comments (VARCHAR(2000))
+[2025-08-20 22:45:18]       Column: result_flag (SMALLINT)
+[2025-08-20 22:45:18]   - activity_supp_map
+[2025-08-20 22:45:18]       Column: actsm_id (BIGINT)
+[2025-08-20 22:45:18]       Column: activity_id (BIGINT)
+[2025-08-20 22:45:18]       Column: smid (BIGINT)
+[2025-08-20 22:45:18]   - indication_refs
+[2025-08-20 22:45:18]       Column: indref_id (BIGINT)
+[2025-08-20 22:45:18]       Column: drugind_id (BIGINT)
+[2025-08-20 22:45:18]       Column: ref_type (VARCHAR(50))
+[2025-08-20 22:45:18]       Column: ref_id (VARCHAR(4000))
+[2025-08-20 22:45:18]       Column: ref_url (VARCHAR(4000))
+[2025-08-20 22:45:18]   - ligand_eff
+[2025-08-20 22:45:18]       Column: activity_id (BIGINT)
+[2025-08-20 22:45:18]       Column: bei (NUMERIC(9, 2))
+[2025-08-20 22:45:18]       Column: sei (NUMERIC(9, 2))
+[2025-08-20 22:45:18]       Column: le (NUMERIC(9, 2))
+[2025-08-20 22:45:18]       Column: lle (NUMERIC(9, 2))
+[2025-08-20 22:45:18]   - mechanism_refs
+[2025-08-20 22:45:18]       Column: mecref_id (BIGINT)
+[2025-08-20 22:45:18]       Column: mec_id (BIGINT)
+[2025-08-20 22:45:18]       Column: ref_type (VARCHAR(50))
+[2025-08-20 22:45:18]       Column: ref_id (VARCHAR(200))
+[2025-08-20 22:45:18]       Column: ref_url (VARCHAR(400))
+[2025-08-20 22:45:18]   - metabolism_refs
+[2025-08-20 22:45:18]       Column: metref_id (BIGINT)
+[2025-08-20 22:45:18]       Column: met_id (BIGINT)
+[2025-08-20 22:45:18]       Column: ref_type (VARCHAR(50))
+[2025-08-20 22:45:18]       Column: ref_id (VARCHAR(200))
+[2025-08-20 22:45:18]       Column: ref_url (VARCHAR(400))
+[2025-08-20 22:45:18]   - predicted_binding_domains
+[2025-08-20 22:45:18]       Column: predbind_id (BIGINT)
+[2025-08-20 22:45:18]       Column: activity_id (BIGINT)
+[2025-08-20 22:45:18]       Column: site_id (BIGINT)
+[2025-08-20 22:45:18]       Column: prediction_method (VARCHAR(50))
+[2025-08-20 22:45:18]       Column: confidence (VARCHAR(10))
+[2025-08-20 22:45:18]   - warning_refs
+[2025-08-20 22:45:18]       Column: warnref_id (BIGINT)
+[2025-08-20 22:45:18]       Column: warning_id (BIGINT)
+[2025-08-20 22:45:18]       Column: ref_type (VARCHAR(50))
+[2025-08-20 22:45:18]       Column: ref_id (VARCHAR(4000))
+[2025-08-20 22:45:18]       Column: ref_url (VARCHAR(4000))
+[2025-08-20 22:45:18]   - sqlite_stat1
+[2025-08-20 22:45:18]       Column: tbl ()
+[2025-08-20 22:45:18]       Column: idx ()
+[2025-08-20 22:45:18]       Column: stat ()
+[2025-08-20 22:45:18] [INFO] Fetching SMILES for TB reference drugs from SQLite...
+[2025-08-20 22:45:18] [WARN] Could not fetch isoniazid: no such column: canonical_smiles
+[2025-08-20 22:45:18] [WARN] Could not fetch ethionamide: no such column: canonical_smiles
+[2025-08-20 22:45:18] [WARN] Could not fetch rifampicin: no such column: canonical_smiles
+[2025-08-20 22:45:18] [INFO] Screening targets from C:/Users/ketgl/OneDrive/Documents/GitHub/Python-Programs/BioTech/Bioinformatics/DrugRepurposing/chembl_35/chembl_35.fa ...
+[2025-08-20 22:45:18] [INFO] Processing target 1/10808: CHEMBL4523954
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4523954: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 2/10808: CHEMBL4295521
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4295521: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 3/10808: CHEMBL3638364
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL3638364: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 4/10808: CHEMBL3309115
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL3309115: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 5/10808: CHEMBL2424500
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL2424500: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 6/10808: CHEMBL2052037
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL2052037: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 7/10808: CHEMBL4523936
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4523936: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 8/10808: CHEMBL4524002
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4524002: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 9/10808: CHEMBL3542437
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL3542437: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 10/10808: CHEMBL3390825
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL3390825: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 11/10808: CHEMBL4295522
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4295522: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 12/10808: CHEMBL3596081
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL3596081: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 13/10808: CHEMBL3739251
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL3739251: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 14/10808: CHEMBL3559673
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL3559673: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 15/10808: CHEMBL2366497
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL2366497: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 16/10808: CHEMBL3988625
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL3988625: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 17/10808: CHEMBL3707181
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL3707181: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 18/10808: CHEMBL5169092
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL5169092: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 19/10808: CHEMBL1075023
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL1075023: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 20/10808: CHEMBL4295558
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4295558: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 21/10808: CHEMBL3991503
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL3991503: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 22/10808: CHEMBL1287593
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL1287593: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 23/10808: CHEMBL3308990
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL3308990: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 24/10808: CHEMBL4630896
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4630896: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 25/10808: CHEMBL4295523
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4295523: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 26/10808: CHEMBL3559638
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL3559638: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 27/10808: CHEMBL4630893
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4630893: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 28/10808: CHEMBL3988587
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL3988587: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 29/10808: CHEMBL4523101
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4523101: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 30/10808: CHEMBL4296761
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4296761: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 31/10808: CHEMBL4523102
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4523102: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 32/10808: CHEMBL3988598
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL3988598: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 33/10808: CHEMBL1741265
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL1741265: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 34/10808: CHEMBL4523952
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4523952: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 35/10808: CHEMBL4295524
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4295524: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 36/10808: CHEMBL2157859
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL2157859: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 37/10808: CHEMBL4295525
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4295525: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 38/10808: CHEMBL2366430
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL2366430: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 39/10808: CHEMBL2366441
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL2366441: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 40/10808: CHEMBL2364676
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL2364676: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 41/10808: CHEMBL2364676
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL2364676: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 42/10808: CHEMBL4524026
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4524026: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 43/10808: CHEMBL4802021
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4802021: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 44/10808: CHEMBL5465187
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL5465187: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 45/10808: CHEMBL4295527
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4295527: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 46/10808: CHEMBL5303564
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL5303564: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 47/10808: CHEMBL3831325
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL3831325: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 48/10808: CHEMBL4739838
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4739838: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 49/10808: CHEMBL3390824
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL3390824: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 50/10808: CHEMBL4296041
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4296041: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 51/10808: CHEMBL3879849
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL3879849: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 52/10808: CHEMBL1795082
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL1795082: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 53/10808: CHEMBL5303552
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL5303552: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 54/10808: CHEMBL1287621
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL1287621: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 55/10808: CHEMBL5169210
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL5169210: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 56/10808: CHEMBL4665581
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4665581: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 57/10808: CHEMBL4524028
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4524028: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 58/10808: CHEMBL5465181
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL5465181: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 59/10808: CHEMBL4524014
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4524014: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 60/10808: CHEMBL5465184
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL5465184: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 61/10808: CHEMBL5169211
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL5169211: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 62/10808: CHEMBL5465186
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL5465186: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 63/10808: CHEMBL4154
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4154: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 64/10808: CHEMBL2311240
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL2311240: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 65/10808: CHEMBL1075046
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL1075046: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 66/10808: CHEMBL3329078
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL3329078: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 67/10808: CHEMBL2176851
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL2176851: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 68/10808: CHEMBL5308523
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL5308523: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 69/10808: CHEMBL5303549
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL5303549: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 70/10808: CHEMBL4295543
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL4295543: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 71/10808: CHEMBL5303570
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL5303570: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 72/10808: CHEMBL5303569
+[2025-08-20 22:45:18] [WARN] Skipping target CHEMBL5303569: no such column: max_phase
+[2025-08-20 22:45:18] [INFO] Processing target 73/10808: CHEMBL5303569
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303569: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 74/10808: CHEMBL5303570
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303570: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 75/10808: CHEMBL5303567
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303567: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 76/10808: CHEMBL5303569
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303569: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 77/10808: CHEMBL5303569
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303569: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 78/10808: CHEMBL4105966
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4105966: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 79/10808: CHEMBL5303570
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303570: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 80/10808: CHEMBL5303567
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303567: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 81/10808: CHEMBL3988592
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3988592: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 82/10808: CHEMBL3596080
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3596080: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 83/10808: CHEMBL4524027
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4524027: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 84/10808: CHEMBL5303569
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303569: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 85/10808: CHEMBL5303569
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303569: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 86/10808: CHEMBL5303569
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303569: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 87/10808: CHEMBL5303569
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303569: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 88/10808: CHEMBL2176848
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2176848: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 89/10808: CHEMBL4295555
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4295555: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 90/10808: CHEMBL4295539
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4295539: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 91/10808: CHEMBL5303569
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303569: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 92/10808: CHEMBL5303569
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303569: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 93/10808: CHEMBL5303569
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303569: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 94/10808: CHEMBL5303569
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303569: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 95/10808: CHEMBL5303570
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303570: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 96/10808: CHEMBL5303570
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303570: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 97/10808: CHEMBL5303570
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303570: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 98/10808: CHEMBL5303570
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303570: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 99/10808: CHEMBL5303570
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303570: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 100/10808: CHEMBL5303569
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303569: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 101/10808: CHEMBL5303569
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303569: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 102/10808: CHEMBL5303569
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303569: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 103/10808: CHEMBL5303560
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303560: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 104/10808: CHEMBL5303569
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303569: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 105/10808: CHEMBL5303570
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303570: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 106/10808: CHEMBL4630726
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4630726: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 107/10808: CHEMBL2321622
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2321622: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 108/10808: CHEMBL5300
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5300: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 109/10808: CHEMBL5301
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5301: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 110/10808: CHEMBL5302
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5302: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 111/10808: CHEMBL6059
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL6059: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 112/10808: CHEMBL5465372
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5465372: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 113/10808: CHEMBL2010623
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2010623: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 114/10808: CHEMBL5291591
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5291591: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 115/10808: CHEMBL4295530
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4295530: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 116/10808: CHEMBL3797019
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3797019: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 117/10808: CHEMBL4296329
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4296329: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 118/10808: CHEMBL2163179
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2163179: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 119/10808: CHEMBL3341581
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3341581: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 120/10808: CHEMBL1075033
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL1075033: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 121/10808: CHEMBL1255121
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL1255121: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 122/10808: CHEMBL2021747
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2021747: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 123/10808: CHEMBL5169093
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5169093: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 124/10808: CHEMBL1075073
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL1075073: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 125/10808: CHEMBL5465262
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5465262: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 126/10808: CHEMBL5169094
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5169094: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 127/10808: CHEMBL4630752
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4630752: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 128/10808: CHEMBL2366401
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2366401: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 129/10808: CHEMBL2366402
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2366402: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 130/10808: CHEMBL6105
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL6105: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 131/10808: CHEMBL4295630
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4295630: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 132/10808: CHEMBL4265
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4265: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 133/10808: CHEMBL2365
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2365: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 134/10808: CHEMBL3832634
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3832634: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 135/10808: CHEMBL3259499
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3259499: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 136/10808: CHEMBL2094133
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2094133: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 137/10808: CHEMBL4523103,CHEMBL4630761
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4523103,CHEMBL4630761: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 138/10808: CHEMBL2362988
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2362988: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 139/10808: CHEMBL4295631
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4295631: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 140/10808: CHEMBL5303
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 141/10808: CHEMBL4523104
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4523104: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 142/10808: CHEMBL4295531
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4295531: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 143/10808: CHEMBL5291503
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5291503: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 144/10808: CHEMBL2095231
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2095231: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 145/10808: CHEMBL1293269
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL1293269: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 146/10808: CHEMBL2366577
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2366577: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 147/10808: CHEMBL2366577
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2366577: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 148/10808: CHEMBL2366586
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2366586: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 149/10808: CHEMBL2366586
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2366586: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 150/10808: CHEMBL2233619
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2233619: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 151/10808: CHEMBL4295532
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4295532: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 152/10808: CHEMBL4295632
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4295632: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 153/10808: CHEMBL4082
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4082: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 154/10808: CHEMBL2366405
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2366405: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 155/10808: CHEMBL5304
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5304: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 156/10808: CHEMBL1075062
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL1075062: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 157/10808: CHEMBL2364187
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2364187: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 158/10808: CHEMBL3638343
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3638343: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 159/10808: CHEMBL5465256
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5465256: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 160/10808: CHEMBL5303335
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303335: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 161/10808: CHEMBL5303329
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303329: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 162/10808: CHEMBL5303322
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303322: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 163/10808: CHEMBL5303337
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303337: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 164/10808: CHEMBL5303323
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303323: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 165/10808: CHEMBL1287595
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL1287595: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 166/10808: CHEMBL2189154
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2189154: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 167/10808: CHEMBL3350223
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3350223: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 168/10808: CHEMBL1944501
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL1944501: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 169/10808: CHEMBL4662927
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4662927: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 170/10808: CHEMBL2304401
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2304401: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 171/10808: CHEMBL1075063
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL1075063: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 172/10808: CHEMBL2401604
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2401604: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 173/10808: CHEMBL4105789,CHEMBL3038509
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4105789,CHEMBL3038509: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 174/10808: CHEMBL3763007
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3763007: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 175/10808: CHEMBL4296303
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4296303: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 176/10808: CHEMBL1075055
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL1075055: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 177/10808: CHEMBL5305
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5305: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 178/10808: CHEMBL4346
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4346: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 179/10808: CHEMBL5306
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5306: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 180/10808: CHEMBL5307
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5307: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 181/10808: CHEMBL1795104
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL1795104: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 182/10808: CHEMBL3734641
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3734641: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 183/10808: CHEMBL4105813
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4105813: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 184/10808: CHEMBL2366564
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2366564: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 185/10808: CHEMBL4105914
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4105914: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 186/10808: CHEMBL4105765
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4105765: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 187/10808: CHEMBL3797017
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3797017: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 188/10808: CHEMBL5308
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5308: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 189/10808: CHEMBL5309
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5309: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 190/10808: CHEMBL1944500
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL1944500: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 191/10808: CHEMBL4296287
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4296287: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 192/10808: CHEMBL3988602
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3988602: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 193/10808: CHEMBL3831201,CHEMBL2364701
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3831201,CHEMBL2364701: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 194/10808: CHEMBL4523105
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4523105: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 195/10808: CHEMBL4523106
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4523106: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 196/10808: CHEMBL6062
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL6062: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 197/10808: CHEMBL2096904,CHEMBL2094132,CHEMBL4296087
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2096904,CHEMBL2094132,CHEMBL4296087: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 198/10808: CHEMBL4105919
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4105919: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 199/10808: CHEMBL2417349
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2417349: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 200/10808: CHEMBL1667684
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL1667684: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 201/10808: CHEMBL5345
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5345: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 202/10808: CHEMBL4295533
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4295533: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 203/10808: CHEMBL3188
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3188: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 204/10808: CHEMBL2269
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2269: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 205/10808: CHEMBL4523111
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4523111: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 206/10808: CHEMBL1075237
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL1075237: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 207/10808: CHEMBL5499
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5499: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 208/10808: CHEMBL2096663
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2096663: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 209/10808: CHEMBL3875
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3875: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 210/10808: CHEMBL4680055,CHEMBL1075197
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4680055,CHEMBL1075197: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 211/10808: CHEMBL4105901
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4105901: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 212/10808: CHEMBL3621029
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3621029: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 213/10808: CHEMBL4523107
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4523107: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 214/10808: CHEMBL3832941
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3832941: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 215/10808: CHEMBL4295633
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4295633: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 216/10808: CHEMBL2364188
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2364188: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 217/10808: CHEMBL4630801
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4630801: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 218/10808: CHEMBL3832942
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3832942: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 219/10808: CHEMBL2366406
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2366406: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 220/10808: CHEMBL3091267
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3091267: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 221/10808: CHEMBL1909043
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL1909043: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 222/10808: CHEMBL1944499
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL1944499: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 223/10808: CHEMBL3831286
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3831286: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 224/10808: CHEMBL5436
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5436: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 225/10808: CHEMBL1287609
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL1287609: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 226/10808: CHEMBL4523108
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4523108: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 227/10808: CHEMBL3562181
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3562181: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 228/10808: CHEMBL2366523
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2366523: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 229/10808: CHEMBL1293234
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL1293234: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 230/10808: CHEMBL5437
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5437: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 231/10808: CHEMBL3308978
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3308978: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 232/10808: CHEMBL2364708
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2364708: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 233/10808: CHEMBL2109242
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2109242: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 234/10808: CHEMBL4524132
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4524132: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 235/10808: CHEMBL4105873
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL4105873: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 236/10808: CHEMBL3608197
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3608197: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 237/10808: CHEMBL3739250
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3739250: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 238/10808: CHEMBL5303558
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5303558: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 239/10808: CHEMBL5438
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5438: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 240/10808: CHEMBL5439
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5439: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 241/10808: CHEMBL2364188
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL2364188: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 242/10808: CHEMBL5440
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL5440: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 243/10808: CHEMBL6053
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL6053: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 244/10808: CHEMBL3600276
+[2025-08-20 22:45:19] [WARN] Skipping target CHEMBL3600276: no such column: max_phase
+[2025-08-20 22:45:19] [INFO] Processing target 245/10808: CHEMBL1932900

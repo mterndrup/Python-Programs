@@ -1,0 +1,404 @@
+[2025-08-23 20:09:06] Script: chem_organism_search.py
+[2025-08-23 20:09:06] Start time: 2025-08-23 20:09:06.085228
+[2025-08-23 20:09:06] [INFO] Connected to database: chembl_35.db
+[2025-08-23 20:09:06] [INFO] Loading TB molecules from file: results4.txt
+[2025-08-23 20:09:06] [INFO] Fetching non-TB candidate drugs...
+[2025-08-23 20:09:13] [INFO] Retrieved 1402536 non-TB candidate drugs
+[2025-08-23 20:14:19] [INFO] Starting similarity search...
+[2025-08-23 20:14:19] [INFO] Total candidate molecules: 1402536
+[2025-08-23 20:14:20] [INFO] Processing candidates 1 to 5000
+[2025-08-23 20:16:02] [INFO] Processing candidates 5001 to 10000
+[2025-08-23 20:17:45] [INFO] Batch 5001-10000: 388 matches written to similarity_results.csv
+[2025-08-23 20:17:45] [INFO] Processing candidates 10001 to 15000
+[2025-08-23 20:19:26] [INFO] Batch 10001-15000: 776 matches written to similarity_results.csv
+[2025-08-23 20:19:26] [INFO] Processing candidates 15001 to 20000
+[2025-08-23 20:25:09] [INFO] Batch 15001-20000: 125 matches written to similarity_results.csv
+[2025-08-23 20:25:09] [INFO] Processing candidates 20001 to 25000
+[2025-08-23 20:30:16] [INFO] Batch 20001-25000: 772 matches written to similarity_results.csv
+[2025-08-23 20:30:16] [INFO] Processing candidates 25001 to 30000
+[2025-08-23 20:31:56] [INFO] Batch 25001-30000: 2679 matches written to similarity_results.csv
+[2025-08-23 20:31:56] [INFO] Processing candidates 30001 to 35000
+[2025-08-23 20:37:06] [INFO] Processing candidates 35001 to 40000
+[2025-08-23 20:38:46] [INFO] Batch 35001-40000: 376 matches written to similarity_results.csv
+[2025-08-23 20:38:46] [INFO] Processing candidates 40001 to 45000
+[2025-08-23 20:40:26] [INFO] Batch 40001-45000: 755 matches written to similarity_results.csv
+[2025-08-23 20:40:26] [INFO] Processing candidates 45001 to 50000
+[2025-08-23 20:42:05] [INFO] Batch 45001-50000: 270 matches written to similarity_results.csv
+[2025-08-23 20:42:05] [INFO] Processing candidates 50001 to 55000
+[2025-08-23 20:43:46] [INFO] Batch 50001-55000: 2436 matches written to similarity_results.csv
+[2025-08-23 20:43:46] [INFO] Processing candidates 55001 to 60000
+[2025-08-23 20:46:44] [INFO] Batch 55001-60000: 74 matches written to similarity_results.csv
+[2025-08-23 20:46:44] [INFO] Processing candidates 60001 to 65000
+[2025-08-23 20:48:23] [INFO] Batch 60001-65000: 614 matches written to similarity_results.csv
+[2025-08-23 20:48:23] [INFO] Processing candidates 65001 to 70000
+[2025-08-23 20:50:04] [INFO] Batch 65001-70000: 3892 matches written to similarity_results.csv
+[2025-08-23 20:50:04] [INFO] Processing candidates 70001 to 75000
+[2025-08-23 20:51:46] [INFO] Batch 70001-75000: 320 matches written to similarity_results.csv
+[2025-08-23 20:51:46] [INFO] Processing candidates 75001 to 80000
+[2025-08-23 20:53:26] [INFO] Processing candidates 80001 to 85000
+[2025-08-23 20:55:06] [INFO] Processing candidates 85001 to 90000
+[2025-08-23 20:56:49] [INFO] Batch 85001-90000: 293 matches written to similarity_results.csv
+[2025-08-23 20:56:49] [INFO] Processing candidates 90001 to 95000
+[2025-08-23 20:58:29] [INFO] Processing candidates 95001 to 100000
+[2025-08-23 21:00:10] [INFO] Batch 95001-100000: 122 matches written to similarity_results.csv
+[2025-08-23 21:00:10] [INFO] Processing candidates 100001 to 105000
+[2025-08-23 21:01:51] [INFO] Processing candidates 105001 to 110000
+[2025-08-23 21:03:33] [INFO] Batch 105001-110000: 169 matches written to similarity_results.csv
+[2025-08-23 21:03:33] [INFO] Processing candidates 110001 to 115000
+[2025-08-23 21:05:14] [INFO] Processing candidates 115001 to 120000
+[2025-08-23 21:06:54] [INFO] Processing candidates 120001 to 125000
+[2025-08-23 21:08:35] [INFO] Processing candidates 125001 to 130000
+[2025-08-23 21:10:15] [INFO] Batch 125001-130000: 6120 matches written to similarity_results.csv
+[2025-08-23 21:10:15] [INFO] Processing candidates 130001 to 135000
+[2025-08-23 21:11:54] [INFO] Processing candidates 135001 to 140000
+[2025-08-23 21:13:33] [INFO] Processing candidates 140001 to 145000
+[2025-08-23 21:15:13] [INFO] Processing candidates 145001 to 150000
+[2025-08-23 21:17:16] [INFO] Processing candidates 150001 to 155000
+[2025-08-23 21:18:56] [INFO] Processing candidates 155001 to 160000
+[2025-08-23 21:20:37] [INFO] Processing candidates 160001 to 165000
+[2025-08-23 21:22:17] [INFO] Processing candidates 165001 to 170000
+[2025-08-23 21:23:57] [INFO] Processing candidates 170001 to 175000
+[2025-08-23 21:25:36] [INFO] Processing candidates 175001 to 180000
+[2025-08-23 21:27:18] [INFO] Processing candidates 180001 to 185000
+[2025-08-23 21:28:58] [INFO] Batch 180001-185000: 2192 matches written to similarity_results.csv
+[2025-08-23 21:28:58] [INFO] Processing candidates 185001 to 190000
+[2025-08-23 21:30:39] [INFO] Batch 185001-190000: 56256 matches written to similarity_results.csv
+[2025-08-23 21:30:39] [INFO] Processing candidates 190001 to 195000
+[2025-08-23 21:32:19] [INFO] Batch 190001-195000: 35171 matches written to similarity_results.csv
+[2025-08-23 21:32:19] [INFO] Processing candidates 195001 to 200000
+[2025-08-23 21:33:59] [INFO] Processing candidates 200001 to 205000
+[2025-08-23 21:35:54] [INFO] Processing candidates 205001 to 210000
+[2025-08-23 21:37:33] [INFO] Batch 205001-210000: 4500 matches written to similarity_results.csv
+[2025-08-23 21:37:33] [INFO] Processing candidates 210001 to 215000
+[2025-08-23 21:41:59] [INFO] Batch 210001-215000: 1262 matches written to similarity_results.csv
+[2025-08-23 21:41:59] [INFO] Processing candidates 215001 to 220000
+[2025-08-23 21:47:44] [INFO] Processing candidates 220001 to 225000
+[2025-08-23 21:52:58] [INFO] Batch 220001-225000: 13242 matches written to similarity_results.csv
+[2025-08-23 21:52:58] [INFO] Processing candidates 225001 to 230000
+[2025-08-23 21:56:16] [INFO] Batch 225001-230000: 21687 matches written to similarity_results.csv
+[2025-08-23 21:56:16] [INFO] Processing candidates 230001 to 235000
+[2025-08-23 21:57:58] [INFO] Processing candidates 235001 to 240000
+[2025-08-23 21:59:40] [INFO] Processing candidates 240001 to 245000
+[2025-08-23 22:01:23] [INFO] Processing candidates 245001 to 250000
+[2025-08-23 22:03:06] [INFO] Processing candidates 250001 to 255000
+[2025-08-23 22:04:48] [INFO] Processing candidates 255001 to 260000
+[2025-08-23 22:06:30] [INFO] Processing candidates 260001 to 265000
+[2025-08-23 22:08:11] [INFO] Batch 260001-265000: 29 matches written to similarity_results.csv
+[2025-08-23 22:08:11] [INFO] Processing candidates 265001 to 270000
+[2025-08-23 22:09:53] [INFO] Processing candidates 270001 to 275000
+[2025-08-23 22:11:35] [INFO] Processing candidates 275001 to 280000
+[2025-08-23 22:13:18] [INFO] Processing candidates 280001 to 285000
+[2025-08-23 22:15:00] [INFO] Batch 280001-285000: 27595 matches written to similarity_results.csv
+[2025-08-23 22:15:00] [INFO] Processing candidates 285001 to 290000
+[2025-08-23 22:16:44] [INFO] Batch 285001-290000: 20371 matches written to similarity_results.csv
+[2025-08-23 22:16:44] [INFO] Processing candidates 290001 to 295000
+[2025-08-23 22:18:27] [INFO] Batch 290001-295000: 589 matches written to similarity_results.csv
+[2025-08-23 22:18:27] [INFO] Processing candidates 295001 to 300000
+[2025-08-23 22:20:09] [INFO] Processing candidates 300001 to 305000
+[2025-08-23 22:21:51] [INFO] Processing candidates 305001 to 310000
+[2025-08-23 22:23:33] [INFO] Processing candidates 310001 to 315000
+[2025-08-23 22:25:15] [INFO] Processing candidates 315001 to 320000
+[2025-08-23 22:26:57] [INFO] Batch 315001-320000: 1830 matches written to similarity_results.csv
+[2025-08-23 22:26:57] [INFO] Processing candidates 320001 to 325000
+[2025-08-23 22:28:40] [INFO] Processing candidates 325001 to 330000
+[2025-08-23 22:30:23] [INFO] Batch 325001-330000: 1908 matches written to similarity_results.csv
+[2025-08-23 22:30:23] [INFO] Processing candidates 330001 to 335000
+[2025-08-23 22:32:05] [INFO] Processing candidates 335001 to 340000
+[2025-08-23 22:33:49] [INFO] Processing candidates 340001 to 345000
+[2025-08-23 22:35:32] [INFO] Processing candidates 345001 to 350000
+[2025-08-23 22:37:16] [INFO] Batch 345001-350000: 5022 matches written to similarity_results.csv
+[2025-08-23 22:37:16] [INFO] Processing candidates 350001 to 355000
+[2025-08-23 22:38:58] [INFO] Processing candidates 355001 to 360000
+[2025-08-23 22:40:40] [INFO] Processing candidates 360001 to 365000
+[2025-08-23 22:42:22] [INFO] Batch 360001-365000: 1904 matches written to similarity_results.csv
+[2025-08-23 22:42:22] [INFO] Processing candidates 365001 to 370000
+[2025-08-23 22:44:05] [INFO] Processing candidates 370001 to 375000
+[2025-08-23 22:45:49] [INFO] Processing candidates 375001 to 380000
+[2025-08-23 22:47:31] [INFO] Processing candidates 380001 to 385000
+[2025-08-23 22:49:11] [INFO] Processing candidates 385001 to 390000
+[2025-08-23 22:50:54] [INFO] Processing candidates 390001 to 395000
+[2025-08-23 22:52:38] [INFO] Processing candidates 395001 to 400000
+[2025-08-23 22:54:20] [INFO] Processing candidates 400001 to 405000
+[2025-08-23 22:56:02] [INFO] Batch 400001-405000: 756 matches written to similarity_results.csv
+[2025-08-23 22:56:02] [INFO] Processing candidates 405001 to 410000
+[2025-08-23 22:57:45] [INFO] Processing candidates 410001 to 415000
+[2025-08-23 22:59:26] [INFO] Processing candidates 415001 to 420000
+[2025-08-23 23:01:08] [INFO] Processing candidates 420001 to 425000
+[2025-08-23 23:02:50] [INFO] Processing candidates 425001 to 430000
+[2025-08-23 23:04:32] [INFO] Processing candidates 430001 to 435000
+[2025-08-23 23:06:15] [INFO] Processing candidates 435001 to 440000
+[2025-08-23 23:07:58] [INFO] Processing candidates 440001 to 445000
+[2025-08-23 23:09:40] [INFO] Processing candidates 445001 to 450000
+[2025-08-23 23:11:23] [INFO] Processing candidates 450001 to 455000
+[2025-08-23 23:13:06] [INFO] Processing candidates 455001 to 460000
+[2025-08-23 23:14:48] [INFO] Processing candidates 460001 to 465000
+[2025-08-23 23:16:30] [INFO] Processing candidates 465001 to 470000
+[2025-08-23 23:18:12] [INFO] Processing candidates 470001 to 475000
+[2025-08-23 23:19:54] [INFO] Processing candidates 475001 to 480000
+[2025-08-23 23:21:36] [INFO] Processing candidates 480001 to 485000
+[2025-08-23 23:23:18] [INFO] Processing candidates 485001 to 490000
+[2025-08-23 23:27:55] [INFO] Batch 485001-490000: 12600 matches written to similarity_results.csv
+[2025-08-23 23:27:55] [INFO] Processing candidates 490001 to 495000
+[2025-08-23 23:33:50] [INFO] Batch 490001-495000: 1855 matches written to similarity_results.csv
+[2025-08-23 23:33:50] [INFO] Processing candidates 495001 to 500000
+[2025-08-23 23:39:41] [INFO] Processing candidates 500001 to 505000
+[2025-08-23 23:45:31] [INFO] Processing candidates 505001 to 510000
+[2025-08-23 23:49:56] [INFO] Batch 505001-510000: 4078 matches written to similarity_results.csv
+[2025-08-23 23:49:56] [INFO] Processing candidates 510001 to 515000
+[2025-08-23 23:51:38] [INFO] Processing candidates 515001 to 520000
+[2025-08-23 23:53:19] [INFO] Processing candidates 520001 to 525000
+[2025-08-23 23:54:59] [INFO] Processing candidates 525001 to 530000
+[2025-08-23 23:56:38] [INFO] Processing candidates 530001 to 535000
+[2025-08-23 23:58:17] [INFO] Processing candidates 535001 to 540000
+[2025-08-23 23:59:56] [INFO] Processing candidates 540001 to 545000
+[2025-08-24 00:01:36] [INFO] Batch 540001-545000: 4236 matches written to similarity_results.csv
+[2025-08-24 00:01:36] [INFO] Processing candidates 545001 to 550000
+[2025-08-24 00:03:17] [INFO] Batch 545001-550000: 37008 matches written to similarity_results.csv
+[2025-08-24 00:03:17] [INFO] Processing candidates 550001 to 555000
+[2025-08-24 00:04:56] [INFO] Processing candidates 555001 to 560000
+[2025-08-24 00:06:36] [INFO] Processing candidates 560001 to 565000
+[2025-08-24 00:08:15] [INFO] Processing candidates 565001 to 570000
+[2025-08-24 00:09:55] [INFO] Processing candidates 570001 to 575000
+[2025-08-24 00:11:35] [INFO] Processing candidates 575001 to 580000
+[2025-08-24 00:13:15] [INFO] Processing candidates 580001 to 585000
+[2025-08-24 00:14:55] [INFO] Processing candidates 585001 to 590000
+[2025-08-24 00:16:35] [INFO] Processing candidates 590001 to 595000
+[2025-08-24 00:18:14] [INFO] Processing candidates 595001 to 600000
+[2025-08-24 00:19:54] [INFO] Processing candidates 600001 to 605000
+[2025-08-24 00:21:34] [INFO] Processing candidates 605001 to 610000
+[2025-08-24 00:23:13] [INFO] Processing candidates 610001 to 615000
+[2025-08-24 00:24:53] [INFO] Batch 610001-615000: 1161 matches written to similarity_results.csv
+[2025-08-24 00:24:53] [INFO] Processing candidates 615001 to 620000
+[2025-08-24 00:26:34] [INFO] Processing candidates 620001 to 625000
+[2025-08-24 00:28:14] [INFO] Batch 620001-625000: 3178 matches written to similarity_results.csv
+[2025-08-24 00:28:14] [INFO] Processing candidates 625001 to 630000
+[2025-08-24 00:29:54] [INFO] Batch 625001-630000: 1812 matches written to similarity_results.csv
+[2025-08-24 00:29:54] [INFO] Processing candidates 630001 to 635000
+[2025-08-24 00:31:33] [INFO] Batch 630001-635000: 368 matches written to similarity_results.csv
+[2025-08-24 00:31:33] [INFO] Processing candidates 635001 to 640000
+[2025-08-24 00:33:13] [INFO] Batch 635001-640000: 2492 matches written to similarity_results.csv
+[2025-08-24 00:33:13] [INFO] Processing candidates 640001 to 645000
+[2025-08-24 00:34:52] [INFO] Processing candidates 645001 to 650000
+[2025-08-24 00:36:31] [INFO] Batch 645001-650000: 1770 matches written to similarity_results.csv
+[2025-08-24 00:36:31] [INFO] Processing candidates 650001 to 655000
+[2025-08-24 00:38:12] [INFO] Batch 650001-655000: 12282 matches written to similarity_results.csv
+[2025-08-24 00:38:12] [INFO] Processing candidates 655001 to 660000
+[2025-08-24 00:39:52] [INFO] Batch 655001-660000: 11345 matches written to similarity_results.csv
+[2025-08-24 00:39:52] [INFO] Processing candidates 660001 to 665000
+[2025-08-24 00:41:33] [INFO] Processing candidates 665001 to 670000
+[2025-08-24 00:43:12] [INFO] Batch 665001-670000: 2108 matches written to similarity_results.csv
+[2025-08-24 00:43:12] [INFO] Processing candidates 670001 to 675000
+[2025-08-24 00:44:51] [INFO] Batch 670001-675000: 376 matches written to similarity_results.csv
+[2025-08-24 00:44:51] [INFO] Processing candidates 675001 to 680000
+[2025-08-24 00:46:31] [INFO] Processing candidates 680001 to 685000
+[2025-08-24 00:48:10] [INFO] Batch 680001-685000: 180 matches written to similarity_results.csv
+[2025-08-24 00:48:10] [INFO] Processing candidates 685001 to 690000
+[2025-08-24 00:49:49] [INFO] Batch 685001-690000: 928 matches written to similarity_results.csv
+[2025-08-24 00:49:49] [INFO] Processing candidates 690001 to 695000
+[2025-08-24 00:51:28] [INFO] Processing candidates 695001 to 700000
+[2025-08-24 00:53:07] [INFO] Processing candidates 700001 to 705000
+[2025-08-24 00:54:48] [INFO] Batch 700001-705000: 9760 matches written to similarity_results.csv
+[2025-08-24 00:54:48] [INFO] Processing candidates 705001 to 710000
+[2025-08-24 00:56:26] [INFO] Processing candidates 710001 to 715000
+[2025-08-24 00:58:06] [INFO] Batch 710001-715000: 11634 matches written to similarity_results.csv
+[2025-08-24 00:58:06] [INFO] Processing candidates 715001 to 720000
+[2025-08-24 00:59:48] [INFO] Batch 715001-720000: 4270 matches written to similarity_results.csv
+[2025-08-24 00:59:48] [INFO] Processing candidates 720001 to 725000
+[2025-08-24 01:01:28] [INFO] Processing candidates 725001 to 730000
+[2025-08-24 01:03:10] [INFO] Processing candidates 730001 to 735000
+[2025-08-24 01:04:51] [INFO] Processing candidates 735001 to 740000
+[2025-08-24 01:06:32] [INFO] Batch 735001-740000: 1651 matches written to similarity_results.csv
+[2025-08-24 01:06:32] [INFO] Processing candidates 740001 to 745000
+[2025-08-24 01:08:12] [INFO] Processing candidates 745001 to 750000
+[2025-08-24 01:09:52] [INFO] Processing candidates 750001 to 755000
+[2025-08-24 01:11:31] [INFO] Processing candidates 755001 to 760000
+[2025-08-24 01:13:11] [INFO] Batch 755001-760000: 1996 matches written to similarity_results.csv
+[2025-08-24 01:13:11] [INFO] Processing candidates 760001 to 765000
+[2025-08-24 01:14:50] [INFO] Batch 760001-765000: 10000 matches written to similarity_results.csv
+[2025-08-24 01:14:50] [INFO] Processing candidates 765001 to 770000
+[2025-08-24 01:16:28] [INFO] Batch 765001-770000: 10000 matches written to similarity_results.csv
+[2025-08-24 01:16:28] [INFO] Processing candidates 770001 to 775000
+[2025-08-24 01:18:09] [INFO] Batch 770001-775000: 16860 matches written to similarity_results.csv
+[2025-08-24 01:18:09] [INFO] Processing candidates 775001 to 780000
+[2025-08-24 01:19:48] [INFO] Processing candidates 780001 to 785000
+[2025-08-24 01:21:25] [INFO] Processing candidates 785001 to 790000
+[2025-08-24 01:23:05] [INFO] Processing candidates 790001 to 795000
+[2025-08-24 01:24:44] [INFO] Processing candidates 795001 to 800000
+[2025-08-24 01:26:23] [INFO] Processing candidates 800001 to 805000
+[2025-08-24 01:28:02] [INFO] Batch 800001-805000: 858 matches written to similarity_results.csv
+[2025-08-24 01:28:02] [INFO] Processing candidates 805001 to 810000
+[2025-08-24 01:29:42] [INFO] Batch 805001-810000: 2496 matches written to similarity_results.csv
+[2025-08-24 01:29:42] [INFO] Processing candidates 810001 to 815000
+[2025-08-24 01:31:21] [INFO] Processing candidates 815001 to 820000
+[2025-08-24 01:33:01] [INFO] Processing candidates 820001 to 825000
+[2025-08-24 01:34:41] [INFO] Processing candidates 825001 to 830000
+[2025-08-24 01:36:21] [INFO] Processing candidates 830001 to 835000
+[2025-08-24 01:38:01] [INFO] Processing candidates 835001 to 840000
+[2025-08-24 01:39:41] [INFO] Processing candidates 840001 to 845000
+[2025-08-24 01:41:21] [INFO] Batch 840001-845000: 1516 matches written to similarity_results.csv
+[2025-08-24 01:41:21] [INFO] Processing candidates 845001 to 850000
+[2025-08-24 01:43:00] [INFO] Processing candidates 850001 to 855000
+[2025-08-24 01:44:40] [INFO] Processing candidates 855001 to 860000
+[2025-08-24 01:46:19] [INFO] Processing candidates 860001 to 865000
+[2025-08-24 01:47:57] [INFO] Batch 860001-865000: 558 matches written to similarity_results.csv
+[2025-08-24 01:47:57] [INFO] Processing candidates 865001 to 870000
+[2025-08-24 01:49:36] [INFO] Batch 865001-870000: 312 matches written to similarity_results.csv
+[2025-08-24 01:49:36] [INFO] Processing candidates 870001 to 875000
+[2025-08-24 01:51:15] [INFO] Batch 870001-875000: 1272 matches written to similarity_results.csv
+[2025-08-24 01:51:15] [INFO] Processing candidates 875001 to 880000
+[2025-08-24 01:52:55] [INFO] Batch 875001-880000: 344 matches written to similarity_results.csv
+[2025-08-24 01:52:55] [INFO] Processing candidates 880001 to 885000
+[2025-08-24 01:54:34] [INFO] Batch 880001-885000: 1760 matches written to similarity_results.csv
+[2025-08-24 01:54:34] [INFO] Processing candidates 885001 to 890000
+[2025-08-24 01:56:14] [INFO] Batch 885001-890000: 1498 matches written to similarity_results.csv
+[2025-08-24 01:56:14] [INFO] Processing candidates 890001 to 895000
+[2025-08-24 01:57:54] [INFO] Batch 890001-895000: 13 matches written to similarity_results.csv
+[2025-08-24 01:57:54] [INFO] Processing candidates 895001 to 900000
+[2025-08-24 01:59:35] [INFO] Batch 895001-900000: 46 matches written to similarity_results.csv
+[2025-08-24 01:59:35] [INFO] Processing candidates 900001 to 905000
+[2025-08-24 02:01:15] [INFO] Batch 900001-905000: 1364 matches written to similarity_results.csv
+[2025-08-24 02:01:15] [INFO] Processing candidates 905001 to 910000
+[2025-08-24 02:02:55] [INFO] Batch 905001-910000: 378 matches written to similarity_results.csv
+[2025-08-24 02:02:55] [INFO] Processing candidates 910001 to 915000
+[2025-08-24 02:04:35] [INFO] Batch 910001-915000: 195 matches written to similarity_results.csv
+[2025-08-24 02:04:35] [INFO] Processing candidates 915001 to 920000
+[2025-08-24 02:06:15] [INFO] Processing candidates 920001 to 925000
+[2025-08-24 02:07:54] [INFO] Batch 920001-925000: 48 matches written to similarity_results.csv
+[2025-08-24 02:07:54] [INFO] Processing candidates 925001 to 930000
+[2025-08-24 02:09:33] [INFO] Processing candidates 930001 to 935000
+[2025-08-24 02:11:12] [INFO] Processing candidates 935001 to 940000
+[2025-08-24 02:12:51] [INFO] Processing candidates 940001 to 945000
+[2025-08-24 02:14:30] [INFO] Processing candidates 945001 to 950000
+[2025-08-24 02:16:10] [INFO] Processing candidates 950001 to 955000
+[2025-08-24 02:17:49] [INFO] Processing candidates 955001 to 960000
+[2025-08-24 02:19:27] [INFO] Processing candidates 960001 to 965000
+[2025-08-24 02:21:06] [INFO] Processing candidates 965001 to 970000
+[2025-08-24 02:22:44] [INFO] Processing candidates 970001 to 975000
+[2025-08-24 02:24:24] [INFO] Processing candidates 975001 to 980000
+[2025-08-24 02:26:03] [INFO] Batch 975001-980000: 3540 matches written to similarity_results.csv
+[2025-08-24 02:26:03] [INFO] Processing candidates 980001 to 985000
+[2025-08-24 02:27:43] [INFO] Processing candidates 985001 to 990000
+[2025-08-24 02:29:21] [INFO] Processing candidates 990001 to 995000
+[2025-08-24 02:31:00] [INFO] Batch 990001-995000: 14379 matches written to similarity_results.csv
+[2025-08-24 02:31:00] [INFO] Processing candidates 995001 to 1000000
+[2025-08-24 02:32:39] [INFO] Batch 995001-1000000: 1596 matches written to similarity_results.csv
+[2025-08-24 02:32:39] [INFO] Processing candidates 1000001 to 1005000
+[2025-08-24 02:34:17] [INFO] Processing candidates 1005001 to 1010000
+[2025-08-24 02:35:57] [INFO] Batch 1005001-1010000: 9252 matches written to similarity_results.csv
+[2025-08-24 02:35:57] [INFO] Processing candidates 1010001 to 1015000
+[2025-08-24 02:37:37] [INFO] Processing candidates 1015001 to 1020000
+[2025-08-24 02:39:18] [INFO] Processing candidates 1020001 to 1025000
+[2025-08-24 02:40:58] [INFO] Processing candidates 1025001 to 1030000
+[2025-08-24 02:42:38] [INFO] Processing candidates 1030001 to 1035000
+[2025-08-24 02:44:16] [INFO] Processing candidates 1035001 to 1040000
+[2025-08-24 02:45:55] [INFO] Processing candidates 1040001 to 1045000
+[2025-08-24 02:47:35] [INFO] Batch 1040001-1045000: 672 matches written to similarity_results.csv
+[2025-08-24 02:47:35] [INFO] Processing candidates 1045001 to 1050000
+[2025-08-24 02:49:14] [INFO] Batch 1045001-1050000: 3480 matches written to similarity_results.csv
+[2025-08-24 02:49:14] [INFO] Processing candidates 1050001 to 1055000
+[2025-08-24 02:50:53] [INFO] Processing candidates 1055001 to 1060000
+[2025-08-24 02:52:33] [INFO] Processing candidates 1060001 to 1065000
+[2025-08-24 02:54:12] [INFO] Batch 1060001-1065000: 1224 matches written to similarity_results.csv
+[2025-08-24 02:54:12] [INFO] Processing candidates 1065001 to 1070000
+[2025-08-24 02:55:52] [INFO] Batch 1065001-1070000: 3124 matches written to similarity_results.csv
+[2025-08-24 02:55:52] [INFO] Processing candidates 1070001 to 1075000
+[2025-08-24 02:57:33] [INFO] Batch 1070001-1075000: 111 matches written to similarity_results.csv
+[2025-08-24 02:57:33] [INFO] Processing candidates 1075001 to 1080000
+[2025-08-24 02:59:13] [INFO] Processing candidates 1080001 to 1085000
+[2025-08-24 03:00:51] [INFO] Processing candidates 1085001 to 1090000
+[2025-08-24 03:02:29] [INFO] Processing candidates 1090001 to 1095000
+[2025-08-24 03:04:08] [INFO] Batch 1090001-1095000: 436 matches written to similarity_results.csv
+[2025-08-24 03:04:08] [INFO] Processing candidates 1095001 to 1100000
+[2025-08-24 03:05:47] [INFO] Processing candidates 1100001 to 1105000
+[2025-08-24 03:07:26] [INFO] Processing candidates 1105001 to 1110000
+[2025-08-24 03:09:04] [INFO] Processing candidates 1110001 to 1115000
+[2025-08-24 03:10:43] [INFO] Processing candidates 1115001 to 1120000
+[2025-08-24 03:12:22] [INFO] Batch 1115001-1120000: 132 matches written to similarity_results.csv
+[2025-08-24 03:12:22] [INFO] Processing candidates 1120001 to 1125000
+[2025-08-24 03:14:01] [INFO] Batch 1120001-1125000: 1000 matches written to similarity_results.csv
+[2025-08-24 03:14:01] [INFO] Processing candidates 1125001 to 1130000
+[2025-08-24 03:15:40] [INFO] Batch 1125001-1130000: 2538 matches written to similarity_results.csv
+[2025-08-24 03:15:40] [INFO] Processing candidates 1130001 to 1135000
+[2025-08-24 03:17:20] [INFO] Batch 1130001-1135000: 816 matches written to similarity_results.csv
+[2025-08-24 03:17:20] [INFO] Processing candidates 1135001 to 1140000
+[2025-08-24 03:19:00] [INFO] Batch 1135001-1140000: 478 matches written to similarity_results.csv
+[2025-08-24 03:19:00] [INFO] Processing candidates 1140001 to 1145000
+[2025-08-24 03:20:38] [INFO] Processing candidates 1145001 to 1150000
+[2025-08-24 03:22:17] [INFO] Batch 1145001-1150000: 1422 matches written to similarity_results.csv
+[2025-08-24 03:22:17] [INFO] Processing candidates 1150001 to 1155000
+[2025-08-24 03:23:57] [INFO] Batch 1150001-1155000: 1466 matches written to similarity_results.csv
+[2025-08-24 03:23:57] [INFO] Processing candidates 1155001 to 1160000
+[2025-08-24 03:25:36] [INFO] Batch 1155001-1160000: 896 matches written to similarity_results.csv
+[2025-08-24 03:25:36] [INFO] Processing candidates 1160001 to 1165000
+[2025-08-24 03:27:16] [INFO] Batch 1160001-1165000: 102 matches written to similarity_results.csv
+[2025-08-24 03:27:16] [INFO] Processing candidates 1165001 to 1170000
+[2025-08-24 03:28:54] [INFO] Processing candidates 1170001 to 1175000
+[2025-08-24 03:30:33] [INFO] Batch 1170001-1175000: 1136 matches written to similarity_results.csv
+[2025-08-24 03:30:33] [INFO] Processing candidates 1175001 to 1180000
+[2025-08-24 03:32:12] [INFO] Processing candidates 1180001 to 1185000
+[2025-08-24 03:33:51] [INFO] Processing candidates 1185001 to 1190000
+[2025-08-24 03:35:30] [INFO] Processing candidates 1190001 to 1195000
+[2025-08-24 03:37:09] [INFO] Processing candidates 1195001 to 1200000
+[2025-08-24 03:38:49] [INFO] Processing candidates 1200001 to 1205000
+[2025-08-24 03:40:29] [INFO] Processing candidates 1205001 to 1210000
+[2025-08-24 03:42:08] [INFO] Processing candidates 1210001 to 1215000
+[2025-08-24 03:43:47] [INFO] Processing candidates 1215001 to 1220000
+[2025-08-24 03:45:26] [INFO] Processing candidates 1220001 to 1225000
+[2025-08-24 03:47:04] [INFO] Batch 1220001-1225000: 140 matches written to similarity_results.csv
+[2025-08-24 03:47:04] [INFO] Processing candidates 1225001 to 1230000
+[2025-08-24 03:48:42] [INFO] Processing candidates 1230001 to 1235000
+[2025-08-24 03:50:22] [INFO] Processing candidates 1235001 to 1240000
+[2025-08-24 03:52:00] [INFO] Batch 1235001-1240000: 134 matches written to similarity_results.csv
+[2025-08-24 03:52:00] [INFO] Processing candidates 1240001 to 1245000
+[2025-08-24 03:53:40] [INFO] Processing candidates 1245001 to 1250000
+[2025-08-24 03:55:19] [INFO] Batch 1245001-1250000: 442 matches written to similarity_results.csv
+[2025-08-24 03:55:19] [INFO] Processing candidates 1250001 to 1255000
+[2025-08-24 03:56:58] [INFO] Processing candidates 1255001 to 1260000
+[2025-08-24 03:58:38] [INFO] Batch 1255001-1260000: 275 matches written to similarity_results.csv
+[2025-08-24 03:58:38] [INFO] Processing candidates 1260001 to 1265000
+[2025-08-24 04:00:18] [INFO] Batch 1260001-1265000: 1148 matches written to similarity_results.csv
+[2025-08-24 04:00:18] [INFO] Processing candidates 1265001 to 1270000
+[2025-08-24 04:01:58] [INFO] Batch 1265001-1270000: 660 matches written to similarity_results.csv
+[2025-08-24 04:01:58] [INFO] Processing candidates 1270001 to 1275000
+[2025-08-24 04:03:39] [INFO] Batch 1270001-1275000: 872 matches written to similarity_results.csv
+[2025-08-24 04:03:39] [INFO] Processing candidates 1275001 to 1280000
+[2025-08-24 04:05:19] [INFO] Batch 1275001-1280000: 784 matches written to similarity_results.csv
+[2025-08-24 04:05:19] [INFO] Processing candidates 1280001 to 1285000
+[2025-08-24 04:06:59] [INFO] Processing candidates 1285001 to 1290000
+[2025-08-24 04:08:38] [INFO] Processing candidates 1290001 to 1295000
+[2025-08-24 04:10:19] [INFO] Processing candidates 1295001 to 1300000
+[2025-08-24 04:11:59] [INFO] Batch 1295001-1300000: 52 matches written to similarity_results.csv
+[2025-08-24 04:11:59] [INFO] Processing candidates 1300001 to 1305000
+[2025-08-24 04:13:39] [INFO] Batch 1300001-1305000: 58 matches written to similarity_results.csv
+[2025-08-24 04:13:39] [INFO] Processing candidates 1305001 to 1310000
+[2025-08-24 04:15:19] [INFO] Batch 1305001-1310000: 132 matches written to similarity_results.csv
+[2025-08-24 04:15:19] [INFO] Processing candidates 1310001 to 1315000
+[2025-08-24 04:16:58] [INFO] Processing candidates 1315001 to 1320000
+[2025-08-24 04:18:37] [INFO] Processing candidates 1320001 to 1325000
+[2025-08-24 04:20:16] [INFO] Processing candidates 1325001 to 1330000
+[2025-08-24 04:21:55] [INFO] Processing candidates 1330001 to 1335000
+[2025-08-24 04:23:34] [INFO] Processing candidates 1335001 to 1340000
+[2025-08-24 04:25:13] [INFO] Processing candidates 1340001 to 1345000
+[2025-08-24 04:26:53] [INFO] Processing candidates 1345001 to 1350000
+[2025-08-24 04:28:33] [INFO] Processing candidates 1350001 to 1355000
+[2025-08-24 04:30:13] [INFO] Batch 1350001-1355000: 16 matches written to similarity_results.csv
+[2025-08-24 04:30:13] [INFO] Processing candidates 1355001 to 1360000
+[2025-08-24 04:31:52] [INFO] Processing candidates 1360001 to 1365000
+[2025-08-24 04:33:31] [INFO] Batch 1360001-1365000: 2468 matches written to similarity_results.csv
+[2025-08-24 04:33:31] [INFO] Processing candidates 1365001 to 1370000
+[2025-08-24 04:35:12] [INFO] Processing candidates 1370001 to 1375000
+[2025-08-24 04:36:52] [INFO] Batch 1370001-1375000: 358 matches written to similarity_results.csv
+[2025-08-24 04:36:52] [INFO] Processing candidates 1375001 to 1380000
+[2025-08-24 04:38:31] [INFO] Batch 1375001-1380000: 25 matches written to similarity_results.csv
+[2025-08-24 04:38:31] [INFO] Processing candidates 1380001 to 1385000
+[2025-08-24 04:40:11] [INFO] Processing candidates 1385001 to 1390000
+[2025-08-24 04:41:49] [INFO] Batch 1385001-1390000: 176 matches written to similarity_results.csv
+[2025-08-24 04:41:49] [INFO] Processing candidates 1390001 to 1395000
+[2025-08-24 04:43:29] [INFO] Batch 1390001-1395000: 199 matches written to similarity_results.csv
+[2025-08-24 04:43:29] [INFO] Processing candidates 1395001 to 1400000
+[2025-08-24 04:45:08] [INFO] Batch 1395001-1400000: 14850 matches written to similarity_results.csv
+[2025-08-24 04:45:08] [INFO] Processing candidates 1400001 to 1402536
+[2025-08-24 04:45:57] [INFO] Batch 1400001-1402536: 7410 matches written to similarity_results.csv
+[2025-08-24 04:45:57] [INFO] Similarity search finished. Total matches: 469100
+[2025-08-24 04:45:59] [INFO] Similarity results saved to similarity_results.csv
+[2025-08-24 04:45:59] [INFO] Database connection closed.

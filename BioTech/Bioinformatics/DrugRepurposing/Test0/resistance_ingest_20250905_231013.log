@@ -1,0 +1,30 @@
+2025-09-05 23:10:13,118 [INFO] ==== Starting Resistance Ingestion Pipeline ====
+2025-09-05 23:10:30,601 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 23:10:31,424 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22Mycobacterium+tuberculosis%22%5BTitle%2FAbstract%5D%29+AND+%28pathogen+OR+disease+OR+infection+OR+clinical%29&retmode=json&retmax=15&sort=relevance&datetype=pdat&reldate=1825 HTTP/1.1" 200 None
+2025-09-05 23:10:31,433 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 23:10:31,817 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/efetch.fcgi?db=pubmed&id=36419223%2C33549960%2C39593272%2C38717801%2C37865090%2C35603185%2C38892443%2C33926925&rettype=abstract&retmode=text HTTP/1.1" 200 None
+2025-09-05 23:10:31,956 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 23:10:32,447 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/efetch.fcgi?db=pubmed&id=36419223%2C33549960%2C39593272%2C38717801%2C37865090&retmode=xml HTTP/1.1" 200 None
+2025-09-05 23:10:32,775 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 23:10:33,483 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22Mycobacterium+tuberculosis%22%5BTitle%2FAbstract%5D%29+AND+%28syndrome+OR+illness+OR+disorder%29&retmode=json&retmax=15&sort=relevance&datetype=pdat&reldate=1825 HTTP/1.1" 200 None
+2025-09-05 23:10:33,485 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 23:10:33,910 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/efetch.fcgi?db=pubmed&id=36419223%2C37674971%2C36776887%2C37513768%2C36256788%2C36258995%2C37734442%2C38261712&rettype=abstract&retmode=text HTTP/1.1" 200 None
+2025-09-05 23:10:34,201 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 23:10:34,816 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/efetch.fcgi?db=pubmed&id=36419223%2C37674971%2C36776887%2C37513768%2C36256788&retmode=xml HTTP/1.1" 200 None
+2025-09-05 23:10:35,239 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 23:10:35,940 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22Mycobacterium+tuberculosis%22%5BTitle%2FAbstract%5D%29+AND+%28treatment+OR+therapy+OR+antimicrobial%29&retmode=json&retmax=15&sort=relevance&datetype=pdat&reldate=1825 HTTP/1.1" 200 None
+2025-09-05 23:10:35,945 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 23:10:36,399 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/efetch.fcgi?db=pubmed&id=36982277%2C38519618%2C38705792%2C35812462%2C37353202%2C33951360%2C36915970%2C38717801&rettype=abstract&retmode=text HTTP/1.1" 200 None
+2025-09-05 23:10:36,515 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 23:10:37,178 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/efetch.fcgi?db=pubmed&id=36982277%2C38519618%2C38705792%2C35812462%2C37353202&retmode=xml HTTP/1.1" 200 None
+2025-09-05 23:10:37,579 [INFO] Found 413 findings from PubMed for Mycobacterium tuberculosis
+2025-09-05 23:10:37,580 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 23:10:39,111 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/efetch.fcgi?db=taxonomy&id=1773&retmode=xml HTTP/1.1" 200 None
+2025-09-05 23:10:39,121 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 23:10:39,493 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/esearch.fcgi?db=mesh&term=%22Mycobacterium+tuberculosis%22&retmode=json&retmax=10 HTTP/1.1" 200 None
+2025-09-05 23:10:39,496 [DEBUG] Starting new HTTPS connection (1): eutils.ncbi.nlm.nih.gov:443
+2025-09-05 23:10:40,182 [DEBUG] https://eutils.ncbi.nlm.nih.gov:443 "GET /entrez/eutils/efetch.fcgi?db=mesh&id=68055985%2C68020306%2C68014390%2C68014386%2C68014385%2C68014383%2C68014381%2C68014376%2C68014373%2C68012830&retmode=xml HTTP/1.1" 200 None
+2025-09-05 23:10:40,344 [WARNING] XML parsing error for MeSH data: syntax error: line 2, column 0
+2025-09-05 23:10:40,351 [INFO] Organism: Mycobacterium tuberculosis \u2192 Type: Actinomycetota
+2025-09-05 23:10:40,353 [INFO] Diseases: Tuberculosis, Mycobacterium Tuberculosis, Meningitis, Arachnoiditis, Radiculomyelitis
+2025-09-05 23:10:40,354 [INFO] Biological Processes: Unknown

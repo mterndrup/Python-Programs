@@ -65,51 +65,27 @@ log_message(paste("Filtered barcode directories:", paste(basename(barcode_dirs),
 
 for(barcode_dir in barcode_dirs) {
   log_message(paste0("Processing ", basename(barcode_dir)))
+
+  # --------------------------
+  # Recursively find _trimmed_cutadapt_PITS.fastq files
+  # --------------------------
+  fastq_files <- list.files(barcode_dir, pattern = "_trimmed_cutadapt_PITS\\.fastq$", 
+                            full.names = TRUE, recursive = TRUE)
   
-  # --------------------------
-  # Filtering step (already done):
-  # --------------------------
-  # fastq_files <- list.files(barcode_dir, pattern = "_trimmed\\.fastq$", full.names = TRUE)
-  # if(length(fastq_files) == 0) {
-  #   log_message(paste0("No trimmed FASTQ files found in ", basename(barcode_dir), ", skipping."))
-  #   next
-  # }
-  #
-  # filt_files <- sub("_trimmed\\.fastq$", "_trimmed_R_filt.fastq", fastq_files)
-  #
-  # log_message(paste0("Filtering and trimming ", length(fastq_files), " files..."))
-  #
-  # filter_result <- tryCatch({
-  #   filterAndTrim(fastq_files, filt_files,
-  #                 minLen = 50,
-  #                 maxN = 0,
-  #                 maxEE = Inf,
-  #                 truncQ = 2,
-  #                 compress = FALSE,
-  #                 multithread = TRUE)
-  # }, error = function(e) {
-  #   log_message(paste0("filterAndTrim error: ", e$message))
-  #   NULL
-  # })
-  #
-  # if(is.null(filter_result)) {
-  #   next
-  # }
-
-  # --------------------------
-  # Start here with already-filtered files
-  # --------------------------
-
-  combined_file <- file.path(barcode_dir, "combined_trimmed_R_filt.fastq")
-  if(!file.exists(combined_file)) {
-    log_message(paste0("Combined filtered FASTQ file not found in ", basename(barcode_dir), ", skipping."))
+  if(length(fastq_files) == 0) {
+    log_message(paste0("No _trimmed_cutadapt_PITS.fastq files found in ", basename(barcode_dir), ", skipping."))
     next
   }
 
-  log_message(paste0("Learning errors from combined filtered file: ", basename(combined_file)))
+  log_message(paste0("Found ", length(fastq_files), " FASTQ files for processing. First file: ", basename(fastq_files[1])))
+
+  # --------------------------
+  # Learning errors from FASTQ files (combined)
+  # --------------------------
+  log_message("Learning errors from FASTQ files...")
 
   err <- tryCatch({
-    learnErrors(combined_file, multithread = TRUE)
+    learnErrors(fastq_files, multithread = TRUE)
   }, error = function(e) {
     log_message(paste0("learnErrors error: ", e$message))
     NULL
@@ -119,13 +95,13 @@ for(barcode_dir in barcode_dirs) {
     next
   }
 
-  sample_name <- tools::file_path_sans_ext(basename(combined_file))
+  sample_name <- tools::file_path_sans_ext(basename(fastq_files[1]))
 
   log_message("Running DADA2 core algorithm...")
 
   dada_out <- tryCatch({
     setDadaOpt(DETECT_SINGLETONS = TRUE)
-    dada(combined_file, err = err, multithread = TRUE)
+    dada(fastq_files, err = err, multithread = TRUE)
   }, error = function(e) {
     log_message(paste0("dada error: ", e$message))
     NULL
